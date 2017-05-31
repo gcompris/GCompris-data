@@ -1,0 +1,5 @@
+*.html
+/words
+*.qrc
+.rcc
+.rcc-no-words/

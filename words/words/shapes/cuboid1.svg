@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:docname="cuboid1.svg"
+   inkscape:export-filename="C:\Documents and Settings\Owner\Desktop\Yellow Transparent Cube.png"
+   viewBox="0 0 310 500"
+   sodipodi:version="0.32"
+   inkscape:export-xdpi="89.419998"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-ydpi="89.419998"
+   inkscape:version="0.91 r13725">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     guidetolerance="10"
+     pagecolor="#ffffff"
+     gridtolerance="10000"
+     inkscape:window-height="704"
+     width="310px"
+     inkscape:zoom="0.36427245"
+     objecttolerance="10"
+     height="500px"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="-117.01872"
+     inkscape:cy="132.10913"
+     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:window-width="1366"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-maximized="1" />
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(-19.111 -10.142)">
+    <path
+       id="path2184"
+       sodipodi:nodetypes="ccccccc"
+       style="fill:#006600"
+       d="m194.39 500.7l-148.17-95.89-6.152-270 129.48-113.16 156.74 90.79-0.29 268.06-131.61 120.2z" />
+    <path
+       id="path3169"
+       sodipodi:nodetypes="ccccccccccc"
+       style="fill:#fec000"
+       d="m171.76 23.792l0.89 268.63 150.28 82.89-2.23 5.19-149.98-83.24-122.33 106.65-1.415-3.02 121.4-108.08-3.01-268.15 4.22-3.513 2.17 2.645z" />
+    <path
+       id="path3171"
+       sodipodi:nodetypes="cccccccccccccccccccccc"
+       style="fill:#ffdd00"
+       d="m43.413 408.46l-8.911-280.72 133.21-114.54 159.18 95.07-1.81 278.27-129.81 123.75-151.86-101.83zm274.49-28.38l4.58-258.27-123.32 110.18 3.48 257.24 115.26-109.15zm-132.18-149.02l-142.58-87.13 8.783 254.56 134.56 88.27-0.76-255.7zm132.26-119.27l-149.4-89.549-127.17 113.9 146.66 89.2 129.91-113.55z" />
+    <path
+       id="path2172"
+       sodipodi:nodetypes="cccccccccccccccccccc"
+       style="fill:#ffce2e"
+       d="m185.55 238.1l-138.93-86.8 5.095 248.09-7.471-5.05-10.257-265.91 133.95-114.16 158.81 94.29-0.87 265.38-7.6 5.33 4.36-255.5-122.71 110.32 2.7 255.33-5.75 4.07-10.19-6.57-1.14-248.82zm124.48-124.04l-140.39-84.227-123.15 105.95 141.78 86.88 121.76-108.6z" />
+  </g>
+  <metadata
+     id="metadata9">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+        <dc:date>2010-01-14T03:01:36</dc:date>
+        <dc:description>A transparent elongated cube in yellow. There is one in cyan blue also available.</dc:description>
+        <dc:source>https://openclipart.org/detail/28855/yellow-transparent-cube-by-rfc1394</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Rfc1394</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>colour</rdf:li>
+            <rdf:li>cube</rdf:li>
+            <rdf:li>cylinder</rdf:li>
+            <rdf:li>line art</rdf:li>
+            <rdf:li>outline</rdf:li>
+            <rdf:li>square</rdf:li>
+            <rdf:li>symbol</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

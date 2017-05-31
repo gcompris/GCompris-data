@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg5096"
+   sodipodi:docname="bowl1.svg"
+   viewBox="0 0 400.82654 299.76217"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="400.82654"
+   height="299.76218">
+  <defs
+     id="defs5098">
+    <radialGradient
+       id="radialGradient5063"
+       gradientUnits="userSpaceOnUse"
+       cy="46.181"
+       cx="280.76999"
+       gradientTransform="matrix(1.9342,1.2979e-6,-6.6157e-8,0.098589,-175.20284,599.07968)"
+       r="190.5"
+       inkscape:collect="always">
+      <stop
+         id="stop5059"
+         style="stop-color:#ececec"
+         offset="0" />
+      <stop
+         id="stop5061"
+         style="stop-color:#bdbdbd"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="radialGradient5094"
+       gradientUnits="userSpaceOnUse"
+       cx="280"
+       cy="139.50999"
+       r="100"
+       gradientTransform="matrix(-1.9998398,0.02531346,-0.01771942,-1.3998879,928.83533,758.73023)"
+       inkscape:collect="always">
+      <stop
+         id="stop3793"
+         style="stop-color:#ececec"
+         offset="0" />
+      <stop
+         id="stop3795"
+         style="stop-color:#bdbdbd"
+         offset="1" />
+    </radialGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-y="27"
+     fit-margin-left="0"
+     pagecolor="#ffffff"
+     fit-margin-top="0"
+     inkscape:window-maximized="0"
+     inkscape:zoom="0.73144532"
+     inkscape:window-x="61"
+     inkscape:window-height="704"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="168.958"
+     inkscape:cy="172.06799"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1194"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px" />
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(-167.61779,-364.38182)">
+    <path
+       id="path3789"
+       sodipodi:nodetypes="cszsczc"
+       style="fill:url(#radialGradient5094)"
+       inkscape:connector-curvature="0"
+       d="m 566.99362,629.72963 c 0,0 -3.46681,-137.74715 -63.70068,-218.90129 -30.03867,-40.47405 -113.47086,-46.75558 -138.77883,-46.43523 -25.30098,0.32025 -110.06151,7.68853 -138.71818,56.32823 -46.7122,79.28957 -58.17808,215.58361 -58.17808,215.58361 0,0 -0.86411,-37.24305 199.12254,-39.77443 199.98665,-2.53138 200.2563,33.20507 200.2563,33.20507 z" />
+    <path
+       id="path3799"
+       d="m 168.44431,629.14399 c 0,0 0,-35 200,-35 200,0 200,35 200,35 0,0 0,35 -200,35 -200,0 -200,-35 -200,-35 z"
+       sodipodi:nodetypes="czczc"
+       style="fill:#e6e6e6"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path5055"
+       sodipodi:nodetypes="czczc"
+       style="fill:url(#radialGradient5063);stroke:#d6d6d6;stroke-width:0.95049"
+       inkscape:connector-curvature="0"
+       d="m 172.68716,626.40968 c 0,0 0,-30.905 194.4,-30.905 194.4,0 194.4,30.905 194.4,30.905 0,0 0,30.905 -194.4,30.905 -194.4,0 -194.4,-30.905 -194.4,-30.905 z" />
+  </g>
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Plain Bowl</dc:title>
+        <dc:date>2011-08-15T16:50:54</dc:date>
+        <dc:description>A plain grey bowl.</dc:description>
+        <dc:source>https://openclipart.org/detail/155455/plain-bowl-by-gr8dan</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>GR8DAN</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>bowl</rdf:li>
+            <rdf:li>china</rdf:li>
+            <rdf:li>dish</rdf:li>
+            <rdf:li>food</rdf:li>
+            <rdf:li>grey</rdf:li>
+            <rdf:li>plain</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

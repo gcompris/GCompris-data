@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg2"
+    sodipodi:docname="rainbow.svg"
+    inkscape:export-filename="/home/jeremy/organizations/ektn/rainbow.png"
+    viewBox="0 0 900 460"
+    sodipodi:version="0.32"
+    inkscape:export-xdpi="90"
+    version="1.0"
+    inkscape:output_extension="org.inkscape.output.svg.inkscape"
+    inkscape:export-ydpi="90"
+    inkscape:version="0.46"
+  >
+  <sodipodi:namedview
+      id="base"
+      inkscape:showpageshadow="false"
+      inkscape:zoom="1.3011111"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="450"
+      inkscape:window-y="0"
+      showgrid="true"
+      inkscape:guide-bbox="true"
+      showguides="true"
+      bordercolor="#666666"
+      inkscape:window-x="0"
+      guidetolerance="10"
+      objecttolerance="10"
+      inkscape:window-width="1600"
+      inkscape:pageopacity="0.0"
+      inkscape:pageshadow="2"
+      pagecolor="#ffffff"
+      gridtolerance="10000"
+      inkscape:cy="300"
+      inkscape:document-units="px"
+      inkscape:window-height="1151"
+    >
+    <inkscape:grid
+        id="grid2383"
+        enabled="true"
+        visible="true"
+        type="xygrid"
+        dotted="true"
+    />
+  </sodipodi:namedview
+  >
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(-5.03e-7 -140)"
+    >
+    <path
+        id="path3155"
+        sodipodi:rx="340"
+        sodipodi:ry="130"
+        style="stroke-linejoin:round;stroke:#ff0000;stroke-linecap:square;stroke-width:9.5563;fill:none"
+        sodipodi:type="arc"
+        d="m100 160a340 130 0 0 1 680 0"
+        sodipodi:open="true"
+        transform="matrix(1.2941 0 0 3.3846 -119.41 48.462)"
+        sodipodi:cy="160"
+        sodipodi:cx="440"
+        sodipodi:end="6.2831853"
+        sodipodi:start="3.1415927"
+    />
+    <path
+        id="path3163"
+        sodipodi:rx="340"
+        sodipodi:ry="130"
+        style="stroke-linejoin:round;stroke:#ff7f00;stroke-linecap:square;stroke-width:10.011;fill:none"
+        sodipodi:type="arc"
+        d="m100 160a340 130 0 0 1 680 0"
+        sodipodi:open="true"
+        transform="matrix(1.2353 0 0 3.2308 -93.529 73.077)"
+        sodipodi:cy="160"
+        sodipodi:cx="440"
+        sodipodi:end="6.2831853"
+        sodipodi:start="3.1415927"
+    />
+    <path
+        id="path3165"
+        sodipodi:rx="340"
+        sodipodi:ry="130"
+        style="stroke-linejoin:round;stroke:#ffff00;stroke-linecap:square;stroke-width:10.512;fill:none"
+        sodipodi:type="arc"
+        d="m100 160a340 130 0 0 1 680 0"
+        sodipodi:open="true"
+        transform="matrix(1.1765 0 0 3.0769 -67.647 97.692)"
+        sodipodi:cy="160"
+        sodipodi:cx="440"
+        sodipodi:end="6.2831853"
+        sodipodi:start="3.1415927"
+    />
+    <path
+        id="path3167"
+        sodipodi:rx="340"
+        sodipodi:ry="130"
+        style="stroke-linejoin:round;stroke:#00ff00;stroke-linecap:square;stroke-width:11.065;fill:none"
+        sodipodi:type="arc"
+        d="m100 160a340 130 0 0 1 680 0"
+        sodipodi:open="true"
+        transform="matrix(1.1176 0 0 2.9231 -41.765 122.31)"
+        sodipodi:cy="160"
+        sodipodi:cx="440"
+        sodipodi:end="6.2831853"
+        sodipodi:start="3.1415927"
+    />
+    <path
+        id="path3169"
+        sodipodi:rx="340"
+        sodipodi:ry="130"
+        style="stroke-linejoin:round;stroke:#0000ff;stroke-linecap:square;stroke-width:11.68;fill:none"
+        sodipodi:type="arc"
+        d="m100 160a340 130 0 0 1 680 0"
+        sodipodi:open="true"
+        transform="matrix(1.0588 0 0 2.7692 -15.882 146.92)"
+        sodipodi:cy="160"
+        sodipodi:cx="440"
+        sodipodi:end="6.2831853"
+        sodipodi:start="3.1415927"
+    />
+    <path
+        id="path3171"
+        sodipodi:rx="340"
+        sodipodi:ry="130"
+        style="stroke-linejoin:round;stroke:#6600ff;stroke-linecap:square;stroke-width:12.367;fill:none"
+        sodipodi:type="arc"
+        d="m100 160a340 130 0 0 1 680 0"
+        sodipodi:open="true"
+        transform="matrix(1 0 0 2.6154 10 171.54)"
+        sodipodi:cy="160"
+        sodipodi:cx="440"
+        sodipodi:end="6.2831853"
+        sodipodi:start="3.1415927"
+    />
+    <path
+        id="path3173"
+        sodipodi:rx="340"
+        sodipodi:ry="130"
+        style="stroke-linejoin:round;stroke:#8b00ff;stroke-linecap:square;stroke-width:13.14;fill:none"
+        sodipodi:type="arc"
+        d="m100 160a340 130 0 0 1 680 0"
+        sodipodi:open="true"
+        transform="matrix(.94118 0 0 2.4615 35.882 196.15)"
+        sodipodi:cy="160"
+        sodipodi:cx="440"
+        sodipodi:end="6.2831853"
+        sodipodi:start="3.1415927"
+    />
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Rainbow Semicircle</dc:title
+        >
+        <dc:date
+          >2009-05-18T15:58:55</dc:date
+        >
+        <dc:description
+          >A stylized semicircular rainbow&#13;\n&#13;\n(Note that not all browsers will render the SVG correctly. The PNG shows how it appears in Inkscape)</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/26059/rainbow-semicircle-by-jeremybennett</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >jeremybennett</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >colour</rdf:li
+            >
+            <rdf:li
+              >how i did it</rdf:li
+            >
+            <rdf:li
+              >rainbow</rdf:li
+            >
+            <rdf:li
+              >semicircle</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

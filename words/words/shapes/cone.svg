@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:docname="cone.svg"
+   viewBox="0 0 345.70116 479.10056"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="345.70117"
+   height="479.10056">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-y="27"
+     pagecolor="#ffffff"
+     inkscape:window-height="704"
+     inkscape:window-maximized="0"
+     inkscape:zoom="0.5"
+     inkscape:window-x="58"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="248.29942"
+     inkscape:cy="229.21046"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="979"
+     showborder="true"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(-181.57867,-113.76159)">
+    <path
+       id="path2820"
+       sodipodi:nodetypes="cccc"
+       style="fill:#1900ff;fill-opacity:1;stroke:#690000;stroke-width:2"
+       d="m 182.84,535.16 c 76.09,-182.52 97.6,-227.46 175.91,-418.69 56.41,146.47 97.23,255.62 167.29,424 -55.75,37.05 -281.17,30.48 -343.2,-5.31 z"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       id="path2816"
+       style="fill:#1900ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px"
+       cx="354.28571"
+       cy="540.93359"
+       rx="171.42857"
+       ry="51.42857" />
+  </g>
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+        <dc:date>2010-08-29T20:18:14</dc:date>
+        <dc:description>a brown geometrical cone</dc:description>
+        <dc:source>https://openclipart.org/detail/82747/brown-cone-by-mireille</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>mireille</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>brown</rdf:li>
+            <rdf:li>cone</rdf:li>
+            <rdf:li>geometry</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

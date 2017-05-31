@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns1="http://sozi.baierouge.fr" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2" viewBox="0 0 720 720" version="1.1" inkscape:version="0.91 r13725">
+  <path id="path2983" style="stroke:#ff0000;stroke-width:2;display:none;fill:none" d="m329.69 144.95s-9.3692-18.562-37.653-6.364"/>
+  <path id="path3045" style="fill:#ff0000" d="m548.2 67.485-386.06 0.395c24.02 113.43 95.88 209.09 193.29 265.45 23.5-110.05 92.32-207.95 192.77-265.84z"/>
+  <path id="path2854" style="fill:#ffff00" d="m667.87 434.52-119.67-367.04c-100.46 57.89-169.23 155.8-192.73 265.86 111.93-11.659 226.31 23.541 312.4 101.18z"/>
+  <path id="path2856" style="fill:#00ff00" d="m355.78 661.76 312.09-227.24c-86.1-77.65-200.46-112.8-312.41-101.14 45.677 102.85 47.544 222.51 0.3131 328.38z"/>
+  <path id="path2858" style="fill:#0000ff" d="m43.224 435.1 312.56 226.6c47.24-105.88 45.33-225.51-0.35-328.37-83.7 75.23-196.92 113.98-312.21 101.77z"/>
+  <path id="path2860" style="fill:#ff00ff" d="m162.14 67.88-118.92 367.28c115.3 12.21 228.48-26.57 312.19-101.8-97.4-56.36-169.25-152.07-193.27-265.48z"/>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>swirly pentagon</dc:title>
+        <dc:date>2011-07-10T21:03:57</dc:date>
+        <dc:description>swirly pentagon</dc:description>
+        <dc:source>https://openclipart.org/detail/148891/swirly-pentagon-by-10binary</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>10binary</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>pentagon</rdf:li>
+            <rdf:li>swirly</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
