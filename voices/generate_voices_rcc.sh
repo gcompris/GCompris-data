@@ -10,10 +10,11 @@
 # upstream location.
 #
 
-[ $# -ne 2 ] && {
-    echo "Usage: generate_voices_rcc.sh ogg|aac|ac3|mp3 <path to gtk lang words dir>"
+[ $# -ne 1 ] && {
+    echo "Usage: generate_voices_rcc.sh ogg|aac|ac3|mp3"
     exit 1
 }
+
 # Compressed Audio Format
 CA=$1
 
@@ -32,7 +33,7 @@ MD5SUM=/usr/bin/md5sum
     exit 1
 }
 
-WORDS_DIR=$2
+WORDS_DIR=../../words/words
 [ ! -d "${WORDS_DIR}" ] && {
     echo "Words dir ${WORDS_DIR} not found"
     exit 1

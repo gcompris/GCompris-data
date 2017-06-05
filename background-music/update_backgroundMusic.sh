@@ -39,5 +39,5 @@ generateEncodedVoices mp3
 
 mv ogg/.rcc .rcc
 
-echo "Update ogg on gcompris.net"
-rsync -avx .rcc/ /var/www/data2/backgroundMusic/
+#echo "Update ogg on gcompris.net"
+#rsync -avx .rcc/ /var/www/data2/backgroundMusic/

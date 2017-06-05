@@ -20,25 +20,50 @@ fi
 
 format=$1
 
-if [ $format = "aac" ]
+encoder="avconv"
+if command -v avconv >/dev/null 2>&1;
 then
-  codec="libvo_aacenc"
-elif [ $format = "ac3" ]
+    echo "avconv found"
+    if [ $format = "aac" ]
+    then
+        codec="libvo_aacenc"
+    elif [ $format = "ac3" ]
+    then
+        codec="ac3"
+    elif [ $format = "mp3" ]
+    then
+        codec="libmp3lame"
+    else
+        echo "Error, unsupported format $1"
+        exit 1
+    fi
+elif command -v ffmpeg >/dev/null 2>&1;
 then
-  codec="ac3"
-elif [ $format = "mp3" ]
-then
-  codec="libmp3lame"
+    echo "ffmpeg found"
+    encoder="ffmpeg"
+    if [ $format = "aac" ]
+    then
+        codec="aac"
+    elif [ $format = "ac3" ]
+    then
+        codec="ac3"
+    elif [ $format = "mp3" ]
+    then
+        codec="mp3"
+    else
+        echo "Error, unsupported format $1"
+        exit 1
+    fi
 else
-  echo "Error, unsupported format $1"
-  exit 1
+    echo "neither avconv nor ffmpeg found"
+    exit 1
 fi
 
 echo "Transcode ogg files to $format"
 for f in $(find . -type f -name \*.ogg)
 do
     #echo "Processing $f"
-    avconv -v warning -i $f -acodec $codec ${f%.*}.${format}
+    $encoder -v warning -i $f -acodec $codec ${f%.*}.${format}
     if [ $? -ne 0 ]
     then
        echo "ERROR: Failed to convert $f"
