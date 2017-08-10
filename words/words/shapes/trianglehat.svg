@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="127.53986"
-   height="178.48022"
+   width="128"
+   height="128"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="rotatedtrianglehat.svg">
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="trianglehat.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,16 +24,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="82.022083"
-     inkscape:cy="5.0336793"
+     inkscape:zoom="3.959798"
+     inkscape:cx="52.727659"
+     inkscape:cy="42.409323"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="704"
+     inkscape:window-width="1884"
+     inkscape:window-height="1051"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -55,17 +55,18 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-52.546421,-90.852708)">
+     transform="translate(-52.546421,-141.33293)">
     <path
-       style="fill:#804e83;fill-opacity:1;stroke:#000000;stroke-width:3.14773822;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 54.1201,92.426402 144.08332,267.75933 178.51245,149.54579 Z"
+       style="fill:#ae60b4;fill-opacity:1;stroke:#6c3970;stroke-width:1.95979118;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 74.014821,144.40516 136.24846,265.6948 160.06542,183.91849 Z"
        id="path4476"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <g
-       transform="translate(-88.535846,-27.306457)"
+       transform="matrix(0.69176762,0,0,0.69176762,-24.669944,61.577835)"
        id="layer1-9"
-       inkscape:label="Calque 1">
+       inkscape:label="Calque 1"
+       style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-opacity:1">
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -83,13 +84,14 @@
          sodipodi:cx="45.714287"
          sodipodi:sides="5"
          id="path4555"
-         style="fill:#dddf0e;fill-opacity:1;stroke:#000000;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
     <g
-       transform="matrix(0.57910299,0,0,0.63623997,26.032149,57.895108)"
+       transform="matrix(0.4006047,0,0,0.44013022,54.584486,120.51753)"
        id="layer1-9-3"
-       inkscape:label="Calque 1">
+       inkscape:label="Calque 1"
+       style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-opacity:1">
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -107,13 +109,14 @@
          sodipodi:cx="45.714287"
          sodipodi:sides="5"
          id="path4555-9"
-         style="fill:#dddf0e;fill-opacity:1;stroke:#000000;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
     <g
-       transform="matrix(0.59593887,0,0,0.65442797,4.490339,21.333489)"
+       transform="matrix(0.41225122,0,0,0.45271208,39.682559,95.225375)"
        id="layer1-9-5"
-       inkscape:label="Calque 1">
+       inkscape:label="Calque 1"
+       style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-opacity:1">
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -131,13 +134,14 @@
          sodipodi:cx="45.714287"
          sodipodi:sides="5"
          id="path4555-3"
-         style="fill:#dddf0e;fill-opacity:1;stroke:#000000;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
     <g
-       transform="matrix(0.83113927,0,0,0.89139331,-82.834956,-60.880059)"
+       transform="matrix(0.57495524,0,0,0.61663703,-20.726253,38.352704)"
        id="layer1-9-5-1"
-       inkscape:label="Calque 1">
+       inkscape:label="Calque 1"
+       style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-opacity:1">
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -155,13 +159,14 @@
          sodipodi:cx="45.714287"
          sodipodi:sides="5"
          id="path4555-3-7"
-         style="fill:#dddf0e;fill-opacity:1;stroke:#000000;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
     <g
-       transform="matrix(0.47814557,0,0,0.5634668,37.082736,19.288356)"
+       transform="matrix(0.33076563,0,0,0.38978809,62.228924,93.810619)"
        id="layer1-9-5-1-5"
-       inkscape:label="Calque 1">
+       inkscape:label="Calque 1"
+       style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-opacity:1">
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -179,13 +184,14 @@
          sodipodi:cx="45.714287"
          sodipodi:sides="5"
          id="path4555-3-7-8"
-         style="fill:#dddf0e;fill-opacity:1;stroke:#000000;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
     <g
-       transform="matrix(0.47814557,0,0,0.5634668,1.4748583,27.874661)"
+       transform="matrix(0.33076563,0,0,0.38978809,37.596547,99.750349)"
        id="layer1-9-5-1-5-7"
-       inkscape:label="Calque 1">
+       inkscape:label="Calque 1"
+       style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-opacity:1">
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -203,13 +209,14 @@
          sodipodi:cx="45.714287"
          sodipodi:sides="5"
          id="path4555-3-7-8-2"
-         style="fill:#dddf0e;fill-opacity:1;stroke:#000000;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
     <g
-       transform="matrix(0.74649725,0,0,0.72778182,-4.573644,2.2343347)"
+       transform="matrix(0.51640263,0,0,0.5034559,33.412389,82.013198)"
        id="layer1-9-5-1-5-6"
-       inkscape:label="Calque 1">
+       inkscape:label="Calque 1"
+       style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-opacity:1">
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -227,13 +234,14 @@
          sodipodi:cx="45.714287"
          sodipodi:sides="5"
          id="path4555-3-7-8-1"
-         style="fill:#dddf0e;fill-opacity:1;stroke:#000000;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
     <g
-       transform="matrix(0.40959039,0,0,0.41877571,30.323325,41.640074)"
+       transform="matrix(0.28334137,0,0,0.28969548,57.552983,109.27281)"
        id="layer1-9-5-1-5-6-5"
-       inkscape:label="Calque 1">
+       inkscape:label="Calque 1"
+       style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-opacity:1">
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -251,13 +259,14 @@
          sodipodi:cx="45.714287"
          sodipodi:sides="5"
          id="path4555-3-7-8-1-3"
-         style="fill:#dddf0e;fill-opacity:1;stroke:#000000;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
     <g
-       transform="matrix(0.40959039,0,0,0.45512937,37.89946,48.323754)"
+       transform="matrix(0.28334137,0,0,0.31484377,62.793907,113.89637)"
        id="layer1-9-5-1-5-6-2"
-       inkscape:label="Calque 1">
+       inkscape:label="Calque 1"
+       style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-opacity:1">
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -275,13 +284,14 @@
          sodipodi:cx="45.714287"
          sodipodi:sides="5"
          id="path4555-3-7-8-1-2"
-         style="fill:#dddf0e;fill-opacity:1;stroke:#000000;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
     <g
-       transform="matrix(0.52715819,0,0,0.5645276,-0.70547554,47.845327)"
+       transform="matrix(0.36467097,0,0,0.39052191,36.088263,113.56541)"
        id="layer1-9-5-1-5-6-2-2"
-       inkscape:label="Calque 1">
+       inkscape:label="Calque 1"
+       style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-opacity:1">
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -299,7 +309,7 @@
          sodipodi:cx="45.714287"
          sodipodi:sides="5"
          id="path4555-3-7-8-1-2-9"
-         style="fill:#dddf0e;fill-opacity:1;stroke:#000000;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#f0d652;fill-opacity:1;stroke:#6c3970;stroke-width:9.07392597;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
   </g>

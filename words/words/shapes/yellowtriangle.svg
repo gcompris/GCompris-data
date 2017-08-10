@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="429"
-   height="214"
-   viewBox="0 0 429 214"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
    id="svg4163"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="p0.svg">
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="yellowtriangle.svg">
   <defs
      id="defs4165" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="207.09167"
+     inkscape:cx="44.948811"
      inkscape:cy="75.651161"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -35,8 +35,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="3200"
-     inkscape:window-height="1679"
+     inkscape:window-width="1884"
+     inkscape:window-height="1051"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -50,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,12 +58,12 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(807.88514,216.95991)">
+     transform="translate(807.88514,130.95991)">
     <path
        id="path2403"
        sodipodi:nodetypes="cccc"
-       style="fill:#68bce7;fill-rule:evenodd;stroke:#000000;stroke-width:0.99998987;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -379.38507,-3.4599103 -428.00015,0 213.99404,-213.0000297 214.00611,213.0000297 z"
+       style="fill:#e3c35d;fill-rule:evenodd;stroke:#aa892b;stroke-width:3;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
+       d="M -684.02497,-37.169699 H -803.7453 l 59.85848,-59.580428 z"
        inkscape:connector-curvature="0" />
   </g>
 </svg>

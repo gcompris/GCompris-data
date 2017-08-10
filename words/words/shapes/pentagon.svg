@@ -9,15 +9,33 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="232.85959mm"
-   height="221.60248mm"
-   viewBox="0 0 825.09303 785.20563"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r15371"
    sodipodi:docname="pentagon.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <radialGradient
+       id="radialGradient4050"
+       gradientUnits="userSpaceOnUse"
+       cy="336.70001"
+       cx="688.57001"
+       gradientTransform="matrix(0.55654282,0,0,0.76170889,-428.36248,423.41459)"
+       r="282.85999"
+       inkscape:collect="always">
+      <stop
+         id="stop3981"
+         style="stop-color:#ffffff"
+         offset="0" />
+      <stop
+         id="stop3983"
+         style="stop-color:#e6e6e6"
+         offset="1" />
+    </radialGradient>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,21 +43,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="1678.7146"
-     inkscape:cy="119.99999"
+     inkscape:zoom="1.979899"
+     inkscape:cx="54.840229"
+     inkscape:cy="43.732073"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g7"
      showgrid="false"
+     inkscape:window-width="938"
+     inkscape:window-height="1047"
+     inkscape:window-x="938"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1366"
-     inkscape:window-height="704"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     units="px"
+     inkscape:snap-global="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -56,23 +76,39 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(1303.7146,132.84345)">
-    <path
-       sodipodi:type="star"
-       style="fill:#1b00ff;fill-opacity:1"
-       id="path3338"
-       sodipodi:sides="5"
-       sodipodi:cx="-891.42859"
-       sodipodi:cy="300.93362"
-       sodipodi:r1="433.77789"
-       sodipodi:r2="350.93369"
-       sodipodi:arg1="0.94442134"
-       sodipodi:arg2="1.5727399"
-       inkscape:flatsided="true"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="m -637.14288,652.36219 -509.93552,-0.99108 -156.6362,-485.28378 413.12908,-298.93078 411.96397,300.53439 z"
-       inkscape:transform-center-x="-0.2605221"
-       inkscape:transform-center-y="-41.174254" />
+     transform="translate(151.87173,-673.45606)">
+    <g
+       style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+       id="g964"
+       transform="translate(-341.77799,580.35467)">
+      <g
+         transform="translate(-242.11149,-124.66005)"
+         id="g7"
+         clip-path="url(#p.0)">
+        <g
+           transform="matrix(0.14543815,0,0,0.14543815,625.62759,243.98252)"
+           id="layer1-6"
+           inkscape:label="Layer 1"
+           style="stroke:#3535b7;stroke-opacity:1;stroke-width:20.62732509;stroke-miterlimit:10;stroke-dasharray:none;fill:#5b5bdd;fill-opacity:1">
+          <path
+             inkscape:transform-center-y="-41.174254"
+             inkscape:transform-center-x="-0.2605221"
+             d="m -637.14288,652.36219 -509.93552,-0.99108 -156.6362,-485.28378 413.12908,-298.93078 411.96397,300.53439 z"
+             inkscape:randomized="0"
+             inkscape:rounded="0"
+             inkscape:flatsided="true"
+             sodipodi:arg2="1.5727399"
+             sodipodi:arg1="0.94442134"
+             sodipodi:r2="350.93369"
+             sodipodi:r1="433.77789"
+             sodipodi:cy="300.93362"
+             sodipodi:cx="-891.42859"
+             sodipodi:sides="5"
+             id="path3338"
+             style="fill:#5b5bdd;fill-opacity:1;stroke:#3535b7;stroke-opacity:1;stroke-width:20.62732509;stroke-miterlimit:10;stroke-dasharray:none"
+             sodipodi:type="star" />
+        </g>
+      </g>
+    </g>
   </g>
 </svg>

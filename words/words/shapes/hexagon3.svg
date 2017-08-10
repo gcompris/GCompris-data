@@ -9,132 +9,118 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
    id="svg2"
-   viewBox="0 0 630.01666 545.62054"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="hexagon3.svg"
-   width="630.01666"
-   height="545.62054">
-  <defs
-     id="defs18" />
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="hexagon3.svg">
   <sodipodi:namedview
+     id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:window-width="747"
-     inkscape:window-height="480"
-     id="namedview16"
+     inkscape:zoom="1.979899"
+     inkscape:cx="63.840623"
+     inkscape:cy="73.944169"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3001"
      showgrid="false"
+     inkscape:window-width="938"
+     inkscape:window-height="1051"
+     inkscape:window-x="942"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.32777778"
-     inkscape:cx="314.99815"
-     inkscape:cy="270.01913"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
-  <g
-     id="g3020"
-     transform="translate(-63.14785,-89.3075)">
-    <path
-       id="path2856"
-       style="fill:#0000ff"
-       d="m 319.39,314.28 -74.68,129.36 -149.38,0 -74.688,-129.36 74.688,-129.36 149.38,0 74.688,129.36 z"
-       transform="matrix(2.1088,0,0,2.1088,19.618,-300.62)"
-       inkscape:connector-curvature="0" />
-    <g
-       id="g2991"
-       transform="matrix(1.75,0,0,1.75,-520.7,-182.03)">
-      <path
-         id="path2971"
-         style="fill:#ffffff"
-         d="m 479.54,155.05 0,311.77 68.184,0 0,-311.77 -68.184,0 z"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path2965"
-         style="fill:#ff0000"
-         d="m 491.13,155.05 0,311.77 45,0 0,-311.77 -45,0 z"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g2995"
-       transform="matrix(0.875,1.5155,-1.5155,0.875,399.96,-688.39)">
-      <path
-         id="path2997"
-         style="fill:#ffffff"
-         d="m 479.54,155.05 0,311.77 68.184,0 0,-311.77 -68.184,0 z"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path2999"
-         style="fill:#ff0000"
-         d="m 491.13,155.05 0,311.77 45,0 0,-311.77 -45,0 z"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g3001"
-       transform="matrix(-0.875,1.5155,-1.5155,-0.875,1298.8,-144.25)">
-      <path
-         id="path3003"
-         style="fill:#ffffff"
-         d="m 479.54,155.05 0,311.77 68.184,0 0,-311.77 -68.184,0 z"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path3005"
-         style="fill:#ff0000"
-         d="m 491.13,155.05 0,311.77 45,0 0,-311.77 -45,0 z"
-         inkscape:connector-curvature="0" />
-    </g>
-  </g>
+     units="px"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs4" />
   <metadata
-     id="metadata14">
+     id="metadata7">
     <rdf:RDF>
-      <cc:Work>
+      <cc:Work
+         rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <cc:license
-           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
-        <dc:publisher>
-          <cc:Agent
-             rdf:about="http://openclipart.org/">
-            <dc:title>Openclipart</dc:title>
-          </cc:Agent>
-        </dc:publisher>
-        <dc:title>english hexagon</dc:title>
-        <dc:date>2011-07-06T05:17:13</dc:date>
-        <dc:description>Based off of the english flag but it's a hexagon.</dc:description>
-        <dc:source>https://openclipart.org/detail/148429/english-hexagon-by-10binary</dc:source>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>10binary</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>english</rdf:li>
-            <rdf:li>flag</rdf:li>
-            <rdf:li>hexagon</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
+        <dc:title></dc:title>
       </cc:Work>
-      <cc:License
-         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-      </cc:License>
     </rdf:RDF>
   </metadata>
+  <g
+     transform="translate(283.5308,-1366.6479)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="layer1-7"
+       transform="matrix(-7.5871871e-4,0.34640702,-0.34640702,-7.5871871e-4,-137.5258,1368.3666)" />
+    <g
+       id="layer1-79"
+       transform="matrix(0.0649519,0,0,0.0649519,-242.91348,1385.6778)">
+      <g
+         id="g3020"
+         transform="matrix(2.9324955,0,0,2.9324955,-748.94135,-369.54868)">
+        <path
+           id="path2856-0"
+           style="opacity:1;fill:#2b2b88;fill-opacity:1;stroke-width:2.21424007"
+           d="M 708.89718,362.11778 543.53774,648.55183 H 212.77458 L 47.397434,362.11778 212.77458,75.683703 H 543.53774 L 708.91492,362.11778 Z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path2856"
+           style="opacity:1;fill:#3939e0;fill-opacity:1;stroke-width:2.05447435"
+           d="M 685.03302,362.11779 531.60486,627.8846 H 224.70747 L 71.262892,362.11779 224.70747,96.350969 h 306.89739 l 153.4446,265.766821 z"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g2991"
+           transform="matrix(1.7049176,0,0,1.7049176,-497.54425,-168.02748)">
+          <path
+             id="path2971"
+             style="opacity:1;fill:#ffffff"
+             d="m 479.54,155.05 v 311.77 h 68.184 V 155.05 Z"
+             inkscape:connector-curvature="0" />
+          <path
+             id="path2965"
+             style="opacity:1;fill:#e12323"
+             d="m 491.13,155.05 v 311.77 h 45 V 155.05 Z"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g2995"
+           transform="matrix(0.85245882,1.4764587,-1.4764587,0.85245882,399.3983,-661.34297)">
+          <path
+             id="path2997"
+             style="opacity:1;fill:#ffffff"
+             d="m 479.54,155.05 v 311.77 h 68.184 V 155.05 Z"
+             inkscape:connector-curvature="0" />
+          <path
+             id="path2999"
+             style="opacity:1;fill:#e12323"
+             d="m 491.13,155.05 v 311.77 h 45 V 155.05 Z"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g3001"
+           transform="matrix(-0.875,1.5155,-1.5155,-0.875,1298.8,-144.25)">
+          <path
+             id="path3003"
+             style="opacity:1;fill:#ffffff;stroke-width:0.97423863"
+             d="m 480.41089,159.06995 v 303.73838 l 66.42749,0 V 159.06995 Z"
+             inkscape:connector-curvature="0" />
+          <path
+             id="path3005"
+             style="opacity:1;fill:#e12323;stroke-width:0.97423863"
+             d="m 491.70232,159.06995 v 303.73838 l 43.84074,0 V 159.06995 Z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

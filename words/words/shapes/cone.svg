@@ -11,30 +11,30 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg2"
    sodipodi:docname="cone.svg"
-   viewBox="0 0 345.70116 479.10056"
+   viewBox="0 0 128 128"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   width="345.70117"
-   height="479.10056">
+   inkscape:version="0.92.1 r15371"
+   width="128"
+   height="128">
   <defs
      id="defs4" />
   <sodipodi:namedview
      id="base"
      bordercolor="#666666"
      inkscape:pageshadow="2"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      pagecolor="#ffffff"
-     inkscape:window-height="704"
-     inkscape:window-maximized="0"
-     inkscape:zoom="0.5"
-     inkscape:window-x="58"
+     inkscape:window-height="1051"
+     inkscape:window-maximized="1"
+     inkscape:zoom="2.8284271"
+     inkscape:window-x="0"
      showgrid="false"
      borderopacity="1.0"
      inkscape:current-layer="layer1"
-     inkscape:cx="248.29942"
-     inkscape:cy="229.21046"
+     inkscape:cx="61.258682"
+     inkscape:cy="62.60356"
      inkscape:showpageshadow="false"
-     inkscape:window-width="979"
+     inkscape:window-width="1884"
      showborder="true"
      inkscape:pageopacity="0.0"
      inkscape:document-units="px"
@@ -46,20 +46,20 @@
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     transform="translate(-181.57867,-113.76159)">
+     transform="translate(-181.57867,-464.86215)">
     <path
+       style="fill:#5f5fd0;fill-opacity:1;stroke:#463f88;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 246.69683,470.57885 -44.01172,106.20304 c -0.002,7.10741 19.20316,12.8694 42.89453,12.86914 23.69061,-7e-5 42.89488,-5.76196 42.89258,-12.86914 z"
        id="path2820"
-       sodipodi:nodetypes="cccc"
-       style="fill:#1900ff;fill-opacity:1;stroke:#690000;stroke-width:2"
-       d="m 182.84,535.16 c 76.09,-182.52 97.6,-227.46 175.91,-418.69 56.41,146.47 97.23,255.62 167.29,424 -55.75,37.05 -281.17,30.48 -343.2,-5.31 z"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
     <ellipse
        id="path2816"
-       style="fill:#1900ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px"
-       cx="354.28571"
-       cy="540.93359"
-       rx="171.42857"
-       ry="51.42857" />
+       style="fill:none;fill-opacity:0.52941165;fill-rule:evenodd;stroke:#463f88;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       cx="245.5788"
+       cy="576.78253"
+       rx="41.125206"
+       ry="12.867891" />
   </g>
   <metadata
      id="metadata11">

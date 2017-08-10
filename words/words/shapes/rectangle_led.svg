@@ -10,26 +10,24 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg9493"
-   sodipodi:docname="rotrectangle_led.svg"
+   sodipodi:docname="rectangle_led.svg"
    inkscape:export-ydpi="90.000000"
-   inkscape:export-filename="/datas/Projs/Cliparts Stocker/led/led_rectangular_v_yellow.png"
-   viewBox="0 0 101.92547 109.10905"
+   inkscape:export-filename="/datas/Projs/Cliparts Stocker/led/led_square_blue.png"
+   viewBox="0 0 50 50"
    sodipodi:version="0.32"
    inkscape:export-xdpi="90.000000"
-   inkscape:version="0.91 r13725"
-   version="1.1"
-   width="101.92547"
-   height="109.10905">
+   inkscape:version="0.92.1 r15371"
+   version="1.1">
   <defs
      id="defs9495">
     <linearGradient
-       id="linearGradient18936"
-       y2="46.945"
+       id="linearGradient31646"
+       y2="46.131794"
        gradientUnits="userSpaceOnUse"
-       y1="48.676998"
-       gradientTransform="matrix(0.38437,0,0,1.317,10.1,-22.732)"
-       x2="21.593"
-       x1="21.593"
+       y1="47.180935"
+       gradientTransform="matrix(0.22065292,0.05912377,-0.12100471,0.45159571,19.384302,21.255997)"
+       x2="21.594"
+       x1="21.594"
        inkscape:collect="always">
       <stop
          id="stop6508"
@@ -40,123 +38,75 @@
          style="stop-color:#ffffff;stop-opacity:.87451"
          offset="1" />
     </linearGradient>
-    <linearGradient
-       id="linearGradient18939"
-       y2="40.797001"
-       gradientUnits="userSpaceOnUse"
-       y1="40.797001"
-       gradientTransform="matrix(0,1,-1,0,59.2,10.4)"
-       x2="30.969"
-       x1="28.219"
-       inkscape:collect="always">
-      <stop
-         id="stop7502"
-         style="stop-color:#d2cd00"
-         offset="0" />
-      <stop
-         id="stop7504"
-         style="stop-color:#fffe8f"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient18942"
-       y2="40.217999"
-       gradientUnits="userSpaceOnUse"
-       y1="41.438"
-       gradientTransform="matrix(0,1,-1,0,59.2,10.4)"
-       x2="31.031"
-       x1="28.156"
-       inkscape:collect="always">
-      <stop
-         id="stop5758"
-         style="stop-color:#828282"
-         offset="0" />
-      <stop
-         id="stop5760"
-         style="stop-color:#929292;stop-opacity:.35294"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient18945"
-       y2="40.799999"
-       gradientUnits="userSpaceOnUse"
-       y1="40.799999"
-       gradientTransform="matrix(0,1,-1,0,59.2,10.4)"
-       x2="31.200001"
-       x1="28"
-       inkscape:collect="always">
-      <stop
-         id="stop5744"
-         style="stop-color:#adadad"
-         offset="0" />
-      <stop
-         id="stop5746"
-         style="stop-color:#f0f0f0"
-         offset="1" />
-    </linearGradient>
   </defs>
   <sodipodi:namedview
      id="base"
      bordercolor="#666666"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
+     inkscape:window-width="1884"
      pagecolor="#ffffff"
-     inkscape:zoom="5.24"
+     inkscape:zoom="10.48"
      inkscape:window-x="0"
      borderopacity="1.0"
-     inkscape:current-layer="layer1"
-     inkscape:cx="50.962722"
-     inkscape:cy="58.55969"
-     inkscape:window-y="27"
-     inkscape:window-height="704"
+     inkscape:current-layer="g31630"
+     inkscape:cx="20.515267"
+     inkscape:cy="14.502528"
+     inkscape:window-y="0"
+     inkscape:window-height="1051"
      inkscape:pageopacity="0.0"
      inkscape:document-units="px"
      showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
      inkscape:window-maximized="1" />
   <g
      id="layer1"
      inkscape:label="Calque 1"
-     inkscape:groupmode="layer"
-     transform="translate(25.962722,4.5544736)">
+     inkscape:groupmode="layer">
     <g
-       id="g19013"
-       transform="matrix(24.22763,19.737894,-19.737894,24.22763,368.72738,-1282.2824)">
+       id="g31630"
+       transform="matrix(31.25 0 0 31.25 -550 -1350)">
       <path
-         id="path18821"
-         style="fill:url(#linearGradient18945)"
-         d="m 19.2,38.4 0,3.2 -1.6,0 0,-3.2 1.6,0 z"
+         id="path31632-3"
+         style="fill:#929292;fill-opacity:1;stroke-width:0.69877064"
+         d="m 18.089355,43.258991 0.950176,0.254599 -0.328886,1.227419 -0.950176,-0.254599 z"
          inkscape:connector-curvature="0" />
       <path
-         id="path18823"
-         style="fill:url(#linearGradient18942)"
-         d="m 19.044,38.556 -1.282,0 0,2.875 1.282,0 0,-2.875 z"
+         id="path31632"
+         style="fill:#bebebe;fill-opacity:1;stroke-width:0.66695207"
+         d="m 18.103599,43.288427 0.908878,0.243533 -0.31323,1.16899 -0.908878,-0.243533 z"
          inkscape:connector-curvature="0" />
       <path
-         id="path18825"
-         style="fill:url(#linearGradient18939)"
-         d="m 18.981,38.619 -1.156,0 0,2.75 1.156,0 0,-2.75 z"
-         inkscape:connector-curvature="0" />
+         id="path31634"
+         style="fill:#929292;fill-opacity:1"
+         sodipodi:type="inkscape:offset"
+         d="m 17.755859,43.349609 v 1.300782 h 1.269532 v -1.300782 z"
+         inkscape:original="M 17.593750 43.187500 L 17.593750 44.812500 L 19.187500 44.812500 L 19.187500 43.187500 L 17.593750 43.187500 z "
+         transform="matrix(0.5680489,0.15220825,-0.19576882,0.73061917,16.568477,9.0482406)"
+         inkscape:radius="-0.16249999" />
       <path
-         id="path18827"
+         id="path31636"
+         style="fill:#a0a2dc;fill-opacity:1"
+         sodipodi:type="inkscape:offset"
+         d="m 17.800781,43.394531 v 1.210938 h 1.179688 v -1.210938 z"
+         inkscape:original="M 17.593750 43.187500 L 17.593750 44.812500 L 19.187500 44.812500 L 19.187500 43.187500 L 17.593750 43.187500 z "
+         transform="matrix(0.5680489,0.15220825,-0.19694415,0.73500556,16.61948,8.8578943)"
+         inkscape:radius="-0.20625" />
+      <path
+         id="path31638"
          sodipodi:nodetypes="csccscc"
-         style="fill:url(#linearGradient18936)"
-         d="m 18.1,38.673 c -0.258,0.002 -0.222,0.002 -0.222,1.091 0,0.272 0.101,0.432 0.222,0.432 l 0.613,0 c 0.121,0 0.21,-0.165 0.21,-0.426 0,-1.096 0.031,-1.104 -0.21,-1.097 l -0.613,0 z"
+         style="fill:url(#linearGradient31646);stroke-width:0.66695207"
+         d="m 18.334548,43.542162 c -0.148457,-0.039 -0.120472,-0.073 -0.198779,0.219248 -0.03817,0.14247 -0.0105,0.284575 0.0588,0.303145 l 0.351622,0.09422 c 0.06987,0.01872 0.156705,-0.08722 0.19625,-0.234803 0.07889,-0.294441 0.08348,-0.252491 -0.05627,-0.28759 z"
          inkscape:connector-curvature="0" />
     </g>
   </g>
   <metadata
-     id="metadata23">
+     id="metadata22">
     <rdf:RDF>
       <cc:Work>
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <cc:license
-           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
         <dc:publisher>
           <cc:Agent
              rdf:about="http://openclipart.org/">
@@ -164,9 +114,9 @@
           </cc:Agent>
         </dc:publisher>
         <dc:title></dc:title>
-        <dc:date>2009-11-02T09:39:34</dc:date>
-        <dc:description>Yellow glossy rectangle by Jean-Victor Balin. From OCAL 0.18 release.</dc:description>
-        <dc:source>https://openclipart.org/detail/28025/led-rectangular-v-yellow-by-anonymous</dc:source>
+        <dc:date>2010-03-09T13:29:25</dc:date>
+        <dc:description>Glossy button by Jena-Victor Balin. From OCAL 0.18 release.</dc:description>
+        <dc:source>https://openclipart.org/detail/30433/led-square-blue-by-anonymous</dc:source>
         <dc:creator>
           <cc:Agent>
             <dc:title>Anonymous</dc:title>
@@ -174,15 +124,15 @@
         </dc:creator>
         <dc:subject>
           <rdf:Bag>
+            <rdf:li>blue</rdf:li>
             <rdf:li>button</rdf:li>
             <rdf:li>glossy</rdf:li>
-            <rdf:li>rectangle</rdf:li>
-            <rdf:li>yellow</rdf:li>
+            <rdf:li>square</rdf:li>
           </rdf:Bag>
         </dc:subject>
       </cc:Work>
       <cc:License
-         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
         <cc:permits
            rdf:resource="http://creativecommons.org/ns#Reproduction" />
         <cc:permits

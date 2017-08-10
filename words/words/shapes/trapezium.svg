@@ -8,13 +8,13 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   viewBox="0 0 240 150"
+   viewBox="0 0 128 128"
    stroke-miterlimit="10"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r15371"
    sodipodi:docname="trapezium.svg"
-   width="240"
-   height="150"
+   width="128"
+   height="128"
    style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10">
   <metadata
      id="metadata19">
@@ -39,21 +39,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="704"
+     inkscape:window-width="1884"
+     inkscape:window-height="1051"
      id="namedview15"
      showgrid="false"
-     inkscape:zoom="0.72693783"
-     inkscape:cx="480"
-     inkscape:cy="251.8908"
+     inkscape:zoom="2.0560907"
+     inkscape:cx="19.39145"
+     inkscape:cy="38.865176"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="g7-1" />
   <clipPath
      id="p.0">
     <path
-       d="M 0,0 960,0 960,540 0,540 0,0 Z"
+       d="M 0,0 H 960 V 540 H 0 Z"
        id="path5"
        inkscape:connector-curvature="0"
        style="clip-rule:nonzero" />
@@ -61,21 +61,41 @@
   <g
      clip-path="url(#p.0)"
      id="g7"
-     transform="translate(-346.65963,-165.77175)">
-    <path
-       d="m 0,0 960,0 0,540 -960,0 z"
-       id="path9"
-       inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:0;fill-rule:nonzero" />
-    <path
-       d="m 361.1916,307.56168 33.97638,-135.9055 148.99213,0 33.97638,135.9055 z"
-       id="path11"
-       inkscape:connector-curvature="0"
-       style="fill:#0000ff;fill-rule:nonzero" />
-    <path
-       d="m 361.1916,307.56168 33.97638,-135.9055 148.99213,0 33.97638,135.9055 z"
-       id="path13"
-       inkscape:connector-curvature="0"
-       style="fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round" />
+     transform="translate(-310.89316,-234.54329)">
+    <g
+       style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+       id="g829"
+       transform="translate(216.10161,222.99641)">
+      <g
+         transform="translate(-320.52259,-159.63471)"
+         id="g7-6"
+         clip-path="url(#p.0-3)">
+        <g
+           style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+           id="g889"
+           transform="translate(341.82466,150.37141)">
+          <g
+             transform="translate(-330.15203,-145.50781)"
+             id="g7-9"
+             clip-path="url(#p.0-7)">
+            <g
+               style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+               id="g955"
+               transform="translate(348.60508,141.94011)">
+              <g
+                 transform="translate(-346.65963,-165.77175)"
+                 id="g7-1"
+                 clip-path="url(#p.0-2)">
+                <path
+                   style="fill:#5454e2;fill-rule:nonzero;stroke:#2f2fa4;stroke-width:3;stroke-linecap:square;stroke-miterlimit:10;fill-opacity:1;stroke-opacity:1;stroke-dasharray:none"
+                   inkscape:connector-curvature="0"
+                   id="path11"
+                   d="m 405.69606,291.73674 18.79355,-75.17421 h 82.4129 l 18.79355,75.17421 z" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
   </g>
 </svg>

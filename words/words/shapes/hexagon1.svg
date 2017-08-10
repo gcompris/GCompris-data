@@ -9,114 +9,98 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
    id="svg2"
-   viewBox="0 0 300.37863 346.41248"
-   version="1.0"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="hexagon1.svg"
-   width="300.37863"
-   height="346.41248">
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="hexagon1.svg">
   <defs
-     id="defs14" />
+     id="defs4" />
   <sodipodi:namedview
+     id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:window-width="747"
-     inkscape:window-height="480"
-     id="namedview12"
+     inkscape:zoom="1.4"
+     inkscape:cx="103.07476"
+     inkscape:cy="44.195431"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1-7"
      showgrid="false"
+     inkscape:window-width="938"
+     inkscape:window-height="1051"
+     inkscape:window-x="942"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.65555556"
-     inkscape:cx="150.00596"
-     inkscape:cy="171.80623"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
-  <g
-     id="layer1"
-     transform="matrix(-0.00219025,0.9999976,-0.9999976,-0.00219025,329.18353,-6.5855046)">
-    <path
-       id="path3346"
-       style="fill:#ff0000;fill-rule:evenodd"
-       d="m 6.9767,178.6 86.602,-150 86.601,150 -173.2,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path3348"
-       style="fill:#0000ff;fill-rule:evenodd"
-       d="m 93.579,328.6 86.601,-150 86.6,150 -173.2,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path3350"
-       style="fill:#00ff00;fill-rule:evenodd"
-       d="m 180.18,178.6 86.6,-150 86.61,150 -173.21,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path3352"
-       style="fill:#ff00ff;fill-rule:evenodd"
-       d="m 6.9767,178.6 86.602,150 86.601,-150 -173.2,0 z"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path3354"
-       style="fill:#ffff00;fill-rule:evenodd"
-       d="m 93.579,28.605 86.601,150 86.6,-150 -173.2,0.005 z"
-       inkscape:connector-curvature="0" />
-    <path
-       id="path3356"
-       style="fill:#00ffff;fill-rule:evenodd"
-       d="m 180.18,178.6 86.6,150 86.61,-150 -173.21,0 z"
-       inkscape:connector-curvature="0" />
-  </g>
+     units="px" />
   <metadata
-     id="metadata10">
+     id="metadata7">
     <rdf:RDF>
-      <cc:Work>
+      <cc:Work
+         rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <cc:license
-           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
-        <dc:publisher>
-          <cc:Agent
-             rdf:about="http://openclipart.org/">
-            <dc:title>Openclipart</dc:title>
-          </cc:Agent>
-        </dc:publisher>
-        <dc:title>hexagon 6 color</dc:title>
-        <dc:date>2011-01-05T21:43:09</dc:date>
-        <dc:description>The most colorful way to prove that a hexagon is six triangles!</dc:description>
-        <dc:source>https://openclipart.org/detail/103795/hexagon-6-color-by-10binary</dc:source>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>10binary</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>color</rdf:li>
-            <rdf:li>hexagon</rdf:li>
-            <rdf:li>triangle</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
+        <dc:title></dc:title>
       </cc:Work>
-      <cc:License
-         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-      </cc:License>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(283.5308,-1366.6479)">
+    <g
+       transform="matrix(-8.0388054e-4,0.36702649,-0.36702649,-8.0388054e-4,-280.97789,1322.2784)"
+       id="layer1-7-0"
+       style="fill:#575757;fill-opacity:1">
+      <path
+         style="fill:#575757;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+         d="m 121.68864,-168.06294 86.5992,149.996048 86.60182,-149.992008 -86.59618,149.991998 173.20102,0.004 86.60744,-150.003298 -86.61048,-149.99605 -173.19536,0.007 -0.006,-0.0115 z"
+         id="path3346-9"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(-7.5871871e-4,0.34640702,-0.34640702,-7.5871871e-4,-137.5258,1368.3666)"
+       id="layer1-7">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 7.1031548,236.33527 93.705155,86.335274 180.30615,236.33527 H 7.1061548 Z"
+         style="fill:#ef3838;fill-opacity:1;fill-rule:evenodd"
+         id="path3346" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 93.705455,386.33527 86.600995,-150 86.6,150 H 93.706455 Z"
+         style="fill:#3434eb;fill-opacity:1;fill-rule:evenodd"
+         id="path3348" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 180.30645,236.33527 86.6,-149.999996 86.61,149.999996 z"
+         style="fill:#41f041;fill-opacity:1;fill-rule:evenodd"
+         id="path3350" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 7.1031548,236.33527 86.6020002,150 86.600995,-150 H 7.1061548 Z"
+         style="fill:#ea45ea;fill-opacity:1;fill-rule:evenodd"
+         id="path3352" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 93.705455,86.340274 86.600995,149.999996 86.6,-149.999996 -173.199995,0.005 z"
+         style="fill:#f2f23f;fill-opacity:1;fill-rule:evenodd"
+         id="path3354" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 180.30645,236.33527 86.6,150 86.61,-150 z"
+         style="fill:#43f3f3;fill-opacity:1;fill-rule:evenodd"
+         id="path3356" />
+    </g>
+  </g>
 </svg>

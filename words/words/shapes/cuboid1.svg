@@ -18,7 +18,7 @@
    version="1.0"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-ydpi="89.419998"
-   inkscape:version="0.91 r13725">
+   inkscape:version="0.92.1 r15371">
   <defs
      id="defs11" />
   <sodipodi:namedview
@@ -28,18 +28,18 @@
      guidetolerance="10"
      pagecolor="#ffffff"
      gridtolerance="10000"
-     inkscape:window-height="704"
+     inkscape:window-height="1051"
      width="310px"
-     inkscape:zoom="0.36427245"
+     inkscape:zoom="1.0303181"
      objecttolerance="10"
      height="500px"
      borderopacity="1.0"
      inkscape:current-layer="layer1"
-     inkscape:cx="-117.01872"
-     inkscape:cy="132.10913"
-     inkscape:window-y="27"
+     inkscape:cx="130.42627"
+     inkscape:cy="174.81439"
+     inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:window-width="1366"
+     inkscape:window-width="1884"
      inkscape:pageopacity="0.0"
      inkscape:document-units="px"
      showgrid="false"
@@ -52,23 +52,37 @@
     <path
        id="path2184"
        sodipodi:nodetypes="ccccccc"
-       style="fill:#006600"
-       d="m194.39 500.7l-148.17-95.89-6.152-270 129.48-113.16 156.74 90.79-0.29 268.06-131.61 120.2z" />
+       style="fill:#30af30;fill-opacity:1"
+       d="m 194.39,500.7 -148.17,-95.89 -6.152,-270 129.48,-113.16 156.74,90.79 -0.29,268.06 -131.61,120.2 z"
+       inkscape:connector-curvature="0" />
     <path
        id="path3169"
        sodipodi:nodetypes="ccccccccccc"
-       style="fill:#fec000"
-       d="m171.76 23.792l0.89 268.63 150.28 82.89-2.23 5.19-149.98-83.24-122.33 106.65-1.415-3.02 121.4-108.08-3.01-268.15 4.22-3.513 2.17 2.645z" />
+       style="fill:#306c30;fill-opacity:1"
+       d="m 171.76,23.792 0.89,268.63 150.28,82.89 -2.23,5.19 -149.98,-83.24 -122.33,106.65 -1.415,-3.02 121.4,-108.08 -3.01,-268.15 4.22,-3.513 2.17,2.645 z"
+       inkscape:connector-curvature="0" />
     <path
+       style="fill:#28bb28;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.56645572"
+       d="M 326.288,112.44 189.45726,231.01943 196.877,493.49 320.7,380.502 326.288,112.44"
+       id="path821"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#44d844;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.56645572"
+       d="M 41.413,136.141 189.45726,231.01943 194.388,500.7 48.39,403.912 Z"
+       id="path819"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#5ed85e;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.56329113"
+       d="m 40.068,134.81 128.515,-112.569 149.4,89.55 -128.52574,119.22843 z"
+       id="path823"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#306c30;fill-opacity:1"
+       d="M 167.71256,13.200594 34.501625,127.73966 l 0.0078,0.24414 -0.521485,0.44531 9.425781,280.03125 151.857429,101.83008 129.81054,-123.75 1.81057,-278.26953 z m 1.92774,16.632812 140.39062,84.226564 v 0.004 L 188.07389,225.34122 41.413734,136.14005 Z M 316.9555,117.75256 312.87662,384.84122 196.877,493.49 190.14356,231.01943 Z M 43.14225,143.92911 185.72233,231.05997 188.5449,493.62218 51.925453,398.48966 Z"
        id="path3171"
-       sodipodi:nodetypes="cccccccccccccccccccccc"
-       style="fill:#ffdd00"
-       d="m43.413 408.46l-8.911-280.72 133.21-114.54 159.18 95.07-1.81 278.27-129.81 123.75-151.86-101.83zm274.49-28.38l4.58-258.27-123.32 110.18 3.48 257.24 115.26-109.15zm-132.18-149.02l-142.58-87.13 8.783 254.56 134.56 88.27-0.76-255.7zm132.26-119.27l-149.4-89.549-127.17 113.9 146.66 89.2 129.91-113.55z" />
-    <path
-       id="path2172"
-       sodipodi:nodetypes="cccccccccccccccccccc"
-       style="fill:#ffce2e"
-       d="m185.55 238.1l-138.93-86.8 5.095 248.09-7.471-5.05-10.257-265.91 133.95-114.16 158.81 94.29-0.87 265.38-7.6 5.33 4.36-255.5-122.71 110.32 2.7 255.33-5.75 4.07-10.19-6.57-1.14-248.82zm124.48-124.04l-140.39-84.227-123.15 105.95 141.78 86.88 121.76-108.6z" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccc" />
   </g>
   <metadata
      id="metadata9">
@@ -85,7 +99,7 @@
             <dc:title>Openclipart</dc:title>
           </cc:Agent>
         </dc:publisher>
-        <dc:title></dc:title>
+        <dc:title />
         <dc:date>2010-01-14T03:01:36</dc:date>
         <dc:description>A transparent elongated cube in yellow. There is one in cyan blue also available.</dc:description>
         <dc:source>https://openclipart.org/detail/28855/yellow-transparent-cube-by-rfc1394</dc:source>

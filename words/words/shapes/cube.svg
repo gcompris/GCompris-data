@@ -8,13 +8,13 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   viewBox="0 0 210 210"
+   viewBox="0 0 128 128"
    stroke-miterlimit="10"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r15371"
    sodipodi:docname="cube.svg"
-   width="210"
-   height="210"
+   width="128"
+   height="128"
    style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10">
   <metadata
      id="metadata25">
@@ -39,21 +39,25 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="704"
+     inkscape:window-width="1884"
+     inkscape:window-height="1051"
      id="namedview21"
-     showgrid="false"
-     inkscape:zoom="0.72693783"
-     inkscape:cx="480"
-     inkscape:cy="251.8908"
+     showgrid="true"
+     inkscape:zoom="2.0560907"
+     inkscape:cx="140.49505"
+     inkscape:cy="111.3328"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="g7">
+    <inkscape:grid
+       type="xygrid"
+       id="grid820" />
+  </sodipodi:namedview>
   <clipPath
      id="p.0">
     <path
-       d="M 0,0 960,0 960,540 0,540 0,0 Z"
+       d="M 0,0 H 960 V 540 H 0 Z"
        id="path5"
        inkscape:connector-curvature="0"
        style="clip-rule:nonzero" />
@@ -61,36 +65,38 @@
   <g
      clip-path="url(#p.0)"
      id="g7"
-     transform="translate(-352.16216,-151.16765)">
+     transform="translate(-352.16216,-233.16765)">
     <path
-       d="m 0,0 960,0 0,540 -960,0 z"
+       style="fill:#2c2c94;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.69870007;stroke-linecap:square;stroke-miterlimit:10"
+       d="m 385.03158,237.16765 -30.86942,29.99932 v 88.66668 l 93.79861,1.334 30.20139,-30.00068 v -89.99932 z"
+       id="path11-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       d="M 0,0 H 960 V 540 H 0 Z"
        id="path9"
        inkscape:connector-curvature="0"
        style="fill:#000000;fill-opacity:0;fill-rule:nonzero" />
     <path
-       d="m 373.11285,219.33595 132.33072,0 0,128.74016 -132.33072,0 z"
+       d="m 357.492,269.99018 h 86.57575 v 82.69269 H 357.492 Z"
        id="path11"
        inkscape:connector-curvature="0"
-       style="fill:#0000ff;fill-rule:nonzero" />
+       style="fill:#4747d3;fill-opacity:1;fill-rule:nonzero;stroke-width:0.64825273" />
     <path
-       d="m 505.44357,219.33595 42.91336,-42.91338 0,128.74014 -42.91336,42.91339 z"
+       d="m 446.25307,271.13274 27.78322,-27.60422 0.79567,82.81265 -28.57889,27.60423 z"
        id="path13"
        inkscape:connector-curvature="0"
-       style="fill:#0000cb;fill-rule:nonzero" />
+       style="fill:#3838bc;fill-opacity:1;fill-rule:nonzero;stroke-width:0.65451235"
+       sodipodi:nodetypes="ccccc" />
     <path
-       d="m 373.11285,219.33595 42.91339,-42.91338 132.33069,0 -42.91336,42.91338 z"
+       d="m 358.12513,268.77844 28.38407,-28.38898 h 87.52709 l -28.38406,28.38898 z"
        id="path15"
        inkscape:connector-curvature="0"
-       style="fill:#3333ff;fill-rule:nonzero" />
+       style="fill:#6c6cde;fill-opacity:1;fill-rule:nonzero;stroke-width:0.6614843" />
     <path
-       d="m 373.11285,219.33595 42.91339,-42.91338 132.33069,0 0,128.74014 -42.91336,42.91339 -132.33072,0 z m 0,0 132.33072,0 42.91336,-42.91338 m -42.91336,42.91338 0,128.74016"
+       d="m 358.12513,268.77844 28.57891,-28.38898 h 88.12792 v 85.16694 l -28.57889,28.389 h -88.12794 z m 0,0 h 88.12794 l 28.57889,-28.38898 m -28.57889,28.38898 v 85.16696"
        id="path17"
        inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:0;fill-rule:nonzero" />
-    <path
-       d="m 373.11285,219.33595 42.91339,-42.91338 132.33069,0 0,128.74014 -42.91336,42.91339 -132.33072,0 z m 0,0 132.33072,0 42.91336,-42.91338 m -42.91336,42.91338 0,128.74016"
-       id="path19"
-       inkscape:connector-curvature="0"
-       style="fill-rule:nonzero;stroke:#f3f3f3;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round" />
+       style="fill:#000000;fill-opacity:0;fill-rule:nonzero;stroke-width:0.66375077" />
   </g>
 </svg>

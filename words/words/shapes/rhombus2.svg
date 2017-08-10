@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -7,75 +9,124 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   viewBox="0 0 300 235"
-   stroke-miterlimit="10"
-   id="svg2"
-   inkscape:version="0.91 r13725"
+   id="svg9493"
    sodipodi:docname="rhombus2.svg"
-   width="300"
-   height="235"
-   style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10">
+   inkscape:export-ydpi="90.000000"
+   inkscape:export-filename="/datas/Projs/Cliparts Stocker/led/led_square_blue.png"
+   viewBox="0 0 128 128"
+   sodipodi:version="0.32"
+   inkscape:export-xdpi="90.000000"
+   inkscape:version="0.92.1 r15371"
+   version="1.1"
+   width="128"
+   height="128">
+  <defs
+     id="defs9495" />
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-width="938"
+     pagecolor="#ffffff"
+     inkscape:zoom="1.8526198"
+     inkscape:window-x="942"
+     borderopacity="1.0"
+     inkscape:current-layer="g7-6"
+     inkscape:cx="62.54855"
+     inkscape:cy="37.712903"
+     inkscape:window-y="0"
+     inkscape:window-height="1051"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-maximized="0" />
+  <g
+     id="layer1"
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     transform="translate(0,78)">
+    <g
+       id="g31630"
+       transform="matrix(31.25,0,0,31.25,-550,-1350)">
+      <g
+         style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+         id="g828"
+         transform="matrix(0.032,0,0,0.032,14.982919,37.109933)">
+        <g
+           transform="translate(-332.9033,-102.01542)"
+           id="g7"
+           clip-path="url(#p.0)">
+          <g
+             style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+             id="g888"
+             transform="translate(371.41871,25.494224)">
+            <g
+               transform="translate(-328.77639,-95.66512)"
+               id="g7-3"
+               clip-path="url(#p.0)">
+              <g
+                 style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
+                 id="g962"
+                 transform="translate(270.42818,187.0052)">
+                <g
+                   transform="translate(-326.02513,-117.91385)"
+                   id="g7-6"
+                   clip-path="url(#p.0)">
+                  <path
+                     style="fill:#44bde2;fill-rule:nonzero;stroke:#279bbe;stroke-width:3;stroke-linecap:square;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+                     inkscape:connector-curvature="0"
+                     id="path11"
+                     d="m 431.64171,274.07622 64.3281,-43.35776 55.6719,54.02442 -64.3281,43.35777 z" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
   <metadata
-     id="metadata19">
+     id="metadata22">
     <rdf:RDF>
-      <cc:Work
-         rdf:about="">
+      <cc:Work>
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
         <dc:title></dc:title>
+        <dc:date>2010-03-09T13:29:25</dc:date>
+        <dc:description>Glossy button by Jena-Victor Balin. From OCAL 0.18 release.</dc:description>
+        <dc:source>https://openclipart.org/detail/30433/led-square-blue-by-anonymous</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Anonymous</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>blue</rdf:li>
+            <rdf:li>button</rdf:li>
+            <rdf:li>glossy</rdf:li>
+            <rdf:li>square</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
-  <defs
-     id="defs17" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="704"
-     id="namedview15"
-     showgrid="false"
-     inkscape:zoom="0.72693783"
-     inkscape:cx="480"
-     inkscape:cy="251.8908"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
-  <clipPath
-     id="p.0">
-    <path
-       d="M 0,0 960,0 960,540 0,540 0,0 Z"
-       id="path5"
-       inkscape:connector-curvature="0"
-       style="clip-rule:nonzero" />
-  </clipPath>
-  <g
-     clip-path="url(#p.0)"
-     id="g7"
-     transform="translate(-326.02513,-117.91385)">
-    <path
-       d="m 0,0 960,0 0,540 -960,0 z"
-       id="path9"
-       inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:0;fill-rule:nonzero" />
-    <path
-       d="M 343.84296,224.60263 488.96109,126.79161 614.55164,248.66562 469.43351,346.47665 Z"
-       id="path11"
-       inkscape:connector-curvature="0"
-       style="fill:#00ffff;fill-rule:nonzero" />
-    <path
-       d="M 343.84296,224.60263 488.96109,126.79161 614.55164,248.66562 469.43351,346.47665 Z"
-       id="path13"
-       inkscape:connector-curvature="0"
-       style="fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round" />
-  </g>
 </svg>
