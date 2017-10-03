@@ -134,7 +134,7 @@ def init_intro_description_from_code(locale):
     try:
         po = polib.pofile( gcompris_qt + '/po/gcompris_' + locale + '.po')
     except:
-        print "**ERROR: Failed to load po file %s**" %(gcompris_qt + '/po/gcompris_' + locale + '.po')
+        print "**ERROR: Failed to load po file %s**" %('/po/gcompris_' + locale + '.po')
         print ''
 
     activity_dir = gcompris_qt + "/src/activities"
@@ -186,7 +186,7 @@ def init_country_names_from_code(locale):
     try:
         po = polib.pofile( gcompris_qt + '/po/gcompris_' + locale + '.po')
     except:
-        print "**ERROR: Failed to load po file %s**" %(gcompris_qt + '/po/gcompris_' + locale + '.po')
+        print "**ERROR: Failed to load po file %s**" %('/po/gcompris_' + locale + '.po')
         print ''
 
     app = QCoreApplication(sys.argv)
@@ -284,7 +284,7 @@ def get_words_from_code():
             data = json.load(data_file)
     except:
         print ''
-        print "**ERROR: missing resource file %s**" %(gcompris_qt + '/src/activities/lang/resource/content-' + locale + '.json')
+        print "**ERROR: missing resource file %s**" %('/src/activities/lang/resource/content-' + locale + '.json')
         print '[Instructions to create this file](%s)' %('http://gcompris.net/wiki/Voice_translation_Qt#Lang_word_list')
         print ''
         return set()
@@ -305,7 +305,7 @@ def get_wordsgame_from_code():
 
     if not os.path.isfile(gcompris_qt + '/src/activities/wordsgame/resource/default-' + locale + '.json'):
         print ''
-        print "**ERROR: missing resource file %s**" %(gcompris_qt + '/src/activities/wordsgame/resource/default-' + locale + '.json')
+        print "**ERROR: missing resource file %s**" %('/src/activities/wordsgame/resource/default-' + locale + '.json')
         print '[Instructions to create this file](%s)' %('http://gcompris.net/wiki/Word_Lists_Qt#Wordsgame_.28Typing_words.29')
 
         return set()
@@ -318,7 +318,7 @@ def get_click_on_letter_from_code():
 
     if not os.path.isfile(gcompris_qt + '/src/activities/click_on_letter/resource/levels-' + locale + '.json'):
         print ''
-        print "**ERROR: missing resource file %s**" %(gcompris_qt + '/src/activities/click_on_letter/resource/levels-' + locale + '.json')
+        print "**ERROR: missing resource file %s**" %('/src/activities/click_on_letter/resource/levels-' + locale + '.json')
         print '[Instructions to create this file TBD](%s)' %('TBD')
 
         return set()
@@ -366,7 +366,7 @@ def get_gletter_alphabet():
             data = json.load(data_file)
     except:
         print ''
-        print "**ERROR: Missing resource file %s**" %(gcompris_qt + '/src/activities/gletters/resource/default-' + locale + '.json')
+        print "**ERROR: Missing resource file %s**" %('/src/activities/gletters/resource/default-' + locale + '.json')
         print '[Instructions to create this file](%s)' %('http://gcompris.net/wiki/Word_Lists_Qt#Simple_Letters_.28Typing_letters.29_level_design')
         print ''
         return set()
