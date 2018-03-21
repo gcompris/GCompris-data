@@ -1,383 +1,416 @@
 Animals:
-1. animalsherd.jpg: https://commons.wikimedia.org/wiki/File:Mule_deer_animal_herd.jpg by Zahm Gary, U.S. Fish and Wildlife Service / public domain
-2. baboon.jpg: https://commons.wikimedia.org/wiki/File:Mantelpavian_junge_1_db.jpg by Dickbauch / public domain
-3. bosmutus.jpg: https://commons.wikimedia.org/wiki/File:Bos_mutus.JPG by 4028mdk09 / CC BY-SA 3.0
-4. camel.jpg: https://commons.wikimedia.org/wiki/File:Dromadaire4478.jpg by Pierrepoitevin~commonswiki / public domain
-5. cow.jpg: https://commons.wikimedia.org/wiki/File:Holstein_heifer.jpg by Tractorboy60 / public domain
-6. dog.jpg: https://commons.wikimedia.org/wiki/File:Isabelle-Pose.JPG by Jonathan Schlegel / public domain
-7. dolphin.jpg: https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01.jpg by Nasas / public domain
-8. donkey.jpg: https://commons.wikimedia.org/wiki/File:Osiol001xx.jpg by Dixi / CC BY-SA 3.0
-9. elephant.jpg: https://commons.wikimedia.org/wiki/File:2005-bandipur-tusker.jpg by Yathin S Krishnappa / CC BY-SA 3.0
-10. giraffe.jpg: https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_18002_Girrafe.jpg by מרחי ארונוב / public domain
-11. hare.jpg: https://commons.wikimedia.org/wiki/File:European_Hare_2012-07-30_1.JPG by Kim Hansen / CC BY-SA 3.0
-12. hedgehog.jpg: https://commons.wikimedia.org/wiki/File:West_European_Hedgehog_%28Erinaceus_europaeus%291.jpg by Hrald / CC BY-SA 3.0
-13. horse.jpg: https://commons.wikimedia.org/wiki/File:CMOberonTobleroneGallop15.8.08Small.jpg by CMSporthorses / CC BY-SA 3.0
-14. koala.jpg: https://commons.wikimedia.org/wiki/File:Koala_and_joey.jpg by benjamint444 / CC BY-SA 3.0
-15. kodiak-bear.jpg: https://commons.wikimedia.org/wiki/File:2010-kodiak-bear-1.jpg by Yathin S Krishnappa / CC BY-SA 3.0
-16. krotiki.jpg: https://commons.wikimedia.org/wiki/File:Kroliki001.jpg by Dixi / CC BY-SA 3.0
-17. lion.jpg: https://commons.wikimedia.org/wiki/File:Lion_waiting_in_Namibia.jpg by Kevin Pluc / CC BY 2.0
-18. marsupialis.jpg: https://commons.wikimedia.org/wiki/File:Antidorcas_marsupialis%2C_male_%28Etosha%2C_2012%29.jpg by Yathin S Krishnappa / CC BY-SA 3.0
-19. mouse.jpg: https://commons.wikimedia.org/wiki/File:%D0%9C%D1%8B%D1%88%D1%8C_3.jpg by George Shuklin / CC BY-SA 1.0
-20. mouse1.jpg: https://commons.wikimedia.org/wiki/File:White_lab_mouse.jpg by Pogrebnoj-Alexandroff / CC BY-SA 3.0
-21. opossum.jpg: https://commons.wikimedia.org/wiki/File:Opossum_2.jpg by Cody Pope / CC BY-SA 2.5
-22. pelonquintana.jpg: https://commons.wikimedia.org/wiki/File:Cr%C3%ADa_de_porco_pel%C3%B3n_-_Quintana_Roo_-_M%C3%A9xico.jpg by Luis Miguel Bugallo Sánchez / CC BY-SA 3.0
-23. pig.jpg: https://commons.wikimedia.org/wiki/File:Sus_scrofa_scrofa.jpg by Joshua Lutz / public domain
-24. porcupine.jpg: https://commons.wikimedia.org/wiki/File:Tachyglossus_aculeatus_side_on.jpg by JJ Harrison / CC BY-SA 3.0
-25. redeyedfrog.jpg: https://commons.wikimedia.org/wiki/File:Red_eyed_tree_frog_edit2.jpg by Careyjamesbalboa / public domain
-26. scorpian.jpg: https://commons.wikimedia.org/wiki/File:Skorsh.jpg by Avi ben zaken / CC BY-SA 3.0
-27. sealion.jpg: https://commons.wikimedia.org/wiki/File:New_Zealand_Sea_Lion.jpg by Karora /  public domain
-28. sheep.jpg: https://commons.wikimedia.org/wiki/File:Lleyn_sheep.jpg by Jackhynes / public domain
-29. snake.jpg: https://commons.wikimedia.org/wiki/File:Jiangxia-snake-9704.jpg by Vmenkov / CC BY-SA 3.0
-29. snowcat.jpg: https://commons.wikimedia.org/wiki/File:Felis_catus-cat_on_snow.jpg by Von.grzanka / CC-BY-SA 3.0
-30. spidermonkey.jpg: https://commons.wikimedia.org/wiki/File:BrownSpiderMonkey_(edit2).jpg by http://www.birdphotos.com edit by Fir0002 / CC-BY-SA 3.0
-31. squirrel.jpg: https://commons.wikimedia.org/wiki/File:Tamias-rufus-001.jpg by Mdf / CC-BY-Sa 3.0
-32. squirrel1.jpg: https://commons.wikimedia.org/wiki/File:Squirrel_posing.jpg by Peter Trimming / CC BY SA 2.0
-33. tasmaniandevil.jpg: https://commons.wikimedia.org/wiki/File:TasmanianDevil_1888.jpg by Mike Lehmann / CC-BY-SA 3.0
-34. tiger.jpg: https://commons.wikimedia.org/wiki/File:Panthera_Tigris(Tigress)_Collerwali_Pench.jpg by Tanmay Haldar / CC-BY-SA 4.0
-35. tortoise.jpg: https://commons.wikimedia.org/wiki/File:Halden_011.jpg by Richard Mayer / CC-BY-Sa 3.0
-36. tortoise1.jpg: https://commons.wikimedia.org/wiki/File:Negev_Tortoise_Luxor.JPG by Cairocamels / CC-BY-SA 3.0
-37. waterturtle.jpg: https://commons.wikimedia.org/wiki/File:Underwater_photography_on_endangered_mammal_manatee.jpg by Ramos Keith, U.S. Fish and Wildlife Service / public domain
-38. zebra.jpg: https://commons.wikimedia.org/wiki/File:Zebra_eating.JPG by Sidious1701 / public domain
+animalsherd.jpg: https://commons.wikimedia.org/wiki/File:Mule_deer_animal_herd.jpg by Zahm Gary, U.S. Fish and Wildlife Service / public domain
+baboon.jpg: https://commons.wikimedia.org/wiki/File:Mantelpavian_junge_1_db.jpg by Dickbauch / public domain
+bosmutus.jpg: https://commons.wikimedia.org/wiki/File:Bos_mutus.JPG by 4028mdk09 / CC BY-SA 3.0
+camel.jpg: https://commons.wikimedia.org/wiki/File:Dromadaire4478.jpg by Pierrepoitevin~commonswiki / public domain
+cow.jpg: https://commons.wikimedia.org/wiki/File:Holstein_heifer.jpg by Tractorboy60 / public domain
+dog.jpg: https://commons.wikimedia.org/wiki/File:Isabelle-Pose.JPG by Jonathan Schlegel / public domain
+dolphin.jpg: https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01.jpg by Nasas / public domain
+donkey.jpg: https://commons.wikimedia.org/wiki/File:Osiol001xx.jpg by Dixi / CC BY-SA 3.0
+elephant.jpg: https://commons.wikimedia.org/wiki/File:2005-bandipur-tusker.jpg by Yathin S Krishnappa / CC BY-SA 3.0
+giraffe.jpg: https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_18002_Girrafe.jpg by מרחי ארונוב / public domain
+hare.jpg: https://commons.wikimedia.org/wiki/File:European_Hare_2012-07-30_1.JPG by Kim Hansen / CC BY-SA 3.0
+hedgehog.jpg: https://commons.wikimedia.org/wiki/File:West_European_Hedgehog_%28Erinaceus_europaeus%291.jpg by Hrald / CC BY-SA 3.0
+horse.jpg: https://commons.wikimedia.org/wiki/File:CMOberonTobleroneGallop15.8.08Small.jpg by CMSporthorses / CC BY-SA 3.0
+koala.jpg: https://commons.wikimedia.org/wiki/File:Koala_and_joey.jpg by benjamint444 / CC BY-SA 3.0
+kodiak-bear.jpg: https://commons.wikimedia.org/wiki/File:2010-kodiak-bear-1.jpg by Yathin S Krishnappa / CC BY-SA 3.0
+krotiki.jpg: https://commons.wikimedia.org/wiki/File:Kroliki001.jpg by Dixi / CC BY-SA 3.0
+lion.jpg: https://commons.wikimedia.org/wiki/File:Lion_waiting_in_Namibia.jpg by Kevin Pluc / CC BY 2.0
+marsupialis.jpg: https://commons.wikimedia.org/wiki/File:Antidorcas_marsupialis%2C_male_%28Etosha%2C_2012%29.jpg by Yathin S Krishnappa / CC BY-SA 3.0
+mouse.jpg: https://commons.wikimedia.org/wiki/File:%D0%9C%D1%8B%D1%88%D1%8C_3.jpg by George Shuklin / CC BY-SA 1.0
+mouse1.jpg: https://commons.wikimedia.org/wiki/File:White_lab_mouse.jpg by Pogrebnoj-Alexandroff / CC BY-SA 3.0
+opossum.jpg: https://commons.wikimedia.org/wiki/File:Opossum_2.jpg by Cody Pope / CC BY-SA 2.5
+pelonquintana.jpg: https://commons.wikimedia.org/wiki/File:Cr%C3%ADa_de_porco_pel%C3%B3n_-_Quintana_Roo_-_M%C3%A9xico.jpg by Luis Miguel Bugallo Sánchez / CC BY-SA 3.0
+pig.jpg: https://commons.wikimedia.org/wiki/File:Sus_scrofa_scrofa.jpg by Joshua Lutz / public domain
+porcupine.jpg: https://commons.wikimedia.org/wiki/File:Tachyglossus_aculeatus_side_on.jpg by JJ Harrison / CC BY-SA 3.0
+redeyedfrog.jpg: https://commons.wikimedia.org/wiki/File:Red_eyed_tree_frog_edit2.jpg by Careyjamesbalboa / public domain
+scorpian.jpg: https://commons.wikimedia.org/wiki/File:Skorsh.jpg by Avi ben zaken / CC BY-SA 3.0
+sealion.jpg: https://commons.wikimedia.org/wiki/File:New_Zealand_Sea_Lion.jpg by Karora /  public domain
+sheep.jpg: https://commons.wikimedia.org/wiki/File:Lleyn_sheep.jpg by Jackhynes / public domain
+snake.jpg: https://commons.wikimedia.org/wiki/File:Jiangxia-snake-9704.jpg by Vmenkov / CC BY-SA 3.0
+snowcat.jpg: https://commons.wikimedia.org/wiki/File:Felis_catus-cat_on_snow.jpg by Von.grzanka / CC-BY-SA 3.0
+spidermonkey.jpg: https://commons.wikimedia.org/wiki/File:BrownSpiderMonkey_(edit2).jpg by http://www.birdphotos.com edit by Fir0002 / CC-BY-SA 3.0
+squirrel.jpg: https://commons.wikimedia.org/wiki/File:Tamias-rufus-001.jpg by Mdf / CC-BY-Sa 3.0
+squirrel1.jpg: https://commons.wikimedia.org/wiki/File:Squirrel_posing.jpg by Peter Trimming / CC BY SA 2.0
+tasmaniandevil.jpg: https://commons.wikimedia.org/wiki/File:TasmanianDevil_1888.jpg by Mike Lehmann / CC-BY-SA 3.0
+tiger.jpg: https://commons.wikimedia.org/wiki/File:Panthera_Tigris(Tigress)_Collerwali_Pench.jpg by Tanmay Haldar / CC-BY-SA 4.0
+tortoise.jpg: https://commons.wikimedia.org/wiki/File:Halden_011.jpg by Richard Mayer / CC-BY-Sa 3.0
+tortoise1.jpg: https://commons.wikimedia.org/wiki/File:Negev_Tortoise_Luxor.JPG by Cairocamels / CC-BY-SA 3.0
+waterturtle.jpg: https://commons.wikimedia.org/wiki/File:Underwater_photography_on_endangered_mammal_manatee.jpg by Ramos Keith, U.S. Fish and Wildlife Service / public domain
+zebra.jpg: https://commons.wikimedia.org/wiki/File:Zebra_eating.JPG by Sidious1701 / public domain
 
 Birds:
-39. bee.jpg: https://commons.wikimedia.org/wiki/File:Apis_cerana,_Asiatic_honey_bee_-_Khao_Yai_National_Park.jpg by Rushenb / CC BY-SA 3.0
-40. bird.jpg: https://commons.wikimedia.org/wiki/File:Ranganathittu_3.jpg by Vinayak Kulkarni / CC BY-SA 3.0
-41. bird1.jpg: https://commons.wikimedia.org/wiki/File:Corydon_sumatranus_1.jpg by Lip Kee Yap / CC BY-SA 2.0
-42. bird2.jpg: https://commons.wikimedia.org/wiki/File:Selk%C3%A4lokki.jpg by fi:Käyttäjä:Thermos / CC BY 2.5
-43. bird3.jpg: https://commons.wikimedia.org/wiki/File:Cathartes_aura_-Bonito,_Mato_Grosso_do_Sul,_Brazil-8.jpg by Dario Sanches / CC BY-SA 2.0
-44. bird4.jpg: https://commons.wikimedia.org/wiki/File:Carolina_Wren1.jpg by Dan Pancamo / CC BY-SA 2.0
-45. bird5.jpg: https://commons.wikimedia.org/wiki/File:BARBUDO-RAJADO_(_Malacoptila_striata_).jpg by Dario Sanches / CC BY-SA 2.0
-46. bird6.jpg: https://commons.wikimedia.org/wiki/File:Ara_ararauna_-Los_Angeles_Zoo,_California,_USA-8a.jpg by Blue & Yellow Macaw / CC BY-SA 2.0
-47. bird7.jpg: https://commons.wikimedia.org/wiki/File:Puerto_Rican_Tody_(Todus_mexicanus)_RWD.jpg by Dick Daniels / CC BY-SA 3.0
-48. bird8.jpg: https://commons.wikimedia.org/wiki/File:Petroica_boodang_male_-_Knocklofty.jpg by JJ Harrison / CC BY-SA 3.0
-49. bird9.jpg: https://commons.wikimedia.org/wiki/File:Leucochloris_albicollis_-Campos_do_Jordao,_Sao_Paulo,_Brazil-8.jpg by Dario Sanches / CC BY-SA 2.0
-50. bird10.jpg: jpg: https://commons.wikimedia.org/wiki/File:Oriental_Cuckoo_front_Maiala.JPG by Aviceda / CC BY-SA 3.0
-51. bird11.jpg: https://commons.wikimedia.org/wiki/File:Myzomela_chloroptera.jpg by Joseph Smit / public domain
-52. bird12.jpg: https://commons.wikimedia.org/wiki/File:Podargus_strigoides_Bonorong.jpg by JJ Harrison / CC BY-SA 3.0
-53. bird13.jpg: https://commons.wikimedia.org/wiki/File:Bombycilla_cedrorum.jpg by Savannah grandfather / CC BY 2.0
-54. bird14.jpg: https://commons.wikimedia.org/wiki/File:Vireo_olivaceus_-Vale_do_Ribeira,_Registro,_Sao_Paolo,_Brasil-8.jpg by Dario Sanches / CC BY-SA 2.0
-55. bird15.jpg: https://commons.wikimedia.org/wiki/File:Osprey_mg_9605.jpg by Mike" Michael L. Baird / CC BY 2.0
-56. bird16.jpg: https://commons.wikimedia.org/wiki/File:Tyto_alba_-British_Wildlife_Centre,_Surrey,_England-8a_(1).jpg by Peter Trimming / CC BY 2.0
-57. bird17.jpg: https://commons.wikimedia.org/wiki/File:House_Sparrow_(M)_I_IMG_7881.jpg by J.M.Garg / CC BY-SA 3.0
-58. bird18.jpg: https://commons.wikimedia.org/wiki/File:Hemiprocne_coronata_-Wilpattu_National_Park,_Sri_Lanka-8.jpg by Thimindu Goonatillake / CC BY-SA 2.0
-59. bird19.jpg: https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Common_Wattle-Eye_(_Platysteira_cyanea)_male.jpg by Steve Garvie / CC BY-SA 2.0
-60. bird20.jpg: https://commons.wikimedia.org/wiki/File:Common_Hoopoe_(Upapa_epops)_at_Hodal_I_IMG_9216.jpg by J.M.Garg / CC BY-SA 3.0
-61. bird21.jpg: https://commons.wikimedia.org/wiki/File:Austernfischer01.jpg by T. Müller / CC BY-SA 3.0
-62. bird22.jpg: https://commons.wikimedia.org/wiki/File:Blue-crowned_Motmot_front_2.jpg by Stephen Turner / CC BY-SA 3.0
-63. bird23.jpg: https://commons.wikimedia.org/wiki/File:Black-hooded_Oriole_(Oriolus_xanthornus)_in_Kolkata_I_IMG_2538.jpg by J.M.Garg / CC BY-SA 3.0
-64. bird24.jpg: https://commons.wikimedia.org/wiki/File:TropicalMockingbird.jpg by http://www.birdphotos.com / CC BY 3.0
-65. bird25.jpg: https://commons.wikimedia.org/wiki/File:Tauraco_hartlaubi-20081223b.jpg by Doug Janson / CC BY-SA 3.0
-66. bird26.jpg: https://commons.wikimedia.org/wiki/File:Melanargia_galathea_bottom_MichaD.jpg by MichaD / CC BY-SA 2.5
-67. bird27.jpg: https://commons.wikimedia.org/wiki/File:Dicrurus_hottentottus-20030823.jpg by Dougjj / CC BY-SA 3.0
-68. bird28.jpg: https://commons.wikimedia.org/wiki/File:Hemipus_hirundinaceus.jpg by Michael Woodruff / CC BY-SA 2.0
-69. bird29: https://commons.wikimedia.org/wiki/File:Blackfacedcuckooshrike.jpg by Brett Donald / CC BY-SA 2.5
-70. bird30.jpg: https://commons.wikimedia.org/wiki/File:Urocolius_macrourus-20090110B.jpg by Doug Janson / CC BY-SA 3.0
-71. bird31.jpg: https://commons.wikimedia.org/wiki/File:Nyctibius_griseus_-Registro,_Sao_Paulo,_Brazil-8.jpg by Dario Sanches / CC BY-SA 2.0
-72. bird32.jpg: https://commons.wikimedia.org/wiki/File:Fawn_Breasted_Bowerbird.jpg by Doug Janson / CC BY-SA 3.0
-73. bird33.jpg: https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Long-tailed_Manakin_(Chiroxiphia_linearis).jpg by Steve Garvie / CC BY-SA 2.0
-74. bird34.jpg: https://commons.wikimedia.org/wiki/File:Rupicola_peruviana_(male)_-San_Diego_Zoo-8.jpg by Jerry Thompson / CC BY 2.0
-75. parrot.jpg: https://commons.wikimedia.org/wiki/File:Ara_chloroptera.jpg by Luna04  / CC BY-SA 3.0
-76. peacock.jpg: https://commons.wikimedia.org/wiki/File:Pfauenrad1.JPG by Martin Falbisoner / CC BY-SA 3.0
-77. rooster.jpg: https://sl.wikipedia.org/wiki/Slika:Rooster-1.jpg by Žiga / CC BY-SA 3.0
+bee.jpg: https://commons.wikimedia.org/wiki/File:Apis_cerana,_Asiatic_honey_bee_-_Khao_Yai_National_Park.jpg by Rushenb / CC BY-SA 3.0
+bird.jpg: https://commons.wikimedia.org/wiki/File:Ranganathittu_3.jpg by Vinayak Kulkarni / CC BY-SA 3.0
+bird1.jpg: https://commons.wikimedia.org/wiki/File:Corydon_sumatranus_1.jpg by Lip Kee Yap / CC BY-SA 2.0
+bird2.jpg: https://commons.wikimedia.org/wiki/File:Selk%C3%A4lokki.jpg by fi:Käyttäjä:Thermos / CC BY 2.5
+bird3.jpg: https://commons.wikimedia.org/wiki/File:Cathartes_aura_-Bonito,_Mato_Grosso_do_Sul,_Brazil-8.jpg by Dario Sanches / CC BY-SA 2.0
+bird4.jpg: https://commons.wikimedia.org/wiki/File:Carolina_Wren1.jpg by Dan Pancamo / CC BY-SA 2.0
+bird5.jpg: https://commons.wikimedia.org/wiki/File:BARBUDO-RAJADO_(_Malacoptila_striata_).jpg by Dario Sanches / CC BY-SA 2.0
+bird6.jpg: https://commons.wikimedia.org/wiki/File:Ara_ararauna_-Los_Angeles_Zoo,_California,_USA-8a.jpg by Blue & Yellow Macaw / CC BY-SA 2.0
+bird7.jpg: https://commons.wikimedia.org/wiki/File:Puerto_Rican_Tody_(Todus_mexicanus)_RWD.jpg by Dick Daniels / CC BY-SA 3.0
+bird8.jpg: https://commons.wikimedia.org/wiki/File:Petroica_boodang_male_-_Knocklofty.jpg by JJ Harrison / CC BY-SA 3.0
+bird9.jpg: https://commons.wikimedia.org/wiki/File:Leucochloris_albicollis_-Campos_do_Jordao,_Sao_Paulo,_Brazil-8.jpg by Dario Sanches / CC BY-SA 2.0
+bird10.jpg: jpg: https://commons.wikimedia.org/wiki/File:Oriental_Cuckoo_front_Maiala.JPG by Aviceda / CC BY-SA 3.0
+bird11.jpg: https://commons.wikimedia.org/wiki/File:Myzomela_chloroptera.jpg by Joseph Smit / public domain
+bird12.jpg: https://commons.wikimedia.org/wiki/File:Podargus_strigoides_Bonorong.jpg by JJ Harrison / CC BY-SA 3.0
+bird13.jpg: https://commons.wikimedia.org/wiki/File:Bombycilla_cedrorum.jpg by Savannah grandfather / CC BY 2.0
+bird14.jpg: https://commons.wikimedia.org/wiki/File:Vireo_olivaceus_-Vale_do_Ribeira,_Registro,_Sao_Paolo,_Brasil-8.jpg by Dario Sanches / CC BY-SA 2.0
+bird15.jpg: https://commons.wikimedia.org/wiki/File:Osprey_mg_9605.jpg by Mike" Michael L. Baird / CC BY 2.0
+bird16.jpg: https://commons.wikimedia.org/wiki/File:Tyto_alba_-British_Wildlife_Centre,_Surrey,_England-8a_(1).jpg by Peter Trimming / CC BY 2.0
+bird17.jpg: https://commons.wikimedia.org/wiki/File:House_Sparrow_(M)_I_IMG_7881.jpg by J.M.Garg / CC BY-SA 3.0
+bird18.jpg: https://commons.wikimedia.org/wiki/File:Hemiprocne_coronata_-Wilpattu_National_Park,_Sri_Lanka-8.jpg by Thimindu Goonatillake / CC BY-SA 2.0
+bird19.jpg: https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Common_Wattle-Eye_(_Platysteira_cyanea)_male.jpg by Steve Garvie / CC BY-SA 2.0
+bird20.jpg: https://commons.wikimedia.org/wiki/File:Common_Hoopoe_(Upapa_epops)_at_Hodal_I_IMG_9216.jpg by J.M.Garg / CC BY-SA 3.0
+bird21.jpg: https://commons.wikimedia.org/wiki/File:Austernfischer01.jpg by T. Müller / CC BY-SA 3.0
+bird22.jpg: https://commons.wikimedia.org/wiki/File:Blue-crowned_Motmot_front_2.jpg by Stephen Turner / CC BY-SA 3.0
+bird23.jpg: https://commons.wikimedia.org/wiki/File:Black-hooded_Oriole_(Oriolus_xanthornus)_in_Kolkata_I_IMG_2538.jpg by J.M.Garg / CC BY-SA 3.0
+bird24.jpg: https://commons.wikimedia.org/wiki/File:TropicalMockingbird.jpg by http://www.birdphotos.com / CC BY 3.0
+bird25.jpg: https://commons.wikimedia.org/wiki/File:Tauraco_hartlaubi-20081223b.jpg by Doug Janson / CC BY-SA 3.0
+bird26.jpg: https://commons.wikimedia.org/wiki/File:Melanargia_galathea_bottom_MichaD.jpg by MichaD / CC BY-SA 2.5
+bird27.jpg: https://commons.wikimedia.org/wiki/File:Dicrurus_hottentottus-20030823.jpg by Dougjj / CC BY-SA 3.0
+bird28.jpg: https://commons.wikimedia.org/wiki/File:Hemipus_hirundinaceus.jpg by Michael Woodruff / CC BY-SA 2.0
+bird29: https://commons.wikimedia.org/wiki/File:Blackfacedcuckooshrike.jpg by Brett Donald / CC BY-SA 2.5
+bird30.jpg: https://commons.wikimedia.org/wiki/File:Urocolius_macrourus-20090110B.jpg by Doug Janson / CC BY-SA 3.0
+bird31.jpg: https://commons.wikimedia.org/wiki/File:Nyctibius_griseus_-Registro,_Sao_Paulo,_Brazil-8.jpg by Dario Sanches / CC BY-SA 2.0
+bird32.jpg: https://commons.wikimedia.org/wiki/File:Fawn_Breasted_Bowerbird.jpg by Doug Janson / CC BY-SA 3.0
+bird33.jpg: https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Long-tailed_Manakin_(Chiroxiphia_linearis).jpg by Steve Garvie / CC BY-SA 2.0
+bird34.jpg: https://commons.wikimedia.org/wiki/File:Rupicola_peruviana_(male)_-San_Diego_Zoo-8.jpg by Jerry Thompson / CC BY 2.0
+parrot.jpg: https://commons.wikimedia.org/wiki/File:Ara_chloroptera.jpg by Luna04  / CC BY-SA 3.0
+peacock.jpg: https://commons.wikimedia.org/wiki/File:Pfauenrad1.JPG by Martin Falbisoner / CC BY-SA 3.0
+rooster.jpg: https://sl.wikipedia.org/wiki/Slika:Rooster-1.jpg by Žiga / CC BY-SA 3.0
 
 Food:
-78. appliepie.jpg: https://commons.wikimedia.org/wiki/File:MinnesotaCountyFairApplePie2006.JPG by Jonathunder / CC BY-SA 3.0
-79. bananaNutBread.jpg: https://commons.wikimedia.org/wiki/File:Banananutbread.jpg by NASA / public domain
-80. biryani.jpg: https://commons.wikimedia.org/wiki/File:BurmeseBiryani.jpg by Hintha / public domain
-81. biscuits.jpg: https://commons.wikimedia.org/wiki/File:Flowpack1.jpg by Misterziggy / CC BY-SA 3.0
-82. butter.jpg: https://commons.wikimedia.org/wiki/File:French_butter.JPG by MOs810 / CC BY-SA 4.0
-83. cereal.jpg: https://en.wikipedia.org/wiki/File:16049-a-bowl-of-cereal-with-raisins-pv.jpg by CDC / public domain
-84. cereal1.jpg: https://commons.wikimedia.org/wiki/File:Spoonful_of_cereal.jpg by Scott Bauer / public domain
-85. cheese.jpg: https://commons.wikimedia.org/wiki/File:D%C3%A9lice_de_Bourgogne.jpg by Zubro / CC BY-SA 3.0
-86. cheese1.jpg: https://commons.wikimedia.org/wiki/File:Brie_de_Meaux_close.jpg by Dominik Hundhammer / CC BY-SA 3.0
-87. eggs.jpg: https://commons.wikimedia.org/wiki/File:Egg_Silkie.JPG#mw-jump-to-license by Tagaru / CC BY-SA 3.0
-88. fish.jpg: https://commons.wikimedia.org/wiki/File:Shishamo_by_ayustety_in_Tsukiji.jpg by ayustety / CC BY-SA 2.0
-89. frenchFries.jpg: https://commons.wikimedia.org/wiki/File:French_Fries_at_McDonalds_in_Indonesia.jpg by Crisco 1492 / CC BY-SA 3.0
-90. friedEggs.jpg: https://commons.wikimedia.org/wiki/File:Fried_eggs_mushrooms.jpg by LoopZilla / CC BY-SA 3.0
-91. grilledSandwich.jpg: https://commons.wikimedia.org/wiki/File:Grilled_cheese_sandwiches.jpg by Jon Sullivan / public domain
-92. hamburger.jpg: https://commons.wikimedia.org/wiki/File:Hamburger_sandwich.jpg by Ericd / CC BY-SA 3.0
-93. hotdog.jpg: https://commons.wikimedia.org/wiki/File:Mmm..._hot_dog_with_cheese_sauce_(6190694912).jpg by jeffreyw / CC BY 2.0
-94. icecream.jpg: https://commons.wikimedia.org/wiki/File:Ice_Cream_dessert_02.jpg by Lotus Head / CC BY-SA 3.0
-95. icecream1.jpg: https://commons.wikimedia.org/wiki/File:Glasstrut,_Tip_Top.jpg by Väsk / CC BY-SA 3.0
-96. kathiRoll.jpg: https://commons.wikimedia.org/wiki/File:Kathi_Roll.jpg by Amanwiki308 / CC BY-SA 4.0
-97. macroni.jpg: https://commons.wikimedia.org/wiki/File:Macaroni_and_cheese.jpg by Linuxerist / CC BY-SA 2.5
-98. MaozVegetariano.jpg: https://commons.wikimedia.org/wiki/File:Maoz_Vegetariano.jpg by Jaime de la Fuente / CC BY 2.0
-99. milk.jpg: https://commons.m.wikimedia.org/wiki/File:Milk_glass.jpg by Stefan Kühn / CC BY-SA 3.0
-100. pitaBread.jpg: https://commons.wikimedia.org/wiki/File:Crunchy_Pita_Bread.JPG by Miansari66 / public domain
-101. pizza.jpg: https://commons.wikimedia.org/wiki/File:Supreme_pizza.jpg by Scott Bauer / public domain
-102. pizza1.jpg: https://commons.wikimedia.org/wiki/File:Eq_it-na_pizza-margherita_sep2005_sml.jpg by ElfQrin / CC BY-SA 3.0
-103. popcorn.jpg: https://commons.wikimedia.org/wiki/File:Popcorn00.jpg by Mom's Break / public domain
-104. riceBeans.jpg: https://commons.wikimedia.org/wiki/File:Rice_and_beans,_Hotel_in_Itatiaia.jpeg by Henrique Dante de Almeida / CC BY-SA 3.0
-105. scrambledEggsVeggies.jpg: https://commons.wikimedia.org/wiki/File:Scrambled_eggs_veggie_sausage_mushrooms_and_fried_bread_cc_flickr_user_loopzilla.jpg by LoopZilla / CC BY-SA 2.0
-106. skimmedMilk.jpg: https://commons.wikimedia.org/wiki/File:Dairy_Crest_Semi_Skimmed_Milk_Bottle.jpg by Unisouth / CC BY 3.0
-107. steak.jpg: https://commons.wikimedia.org/wiki/File:Cooking_steaks_2.jpg by Katrin Morenz / CC BY-SA 2.0
-108. sweetBread.jpg: https://commons.wikimedia.org/wiki/File:Fogaca_Sweet_Bread.jpg by Paula Santos / public domain
-109. water.jpg: https://commons.wikimedia.org/wiki/File:Kochendes_wasser02.jpg by Markus Schweiss / CC BY-SA 3.0
+appliepie.jpg: https://commons.wikimedia.org/wiki/File:MinnesotaCountyFairApplePie2006.JPG by Jonathunder / CC BY-SA 3.0
+bananaNutBread.jpg: https://commons.wikimedia.org/wiki/File:Banananutbread.jpg by NASA / public domain
+biryani.jpg: https://commons.wikimedia.org/wiki/File:BurmeseBiryani.jpg by Hintha / public domain
+biscuits.jpg: https://commons.wikimedia.org/wiki/File:Flowpack1.jpg by Misterziggy / CC BY-SA 3.0
+butter.jpg: https://commons.wikimedia.org/wiki/File:French_butter.JPG by MOs810 / CC BY-SA 4.0
+cereal.jpg: https://en.wikipedia.org/wiki/File:16049-a-bowl-of-cereal-with-raisins-pv.jpg by CDC / public domain
+cereal1.jpg: https://commons.wikimedia.org/wiki/File:Spoonful_of_cereal.jpg by Scott Bauer / public domain
+cheese.jpg: https://commons.wikimedia.org/wiki/File:D%C3%A9lice_de_Bourgogne.jpg by Zubro / CC BY-SA 3.0
+cheese1.jpg: https://commons.wikimedia.org/wiki/File:Brie_de_Meaux_close.jpg by Dominik Hundhammer / CC BY-SA 3.0
+eggs.jpg: https://commons.wikimedia.org/wiki/File:Egg_Silkie.JPG#mw-jump-to-license by Tagaru / CC BY-SA 3.0
+fish.jpg: https://commons.wikimedia.org/wiki/File:Shishamo_by_ayustety_in_Tsukiji.jpg by ayustety / CC BY-SA 2.0
+frenchFries.jpg: https://commons.wikimedia.org/wiki/File:French_Fries_at_McDonalds_in_Indonesia.jpg by Crisco 1492 / CC BY-SA 3.0
+friedEggs.jpg: https://commons.wikimedia.org/wiki/File:Fried_eggs_mushrooms.jpg by LoopZilla / CC BY-SA 3.0
+grilledSandwich.jpg: https://commons.wikimedia.org/wiki/File:Grilled_cheese_sandwiches.jpg by Jon Sullivan / public domain
+hamburger.jpg: https://commons.wikimedia.org/wiki/File:Hamburger_sandwich.jpg by Ericd / CC BY-SA 3.0
+hotdog.jpg: https://commons.wikimedia.org/wiki/File:Mmm..._hot_dog_with_cheese_sauce_(6190694912).jpg by jeffreyw / CC BY 2.0
+icecream.jpg: https://commons.wikimedia.org/wiki/File:Ice_Cream_dessert_02.jpg by Lotus Head / CC BY-SA 3.0
+icecream1.jpg: https://commons.wikimedia.org/wiki/File:Glasstrut,_Tip_Top.jpg by Väsk / CC BY-SA 3.0
+kathiRoll.jpg: https://commons.wikimedia.org/wiki/File:Kathi_Roll.jpg by Amanwiki308 / CC BY-SA 4.0
+macroni.jpg: https://commons.wikimedia.org/wiki/File:Macaroni_and_cheese.jpg by Linuxerist / CC BY-SA 2.5
+MaozVegetariano.jpg: https://commons.wikimedia.org/wiki/File:Maoz_Vegetariano.jpg by Jaime de la Fuente / CC BY 2.0
+milk.jpg: https://commons.m.wikimedia.org/wiki/File:Milk_glass.jpg by Stefan Kühn / CC BY-SA 3.0
+pitaBread.jpg: https://commons.wikimedia.org/wiki/File:Crunchy_Pita_Bread.JPG by Miansari66 / public domain
+pizza.jpg: https://commons.wikimedia.org/wiki/File:Supreme_pizza.jpg by Scott Bauer / public domain
+pizza1.jpg: https://commons.wikimedia.org/wiki/File:Eq_it-na_pizza-margherita_sep2005_sml.jpg by ElfQrin / CC BY-SA 3.0
+popcorn.jpg: https://commons.wikimedia.org/wiki/File:Popcorn00.jpg by Mom's Break / public domain
+riceBeans.jpg: https://commons.wikimedia.org/wiki/File:Rice_and_beans,_Hotel_in_Itatiaia.jpeg by Henrique Dante de Almeida / CC BY-SA 3.0
+scrambledEggsVeggies.jpg: https://commons.wikimedia.org/wiki/File:Scrambled_eggs_veggie_sausage_mushrooms_and_fried_bread_cc_flickr_user_loopzilla.jpg by LoopZilla / CC BY-SA 2.0
+skimmedMilk.jpg: https://commons.wikimedia.org/wiki/File:Dairy_Crest_Semi_Skimmed_Milk_Bottle.jpg by Unisouth / CC BY 3.0
+steak.jpg: https://commons.wikimedia.org/wiki/File:Cooking_steaks_2.jpg by Katrin Morenz / CC BY-SA 2.0
+sweetBread.jpg: https://commons.wikimedia.org/wiki/File:Fogaca_Sweet_Bread.jpg by Paula Santos / public domain
+water.jpg: https://commons.wikimedia.org/wiki/File:Kochendes_wasser02.jpg by Markus Schweiss / CC BY-SA 3.0
 
 Fruits:
-110. apple.jpg: https://commons.wikimedia.org/wiki/File:Red_Apple.jpg by Abhijit Tembhekar / CC BY 2.0
-111. apricot.jpg: https://commons.wikimedia.org/wiki/File:Apricot_fruit.jpg by Geierunited / CC BY-SA 3.0
-112. banana.jpg: https://commons.wikimedia.org/wiki/File:Bananen.jpg by kaʁstn Disk/Cat / public domain
-113. berries.jpg: https://commons.wikimedia.org/wiki/File:Schwarze_Johannisbeeren_Makro.jpg by Aconcagua / CC BY-SA 3.0
-114. billberries.jpg: https://commons.wikimedia.org/wiki/File:BilberriesBig.jpg by Katarzyna Matylla / CC BY-SA 3.0
-115. cherries.jpg: https://commons.wikimedia.org/wiki/File:Bing_Cherries_(USDA_ARS).jpg by Peggy Greb / public domain
-116. cranberries.jpg: https://commons.wikimedia.org/wiki/File:Cranberries.jpg by Mariluna / CC BY-SA 3.0
-117. feiji.jpg: https://commons.wikimedia.org/wiki/File:Feijoa_HortResearch.jpg by ACurrie / CC BY-SA 3.0
-118. fruitsalad.jpg: https://commons.wikimedia.org/wiki/File:Salade_de_fruit.jpg by Antoinel / CC BY-SA 3.0
-119. grapes.jpg: https://commons.wikimedia.org/wiki/File:151_-_CIMG3836.JPG by Susan Slater / CC BY-SA 4.0
-120. guava.jpg: https://commons.wikimedia.org/wiki/File:Psidium_guajava_fruit.jpg by Number55 / CC BY-SA 3.0
-121. kiwi.jpg: https://commons.wikimedia.org/wiki/File:Kiwi_aka.jpg by André Karwath aka Aka / CC BY-SA 2.5
-122. lemon.jpg: https://commons.wikimedia.org/wiki/File:Lemon.jpg by André Karwath aka Aka / CC BY-SA 2.5
-123. litchi.jpg: https://commons.wikimedia.org/wiki/File:Litchi_chinensis_Luc_Viatour.jpg by Luc Viatour / CC BY-SA 3.0
-124. mango.jpg: https://commons.wikimedia.org/wiki/File:Large_mango.jpg by Snowy C. Y. LEE / CC BY-SA 3.0
-125. mirabellen.jpg: https://commons.wikimedia.org/wiki/File:Mirabellen.jpg by Peavey / CC BY-SA 3.0
-126. nectarine.jpg: https://commons.wikimedia.org/wiki/File:Nectarine_CDC.jpg by CDC / public domain
-127. olivers.JPG: https://commons.wikimedia.org/wiki/File:Olives_vertes.JPG by KoS / CC BY-SA 3.0
-128. papaya.jpg: https://commons.wikimedia.org/wiki/File:Papaya-oliv.jpg by Olegivvit / CC BY-SA 3.0
-129. peach.jpg: https://commons.wikimedia.org/wiki/File:Autumn_Red_peaches.jpg by Jack Dykinga, USDA / public domain
-130. pear.jpg: https://commons.wikimedia.org/wiki/File:CDC_cherimoya.jpg by AlbertCahalan / public domain
-131. pineapple.jpg: https://commons.wikimedia.org/wiki/File:Split_ananas.jpg by Eurico Zimbres / CC BY-SA 3.0
-132. plum.jpg: https://commons.wikimedia.org/wiki/File:Plums_(two).JPG by Animeshkulkarni / CC BY-SA 3.0
-133. pomegranate.jpg: https://commons.wikimedia.org/wiki/File:Punica_granatum_3.jpg by Mogor / CC BY-SA 3.0
-134. pyrusmalus.jpg: https://commons.wikimedia.org/wiki/File:Blake%27s_Pride_pears.jpg by Scott Bauer / public domain
-135. stackelberry.jpg: https://commons.wikimedia.org/wiki/File:Stachelbeeren.jpg by Kornelia und Hartmut Häfele / CC BY-SA 3.0
-136. stackelberry.jpg: https://commons.wikimedia.org/wiki/File:Strawberry.jpg by Shizhao / CC BY-SA 3.0
-137. tyttberries.jpg: https://commons.wikimedia.org/wiki/File:Tytteb%C3%A6r.jpg by Philip Gabrielsen / CC BY-SA 4.0
-138. watermelon.jpg: https://commons.wikimedia.org/wiki/File:Vampire_watermelon.jpg by Ke4roh / public domain
+apple.jpg: https://commons.wikimedia.org/wiki/File:Red_Apple.jpg by Abhijit Tembhekar / CC BY 2.0
+apricot.jpg: https://commons.wikimedia.org/wiki/File:Apricot_fruit.jpg by Geierunited / CC BY-SA 3.0
+banana.jpg: https://commons.wikimedia.org/wiki/File:Bananen.jpg by kaʁstn Disk/Cat / public domain
+berries.jpg: https://commons.wikimedia.org/wiki/File:Schwarze_Johannisbeeren_Makro.jpg by Aconcagua / CC BY-SA 3.0
+billberries.jpg: https://commons.wikimedia.org/wiki/File:BilberriesBig.jpg by Katarzyna Matylla / CC BY-SA 3.0
+cherries.jpg: https://commons.wikimedia.org/wiki/File:Bing_Cherries_(USDA_ARS).jpg by Peggy Greb / public domain
+cranberries.jpg: https://commons.wikimedia.org/wiki/File:Cranberries.jpg by Mariluna / CC BY-SA 3.0
+feiji.jpg: https://commons.wikimedia.org/wiki/File:Feijoa_HortResearch.jpg by ACurrie / CC BY-SA 3.0
+fruitsalad.jpg: https://commons.wikimedia.org/wiki/File:Salade_de_fruit.jpg by Antoinel / CC BY-SA 3.0
+grapes.jpg: https://commons.wikimedia.org/wiki/File:151_-_CIMG3836.JPG by Susan Slater / CC BY-SA 4.0
+guava.jpg: https://commons.wikimedia.org/wiki/File:Psidium_guajava_fruit.jpg by Number55 / CC BY-SA 3.0
+kiwi.jpg: https://commons.wikimedia.org/wiki/File:Kiwi_aka.jpg by André Karwath aka Aka / CC BY-SA 2.5
+lemon.jpg: https://commons.wikimedia.org/wiki/File:Lemon.jpg by André Karwath aka Aka / CC BY-SA 2.5
+litchi.jpg: https://commons.wikimedia.org/wiki/File:Litchi_chinensis_Luc_Viatour.jpg by Luc Viatour / CC BY-SA 3.0
+mango.jpg: https://commons.wikimedia.org/wiki/File:Large_mango.jpg by Snowy C. Y. LEE / CC BY-SA 3.0
+mirabellen.jpg: https://commons.wikimedia.org/wiki/File:Mirabellen.jpg by Peavey / CC BY-SA 3.0
+nectarine.jpg: https://commons.wikimedia.org/wiki/File:Nectarine_CDC.jpg by CDC / public domain
+olivers.JPG: https://commons.wikimedia.org/wiki/File:Olives_vertes.JPG by KoS / CC BY-SA 3.0
+papaya.jpg: https://commons.wikimedia.org/wiki/File:Papaya-oliv.jpg by Olegivvit / CC BY-SA 3.0
+peach.jpg: https://commons.wikimedia.org/wiki/File:Autumn_Red_peaches.jpg by Jack Dykinga, USDA / public domain
+pear.jpg: https://commons.wikimedia.org/wiki/File:CDC_cherimoya.jpg by AlbertCahalan / public domain
+pineapple.jpg: https://commons.wikimedia.org/wiki/File:Split_ananas.jpg by Eurico Zimbres / CC BY-SA 3.0
+plum.jpg: https://commons.wikimedia.org/wiki/File:Plums_(two).JPG by Animeshkulkarni / CC BY-SA 3.0
+pomegranate.jpg: https://commons.wikimedia.org/wiki/File:Punica_granatum_3.jpg by Mogor / CC BY-SA 3.0
+pyrusmalus.jpg: https://commons.wikimedia.org/wiki/File:Blake%27s_Pride_pears.jpg by Scott Bauer / public domain
+stackelberry.jpg: https://commons.wikimedia.org/wiki/File:Stachelbeeren.jpg by Kornelia und Hartmut Häfele / CC BY-SA 3.0
+stackelberry.jpg: https://commons.wikimedia.org/wiki/File:Strawberry.jpg by Shizhao / CC BY-SA 3.0
+tyttberries.jpg: https://commons.wikimedia.org/wiki/File:Tytteb%C3%A6r.jpg by Philip Gabrielsen / CC BY-SA 4.0
+watermelon.jpg: https://commons.wikimedia.org/wiki/File:Vampire_watermelon.jpg by Ke4roh / public domain
 
 Household goods:
-139. ac.jpg: https://commons.wikimedia.org/wiki/File:Air_conditioner_ballu.jpg by Sancho85 / public domain
-140. ac1.jpg: https://commons.wikimedia.org/wiki/File:General-Window-Aircon.jpg by Rsrikanth05 / CC BY-SA 4.0
-141. ac2.jpg: https://commons.wikimedia.org/wiki/File:Lgairconditioner.JPG by User:Onetwo1 / CC BY-SA 3.0
-142. almirah.jpg: https://commons.wikimedia.org/wiki/File:Alamari.jpg by Zeqox / CCO 1.0
-143. almirah1.jpg: https://commons.wikimedia.org/wiki/File:Steel-Almirah-With-Mirror.jpg by Artijori / CC BY-SA 3.0
-144. bathtub.jpg: https://commons.wikimedia.org/wiki/File:Deep_bath_tub_(2940557981).jpg by Matt @ PEK / CC BY-SA 2.0
-145. bed.jpg: https://commons.wikimedia.org/wiki/File:2_camas_matrimoniales.JPG by Hotel & Suites Mo Sak / CC BY-SA 3.0
-146. bed1.jpg: https://commons.wikimedia.org/wiki/File:129%D5%A4%D5%BA%D6%80%D5%B8%D6%81.jpg by School129 / CC BY-SA 3.0
-147. bed2.jpg: https://commons.wikimedia.org/wiki/File:Chateau_Versailles_petit_appartement_Reine_salle_de_bains_RdC.jpg by Myrabella / Wikimedia Commons / CC BY-SA 3.0
-148. bedsheet.jpg: https://commons.wikimedia.org/wiki/File:%C3%96rngott.jpg by Fluff Abrahamsson / CC BY 3.0
-149. blender.jpg: https://commons.wikimedia.org/wiki/File:Blender_(immersion).png by Fluous / CC BY-SA 3.0
-150. bookshelf.jpg: https://commons.wikimedia.org/wiki/File:IKEA_Billy_bookshelf_(80x106_cm_birch_veneer).jpg by Magnus Bäck / public domain
-151. breadtoaster.jpg: https://commons.wikimedia.org/wiki/File:Broodrooster.jpg by M.Minderhoud / CC BY-SA 3.0
-152. canOpener.jpg: https://commons.wikimedia.org/wiki/File:Corned_beef-can_opener.jpg by Pieria / public domain
-153. chair.jpg: https://commons.wikimedia.org/wiki/File:Chaise_violon_salle_%C3%A0_manger_petits_appartements_de_la_reine_Versailles.jpg by Jebulon / CCO 1.0
-154. chair1.jpg: https://commons.wikimedia.org/wiki/File:Richard_Riemerschmid_Stuhl_1905_Dresdner_Werkst%C3%A4tten_f%C3%BCr_Handwerkskunst_1.jpg by Schlaier / CC BY-SA 3.0
-155. chair2.jpg: https://commons.wikimedia.org/wiki/File:Charles_Eames_chair_EA_119_Hopsak.jpg by Freaky / CC BY 3.0
-156. chair3.jpg: https://commons.wikimedia.org/wiki/File:Buerostuhl_fcm.jpg by Frank C. Müller / CC BY-SA 4.0
-157. chair4.jpg: https://commons.wikimedia.org/wiki/File:Morris-Chair-Ironwood.jpg by Resonance african furniture / public domain
-158. chair5.jpg: https://commons.wikimedia.org/wiki/File:Side_Chair_with_Baluster_Splat_and_Tassel-Carved_Crest_Rail_LACMA_M.2006.51.45.jpg by Los Angeles County Museum of Art / public domain
-159. chest.jpg: https://commons.wikimedia.org/wiki/File:Secretary,_1840-1860,_by_Thomas_Day_-_North_Carolina_Museum_of_History_-_DSC06065.JPG by Daderot / public domain
-160. chest1.jpg: https://commons.wikimedia.org/wiki/File:Dragkista.jpg by Dnor / public domain
-161. chest2.jpg: https://ca.wikipedia.org/wiki/Fitxer:FvB_Schrank_2005.jpg by Heinrich Smit und Johannes Jürgensen / CC BY-SA 3.0
-162. coffeeMaker.jpg: https://commons.wikimedia.org/wiki/File:Atomic_coffee_maker.jpg by The genericist / public domain
-163. coffeeMaker1.jpg: https://commons.wikimedia.org/wiki/File:Coffee_maker.jpg by Teepetersen / CC BY-SA 4.0
-164. coffeeMaker2.jpg: https://commons.wikimedia.org/wiki/File:Mr_Coffee_Coffee_Maker.JPG by ParentingPatch / CC BY-SA 3.0
-165. computer.jpg: https://commons.wikimedia.org/wiki/File:Personal_Computer_774.JPG by Penarc / CC BY 3.0
-166. couch.jpg: https://commons.wikimedia.org/wiki/File:Sof%C3%A0_del_tocador_de_luxe_del_palau_del_marqu%C3%A9s_de_Dosaig%C3%BCes.JPG by Joanbanjo / CC BY-SA 3.0
-167. couch1.jpg: https://commons.wikimedia.org/wiki/File:Klippansofa.jpg by MasterMarte / CC BY-SA 3.0
-168. couch2.jpg: https://commons.wikimedia.org/wiki/File:HK_Ka_Wah_Centre_showflat_%E6%B7%B1%E7%81%A39_Marinella_T6-A_living_room_Sofa_Oct-2011.jpg by GardenKings / CC BY-SA 3.0
-169. curtains.jpg: https://commons.wikimedia.org/wiki/File:Hall_Mirror_-_Shahvand_Castle_1.jpg by Kasir / public domain
-170. curtains1.jpg: https://commons.wikimedia.org/wiki/File:Basildon_Room_by_Matthew_Bisanz_36.JPG by Matthew G. Bisanz / CC BY-SA 3.0
-171. diningTable.jpg: https://commons.wikimedia.org/wiki/File:Charles_Rennie_Mackintosh_(Kelvingrove,_Glasgow)_(3838792015).jpg by Jean-Pierre Dalbéra / CC BY 2.0
-172. diningTable1.jpg: https://commons.wikimedia.org/wiki/File:Dining_table,_Charlier_Museum.jpg by Szillas / public domain
-173. dressingTable.jpg: https://commons.wikimedia.org/wiki/File:Dressing_table_with_chair_Charles_Plumet_1896.jpg by Yelkrokoyade / CC BY-SA 3.0
-174. electricBlanket.jpg: https://commons.wikimedia.org/wiki/File:Electric_blanket_Sharp_HB-C11S.jpg by Qurren / CC BY-SA 3.0
-175. fan.jpg: https://commons.wikimedia.org/wiki/File:Samsung_Electric_Fan.JPG by FriedC / public domain
-176. heater.jpg: https://commons.wikimedia.org/wiki/File:Carbon_heater.jpg by aquila2664 / CC BY-SA 3.0
-177. heater1.jpg: https://commons.wikimedia.org/wiki/File:Fan_heater_2005.jpg by Roger McLassus 1951 / CC BY-SA 3.0
-178. heater2.jpg: https://fr.wikipedia.org/wiki/Fichier:%E9%9B%BB%E6%B0%97%E3%82%B9%E3%83%88%E3%83%BC%E3%83%96.JPG by Uri j / CC BY-SA 3.0
-179. iron.jpg: https://commons.wikimedia.org/wiki/File:Iron_Rowenta.JPG by Tumi-1983 / public domain
-180. iron.JPG: https://commons.wikimedia.org/wiki/File:Cordless_steam_iron_CSI-M701A,_by_HITACHI_(2015-06-10)_2.JPG by Lombroso / CC BY-SA 4.0
-181. iron1.jpg: https://commons.wikimedia.org/wiki/File:Electric_iron_lie.jpg Li-sung / CC BY-SA 3.0
-182. iron2.jpg: https://commons.wikimedia.org/wiki/File:Buegeleisen_-_Ochsenzunge-2.JPG by Genet / CC BY-SA 3.0
-183. lamp.jpg: https://commons.wikimedia.org/wiki/File:Lampy.JPG by Yung6 / CC BY-SA 3.0
-184. lamp1.jpg: https://commons.wikimedia.org/wiki/File:Lamp_2.JPG by J.Dncsn / CC BY-SA 3.0
-185. laptop.jpg: https://commons.wikimedia.org/wiki/File:Acer_aspire_4930G.jpg by Jeff777BC / CC BY-SA 3.0
-186. oven.jpg: https://commons.wikimedia.org/wiki/File:Microwave_oven.jpg by Apoltix / CC BY-SA 3.0
-187. oven1.jpg: https://commons.wikimedia.org/wiki/File:Microwave.750pix.jpg by Adrian Pingstone / public domain
-188. quilt.jpg: https://commons.wikimedia.org/wiki/File:Quilt_in_lamplight.jpg by Brooke Raymond / CC BY-SA 2.0
-189. radio.jpg: https://commons.wikimedia.org/wiki/File:Radio.jpg by Stefan Kühn / CCO 1.0
-190. radio1.jpg: https://commons.wikimedia.org/wiki/File:Stern-Radio_Rochlitz_Beethoven.JPG by Trociny-fotografujo / CCO 1.0
-191. refrigerator.jpg: https://commons.wikimedia.org/wiki/File:LGETT_GR-482SVF_20151031.jpg by Solomon203 / CC BY-SA 4.0
-192. refrigerator1.jpg: https://commons.wikimedia.org/wiki/File:Koelkast_open.jpg by M.Minderhoud / CC BY-SA 3.0
-193. refrigerator2.jpg: https://commons.wikimedia.org/wiki/File:LG%EC%A0%84%EC%9E%90,_%E2%80%98%EC%98%AC%ED%95%B4%EC%9D%98_%EB%85%B9%EC%83%89%EC%83%81%ED%92%88%E2%80%99_%EC%97%85%EA%B3%84_%EC%B5%9C%EB%8B%A4_%EC%88%98%EC%83%81.jpg by LGEPR / CC BY 2.0
-194. sewingMachine.jpg: https://en.wikipedia.org/wiki/File:Z%C3%BCndappN%C3%A4hmaschine2.jpg by ChiemseeMan / public domain
-195. sewingMachine1.jpg: https://commons.wikimedia.org/wiki/File:Singer_sewing_machine_detail1.jpg by Vincent de Groot / CC BY-SA 3.0
-196. sewingMachine2.jpg: https://commons.wikimedia.org/wiki/File:Singer99b.jpg by Panjigally / CC BY-SA 3.0
-197. stool1.jpg: https://commons.wikimedia.org/wiki/File:N%C2%B00750_pouf_en_ixe_%C3%A0_coussin_%22Col_de_Cygne%22_de_style_Empire,_r%C3%A9plique_d%27un_mod%C3%A8le_ancien_r%C3%A9alis%C3%A9_par_les_Ateliers_Allot_Fr%C3%A8res_..jpg by Allot rené / CC BY-SA 3.0
-198. stool2.jpg: https://commons.wikimedia.org/wiki/File:Am_Markt,_Pirna_120448937.jpg by Kalispera Dell / CC BY 3.0
-199. studyTable.jpg: https://commons.wikimedia.org/wiki/File:Ryansdesk.svg by RyGuy / public domain
-200. television.jpg: https://commons.wikimedia.org/wiki/File:Mirai_LCD_TV.JPG by CHG / public domain
-201. toaster.jpg: https://commons.wikimedia.org/wiki/File:Toaster.jpg by Donovan Govan / CC BY-SA 3.0
-202. towels.jpg: https://commons.wikimedia.org/wiki/File:Three_flat_sheets.jpg by Stilfehler / CC BY-SA 3.0
-203. utensils.jpg: https://commons.wikimedia.org/wiki/File:Kitchen_utensils-01.jpg by Jeppestown / CC BY-SA 2.0
-204. vacuumCleaner.jpg: https://commons.wikimedia.org/wiki/File:Vacuum_cleaner.jpg by Che / CC BY-SA 2.5
-205. washingMachine.jpg: https://commons.wikimedia.org/wiki/File:Electric_Clothes_dryer.jpg by Somebody in the WWW / CC BY-SA 3.0
+ac.jpg: https://commons.wikimedia.org/wiki/File:Air_conditioner_ballu.jpg by Sancho85 / public domain
+ac1.jpg: https://commons.wikimedia.org/wiki/File:General-Window-Aircon.jpg by Rsrikanth05 / CC BY-SA 4.0
+ac2.jpg: https://commons.wikimedia.org/wiki/File:Lgairconditioner.JPG by User:Onetwo1 / CC BY-SA 3.0
+almirah.jpg: https://commons.wikimedia.org/wiki/File:Alamari.jpg by Zeqox / CCO 1.0
+almirah1.jpg: https://commons.wikimedia.org/wiki/File:Steel-Almirah-With-Mirror.jpg by Artijori / CC BY-SA 3.0
+bathtub.jpg: https://commons.wikimedia.org/wiki/File:Deep_bath_tub_(2940557981).jpg by Matt @ PEK / CC BY-SA 2.0
+bed.jpg: https://commons.wikimedia.org/wiki/File:2_camas_matrimoniales.JPG by Hotel & Suites Mo Sak / CC BY-SA 3.0
+bed1.jpg: https://commons.wikimedia.org/wiki/File:129%D5%A4%D5%BA%D6%80%D5%B8%D6%81.jpg by School129 / CC BY-SA 3.0
+bed2.jpg: https://commons.wikimedia.org/wiki/File:Chateau_Versailles_petit_appartement_Reine_salle_de_bains_RdC.jpg by Myrabella / Wikimedia Commons / CC BY-SA 3.0
+bedsheet.jpg: https://commons.wikimedia.org/wiki/File:%C3%96rngott.jpg by Fluff Abrahamsson / CC BY 3.0
+blender.jpg: https://commons.wikimedia.org/wiki/File:Blender_(immersion).png by Fluous / CC BY-SA 3.0
+bookshelf.jpg: https://commons.wikimedia.org/wiki/File:IKEA_Billy_bookshelf_(80x106_cm_birch_veneer).jpg by Magnus Bäck / public domain
+breadtoaster.jpg: https://commons.wikimedia.org/wiki/File:Broodrooster.jpg by M.Minderhoud / CC BY-SA 3.0
+canOpener.jpg: https://commons.wikimedia.org/wiki/File:Corned_beef-can_opener.jpg by Pieria / public domain
+chair.jpg: https://commons.wikimedia.org/wiki/File:Chaise_violon_salle_%C3%A0_manger_petits_appartements_de_la_reine_Versailles.jpg by Jebulon / CCO 1.0
+chair1.jpg: https://commons.wikimedia.org/wiki/File:Richard_Riemerschmid_Stuhl_1905_Dresdner_Werkst%C3%A4tten_f%C3%BCr_Handwerkskunst_1.jpg by Schlaier / CC BY-SA 3.0
+chair2.jpg: https://commons.wikimedia.org/wiki/File:Charles_Eames_chair_EA_119_Hopsak.jpg by Freaky / CC BY 3.0
+chair3.jpg: https://commons.wikimedia.org/wiki/File:Buerostuhl_fcm.jpg by Frank C. Müller / CC BY-SA 4.0
+chair4.jpg: https://commons.wikimedia.org/wiki/File:Morris-Chair-Ironwood.jpg by Resonance african furniture / public domain
+chair5.jpg: https://commons.wikimedia.org/wiki/File:Side_Chair_with_Baluster_Splat_and_Tassel-Carved_Crest_Rail_LACMA_M.2006.51.45.jpg by Los Angeles County Museum of Art / public domain
+chest.jpg: https://commons.wikimedia.org/wiki/File:Secretary,_1840-1860,_by_Thomas_Day_-_North_Carolina_Museum_of_History_-_DSC06065.JPG by Daderot / public domain
+chest1.jpg: https://commons.wikimedia.org/wiki/File:Dragkista.jpg by Dnor / public domain
+chest2.jpg: https://ca.wikipedia.org/wiki/Fitxer:FvB_Schrank_2005.jpg by Heinrich Smit und Johannes Jürgensen / CC BY-SA 3.0
+coffeeMaker.jpg: https://commons.wikimedia.org/wiki/File:Atomic_coffee_maker.jpg by The genericist / public domain
+coffeeMaker1.jpg: https://commons.wikimedia.org/wiki/File:Coffee_maker.jpg by Teepetersen / CC BY-SA 4.0
+coffeeMaker2.jpg: https://commons.wikimedia.org/wiki/File:Mr_Coffee_Coffee_Maker.JPG by ParentingPatch / CC BY-SA 3.0
+computer.jpg: https://commons.wikimedia.org/wiki/File:Personal_Computer_774.JPG by Penarc / CC BY 3.0
+couch.jpg: https://commons.wikimedia.org/wiki/File:Sof%C3%A0_del_tocador_de_luxe_del_palau_del_marqu%C3%A9s_de_Dosaig%C3%BCes.JPG by Joanbanjo / CC BY-SA 3.0
+couch1.jpg: https://commons.wikimedia.org/wiki/File:Klippansofa.jpg by MasterMarte / CC BY-SA 3.0
+couch2.jpg: https://commons.wikimedia.org/wiki/File:HK_Ka_Wah_Centre_showflat_%E6%B7%B1%E7%81%A39_Marinella_T6-A_living_room_Sofa_Oct-2011.jpg by GardenKings / CC BY-SA 3.0
+curtains.jpg: https://commons.wikimedia.org/wiki/File:Hall_Mirror_-_Shahvand_Castle_1.jpg by Kasir / public domain
+curtains1.jpg: https://commons.wikimedia.org/wiki/File:Basildon_Room_by_Matthew_Bisanz_36.JPG by Matthew G. Bisanz / CC BY-SA 3.0
+diningTable.jpg: https://commons.wikimedia.org/wiki/File:Charles_Rennie_Mackintosh_(Kelvingrove,_Glasgow)_(3838792015).jpg by Jean-Pierre Dalbéra / CC BY 2.0
+diningTable1.jpg: https://commons.wikimedia.org/wiki/File:Dining_table,_Charlier_Museum.jpg by Szillas / public domain
+dressingTable.jpg: https://commons.wikimedia.org/wiki/File:Dressing_table_with_chair_Charles_Plumet_1896.jpg by Yelkrokoyade / CC BY-SA 3.0
+electricBlanket.jpg: https://commons.wikimedia.org/wiki/File:Electric_blanket_Sharp_HB-C11S.jpg by Qurren / CC BY-SA 3.0
+fan.jpg: https://commons.wikimedia.org/wiki/File:Samsung_Electric_Fan.JPG by FriedC / public domain
+heater.jpg: https://commons.wikimedia.org/wiki/File:Carbon_heater.jpg by aquila2664 / CC BY-SA 3.0
+heater1.jpg: https://commons.wikimedia.org/wiki/File:Fan_heater_2005.jpg by Roger McLassus 1951 / CC BY-SA 3.0
+heater2.jpg: https://fr.wikipedia.org/wiki/Fichier:%E9%9B%BB%E6%B0%97%E3%82%B9%E3%83%88%E3%83%BC%E3%83%96.JPG by Uri j / CC BY-SA 3.0
+iron.jpg: https://commons.wikimedia.org/wiki/File:Iron_Rowenta.JPG by Tumi-1983 / public domain
+iron.JPG: https://commons.wikimedia.org/wiki/File:Cordless_steam_iron_CSI-M701A,_by_HITACHI_(2015-06-10)_2.JPG by Lombroso / CC BY-SA 4.0
+iron1.jpg: https://commons.wikimedia.org/wiki/File:Electric_iron_lie.jpg Li-sung / CC BY-SA 3.0
+iron2.jpg: https://commons.wikimedia.org/wiki/File:Buegeleisen_-_Ochsenzunge-2.JPG by Genet / CC BY-SA 3.0
+lamp.jpg: https://commons.wikimedia.org/wiki/File:Lampy.JPG by Yung6 / CC BY-SA 3.0
+lamp1.jpg: https://commons.wikimedia.org/wiki/File:Lamp_2.JPG by J.Dncsn / CC BY-SA 3.0
+laptop.jpg: https://commons.wikimedia.org/wiki/File:Acer_aspire_4930G.jpg by Jeff777BC / CC BY-SA 3.0
+oven.jpg: https://commons.wikimedia.org/wiki/File:Microwave_oven.jpg by Apoltix / CC BY-SA 3.0
+oven1.jpg: https://commons.wikimedia.org/wiki/File:Microwave.750pix.jpg by Adrian Pingstone / public domain
+quilt.jpg: https://commons.wikimedia.org/wiki/File:Quilt_in_lamplight.jpg by Brooke Raymond / CC BY-SA 2.0
+radio.jpg: https://commons.wikimedia.org/wiki/File:Radio.jpg by Stefan Kühn / CCO 1.0
+radio1.jpg: https://commons.wikimedia.org/wiki/File:Stern-Radio_Rochlitz_Beethoven.JPG by Trociny-fotografujo / CCO 1.0
+refrigerator.jpg: https://commons.wikimedia.org/wiki/File:LGETT_GR-482SVF_20151031.jpg by Solomon203 / CC BY-SA 4.0
+refrigerator1.jpg: https://commons.wikimedia.org/wiki/File:Koelkast_open.jpg by M.Minderhoud / CC BY-SA 3.0
+refrigerator2.jpg: https://commons.wikimedia.org/wiki/File:LG%EC%A0%84%EC%9E%90,_%E2%80%98%EC%98%AC%ED%95%B4%EC%9D%98_%EB%85%B9%EC%83%89%EC%83%81%ED%92%88%E2%80%99_%EC%97%85%EA%B3%84_%EC%B5%9C%EB%8B%A4_%EC%88%98%EC%83%81.jpg by LGEPR / CC BY 2.0
+sewingMachine.jpg: https://en.wikipedia.org/wiki/File:Z%C3%BCndappN%C3%A4hmaschine2.jpg by ChiemseeMan / public domain
+sewingMachine1.jpg: https://commons.wikimedia.org/wiki/File:Singer_sewing_machine_detail1.jpg by Vincent de Groot / CC BY-SA 3.0
+sewingMachine2.jpg: https://commons.wikimedia.org/wiki/File:Singer99b.jpg by Panjigally / CC BY-SA 3.0
+stool1.jpg: https://commons.wikimedia.org/wiki/File:N%C2%B00750_pouf_en_ixe_%C3%A0_coussin_%22Col_de_Cygne%22_de_style_Empire,_r%C3%A9plique_d%27un_mod%C3%A8le_ancien_r%C3%A9alis%C3%A9_par_les_Ateliers_Allot_Fr%C3%A8res_..jpg by Allot rené / CC BY-SA 3.0
+stool2.jpg: https://commons.wikimedia.org/wiki/File:Am_Markt,_Pirna_120448937.jpg by Kalispera Dell / CC BY 3.0
+studyTable.jpg: https://commons.wikimedia.org/wiki/File:Ryansdesk.svg by RyGuy / public domain
+television.jpg: https://commons.wikimedia.org/wiki/File:Mirai_LCD_TV.JPG by CHG / public domain
+toaster.jpg: https://commons.wikimedia.org/wiki/File:Toaster.jpg by Donovan Govan / CC BY-SA 3.0
+towels.jpg: https://commons.wikimedia.org/wiki/File:Three_flat_sheets.jpg by Stilfehler / CC BY-SA 3.0
+utensils.jpg: https://commons.wikimedia.org/wiki/File:Kitchen_utensils-01.jpg by Jeppestown / CC BY-SA 2.0
+vacuumCleaner.jpg: https://commons.wikimedia.org/wiki/File:Vacuum_cleaner.jpg by Che / CC BY-SA 2.5
+washingMachine.jpg: https://commons.wikimedia.org/wiki/File:Electric_Clothes_dryer.jpg by Somebody in the WWW / CC BY-SA 3.0
 
 Insects:
-206. insect1.jpg: https://commons.wikimedia.org/wiki/File:Long-legged_fly_feeding.jpg by Adhithya.ooty / CC BY-SA 4.0
-207. insect2.jpg: https://commons.wikimedia.org/wiki/File:2013.08.04.-04-Ladenburg-Hauhechel-Blaeuling-Maennchen.jpg by Andreas Eichler / CC BY-SA 3.0
-208. insect3: https://commons.wikimedia.org/wiki/File:Stenobothrus_stigmaticus_male_(14848067088).jpg by Gilles San Martin / CC BY-SA 2.0
-209. insect4.jpg: https://commons.wikimedia.org/wiki/File:Besouro_Amarelo.jpg by Kleber Zaninella de Oliveira / CC BY-SA 4.0
-210. insect5.jpg: https://commons.wikimedia.org/wiki/File:BLACK_LADY.jpg by Artsajith / CC BY-SA 4.0
-211. insect6.jpg: https://commons.wikimedia.org/wiki/File:Butterfly_-_Copy.jpg by Vishal kr sagar / CC BY-SA 4.0
-212. insect7.jpg: https://commons.wikimedia.org/wiki/File:Common_Firefly_(Lampyris_noctiluca)_male_(14345670469).jpg by Bernard DUPONT / CC BY-SA 2.0
-213. insect8.jpg: https://commons.wikimedia.org/wiki/File:Polyphylla_decemlineata_aka_Ten-lined_June_beetle_2015-05-21.jpg by Junkyardsparkle / CCO 1.0
-214. insect9.jpg: https://commons.wikimedia.org/wiki/File:Grasshopper%27s_zoom_pic.jpg by Rehanwikimem / CC BY-SA 4.0
-215. insect10.jpg: https://commons.wikimedia.org/wiki/File:GiantLeopardMoth.jpg by PiccoloNamek / CC BY-SA 3.0
-216. insect11.jpg: https://commons.wikimedia.org/wiki/File:2014.07.18.-16-Schwarzbach_Woellnau--Kleiner_Blaupfeil-Maennchen.jpg by Andreas Eichler / CC BY-SA 4.0
-217. insect12.jpg: https://commons.wikimedia.org/wiki/File:Jewel_bug.jpg by Karz09 / CC BY-SA 4.0
-218. insect13.jpg: https://commons.wikimedia.org/wiki/File:2015.08.07.-01-Anglersee_Huettenfeld-Lampertheim--Feuerlibelle-Maennchen.jpg by Andreas Eichler / CC BY-SA 4.0
-219. insect14.jpg: https://commons.wikimedia.org/wiki/File:Honeybee_motion_blur.jpg by Adhithya.ooty / CC BY-SA 4.0
-220. insect15.jpg: https://commons.wikimedia.org/wiki/File:Acronicta_auricoma_-_Betula_pubescens_-_Niitv%C3%A4lja_bog.jpg by Ivar Leidus / CC BY-SA 4.0
-221. insect16.jpg: https://commons.wikimedia.org/wiki/File:Damselfly_October_2007_Osaka_Japan.jpg by Laitche / public domain
-222. insect17.jpg: https://commons.wikimedia.org/wiki/File:Fesoj_-_Papilio_machaon_(by).jpg by fesoj / CC BY-SA 2.0
-223. insect18.jpg: https://commons.wikimedia.org/wiki/File:Lady-beetle-close-up.jpg by Thomas G. Moertel / CC BY-SA 2.5
-224. insect19.jpg: https://commons.wikimedia.org/wiki/File:Fly_Airborne.jpg by Anwai.archit / CC BY-SA 4.0
-225. insect20.jpg: https://commons.wikimedia.org/wiki/File:Aedes_aegypti_biting_human.jpg by U.S. federal government / public domain
-226. insect21.jpg: https://commons.wikimedia.org/wiki/File:Insect-with-point.jpg by Kkrueger61 / CCO 1.0
-227. insect22.jpg: https://commons.wikimedia.org/wiki/File:SILK_CATERPILLAR.jpg by Artsajith / CC BY-SA 4.0
-228. insect23.jpg: https://commons.wikimedia.org/wiki/File:BIEDRONA.JPG by Reytan / CC BY-SA 3.0
-229. insect24.jpg: https://commons.wikimedia.org/wiki/File:Male_hoverfly_with_thin_abdomen.jpg by Michael Palmer / CC BY-SA 4.0
-230. insect25.jpg: https://commons.wikimedia.org/wiki/File:Thricops_semicinereus_on_Ranunculus_acris.jpg by Richard Bartz, Munich Makro Freak / CC BY-SA 2.5
-231. insect26.jpg: https://commons.wikimedia.org/wiki/File:Darter_August_2007-22_edit.jpg by Alvesgaspar / CC BY-SA 3.0
-232. insect27.jpg: https://commons.wikimedia.org/wiki/File:Formica_high_res.jpg by Richard Bartz, Munich Makro Freak / CC BY-SA 2.5
-233. https://commons.wikimedia.org/wiki/File:Stenobothrus_stigmaticus_male_(14848067088).jpg by Gilles San Martin / CC BY-SA 2.0
+insect1.jpg: https://commons.wikimedia.org/wiki/File:Long-legged_fly_feeding.jpg by Adhithya.ooty / CC BY-SA 4.0
+insect2.jpg: https://commons.wikimedia.org/wiki/File:2013.08.04.-04-Ladenburg-Hauhechel-Blaeuling-Maennchen.jpg by Andreas Eichler / CC BY-SA 3.0
+insect3: https://commons.wikimedia.org/wiki/File:Stenobothrus_stigmaticus_male_(14848067088).jpg by Gilles San Martin / CC BY-SA 2.0
+insect4.jpg: https://commons.wikimedia.org/wiki/File:Besouro_Amarelo.jpg by Kleber Zaninella de Oliveira / CC BY-SA 4.0
+insect5.jpg: https://commons.wikimedia.org/wiki/File:BLACK_LADY.jpg by Artsajith / CC BY-SA 4.0
+insect6.jpg: https://commons.wikimedia.org/wiki/File:Butterfly_-_Copy.jpg by Vishal kr sagar / CC BY-SA 4.0
+insect7.jpg: https://commons.wikimedia.org/wiki/File:Common_Firefly_(Lampyris_noctiluca)_male_(14345670469).jpg by Bernard DUPONT / CC BY-SA 2.0
+insect8.jpg: https://commons.wikimedia.org/wiki/File:Polyphylla_decemlineata_aka_Ten-lined_June_beetle_2015-05-21.jpg by Junkyardsparkle / CCO 1.0
+insect9.jpg: https://commons.wikimedia.org/wiki/File:Grasshopper%27s_zoom_pic.jpg by Rehanwikimem / CC BY-SA 4.0
+insect10.jpg: https://commons.wikimedia.org/wiki/File:GiantLeopardMoth.jpg by PiccoloNamek / CC BY-SA 3.0
+insect11.jpg: https://commons.wikimedia.org/wiki/File:2014.07.18.-16-Schwarzbach_Woellnau--Kleiner_Blaupfeil-Maennchen.jpg by Andreas Eichler / CC BY-SA 4.0
+insect12.jpg: https://commons.wikimedia.org/wiki/File:Jewel_bug.jpg by Karz09 / CC BY-SA 4.0
+insect13.jpg: https://commons.wikimedia.org/wiki/File:2015.08.07.-01-Anglersee_Huettenfeld-Lampertheim--Feuerlibelle-Maennchen.jpg by Andreas Eichler / CC BY-SA 4.0
+insect14.jpg: https://commons.wikimedia.org/wiki/File:Honeybee_motion_blur.jpg by Adhithya.ooty / CC BY-SA 4.0
+insect15.jpg: https://commons.wikimedia.org/wiki/File:Acronicta_auricoma_-_Betula_pubescens_-_Niitv%C3%A4lja_bog.jpg by Ivar Leidus / CC BY-SA 4.0
+insect16.jpg: https://commons.wikimedia.org/wiki/File:Damselfly_October_2007_Osaka_Japan.jpg by Laitche / public domain
+insect17.jpg: https://commons.wikimedia.org/wiki/File:Fesoj_-_Papilio_machaon_(by).jpg by fesoj / CC BY-SA 2.0
+insect18.jpg: https://commons.wikimedia.org/wiki/File:Lady-beetle-close-up.jpg by Thomas G. Moertel / CC BY-SA 2.5
+insect19.jpg: https://commons.wikimedia.org/wiki/File:Fly_Airborne.jpg by Anwai.archit / CC BY-SA 4.0
+insect20.jpg: https://commons.wikimedia.org/wiki/File:Aedes_aegypti_biting_human.jpg by U.S. federal government / public domain
+insect21.jpg: https://commons.wikimedia.org/wiki/File:Insect-with-point.jpg by Kkrueger61 / CCO 1.0
+insect22.jpg: https://commons.wikimedia.org/wiki/File:SILK_CATERPILLAR.jpg by Artsajith / CC BY-SA 4.0
+insect23.jpg: https://commons.wikimedia.org/wiki/File:BIEDRONA.JPG by Reytan / CC BY-SA 3.0
+insect24.jpg: https://commons.wikimedia.org/wiki/File:Male_hoverfly_with_thin_abdomen.jpg by Michael Palmer / CC BY-SA 4.0
+insect25.jpg: https://commons.wikimedia.org/wiki/File:Thricops_semicinereus_on_Ranunculus_acris.jpg by Richard Bartz, Munich Makro Freak / CC BY-SA 2.5
+insect26.jpg: https://commons.wikimedia.org/wiki/File:Darter_August_2007-22_edit.jpg by Alvesgaspar / CC BY-SA 3.0
+insect27.jpg: https://commons.wikimedia.org/wiki/File:Formica_high_res.jpg by Richard Bartz, Munich Makro Freak / CC BY-SA 2.5
 
 Nature:
-234. nature1.jpg: https://en.wikipedia.org/wiki/File:ARG-2016-Aerial-Tierra_del_Fuego_(Ushuaia)%E2%80%93Valle_Carbajal_01.jpg by Godot13 / CC BY-SA 4.0
-235. nature2.jpg: https://commons.wikimedia.org/wiki/File:Felder_bei_Zahlbach_(26-07-09)_-_panoramio.jpg by Leno89 / CC BY-SA 3.0
-236. nature3.jpg: https://commons.wikimedia.org/wiki/File:Lake_Hibara.jpg by Nguyen aoyama / CC BY-SA  4.0
-237. nature4.jpg: https://en.wikipedia.org/wiki/File:Icebergs_in_the_High_Arctic_-_20050907.jpg by Brocken Inaglory / CC BY-SA 3.0
-238. nature5.jpg: https://en.wikipedia.org/wiki/File:Israel-2013-Aerial_00-Negev-Makhtesh_Ramon.jpg by Andrew Shiva / Wikipedia / CC BY-SA 4.0
-239. nature6.jpg: https://commons.wikimedia.org/wiki/File:Marmolada_Sunset.jpg by Dmitry A. Mottl / CC BY-SA 3.0
-240. nature7.jpg: https://tr.wikipedia.org/wiki/Dosya:MontBlanc2c.jpg by Sanchezn / CC BY-SA 3.0
-241. nature8.jpg: https://commons.wikimedia.org/wiki/File:Poertschach_Werzerpromenade_10_Woerther_See_Stockentenpaar_15032016_0943.jpg by Johann Jaritz / CC BY-SA 3.0 AT
-242. nature9.jpg: https://commons.wikimedia.org/wiki/File:Porto_Covo_January_2014-10a.jpg by Alvesgaspar / CC BY-SA 3.0
-243. nature10.jpg: https://commons.wikimedia.org/wiki/File:Purekkari_neemel.jpg by Abrget47j / CC BY-SA 3.0
-244. nature11.jpg: https://commons.wikimedia.org/wiki/File:Rock_-_Cala_Barques.jpg by H. Zell / CC BY-SA 3.0
-245. nature12.jpg: https://en.wikipedia.org/wiki/File:Rote_Fl%C3%BCh_von_Haldensee.jpg by Carschten / CC BY-SA 3.0 DE
-246. nature13.jpg: https://commons.wikimedia.org/wiki/File:Rummu_aherainem%C3%A4gi2.jpg by Ivar Leidus / CC BY-SA 3.0
-247. nature14.jpg: https://commons.wikimedia.org/wiki/File:Russell_Falls_2.jpg by Noodle snacks / CC BY-SA 3.0
-248. nature15.jpg: https://commons.wikimedia.org/wiki/File:Sunset_at_Noronhas%27_beach.jpg by NicolasAlbuquerqueWolf / CC BY-SA 3.0
-249. nature16.jpg: https://commons.wikimedia.org/wiki/File:Tulum_-_God_of_the_Winds_Temple_03.JPG by Martin Falbisoner / CC BY-SA 4.0
-250. nature17.jpg: https://en.wikipedia.org/wiki/File:V%C3%A4imela_Alaj%C3%A4rv_2012_08.jpg by Vaido Otsar / CC BY-SA 3.0
-251. nature18.jpg: https://commons.wikimedia.org/wiki/File:Wildgrubenspitzen_Roggalspitze.jpg by böhringer friedrich / CC BY-SA 2.5
-252. nature19.jpg: https://commons.wikimedia.org/wiki/File:Neuwildflecken_-_panoramio.jpg by Leno89 / CC BY 3.0
-253. nature20jpg: https://commons.wikimedia.org/wiki/File:360%C2%B0_Hochalppass_Panorama.jpg by böhringer friedrich / CC BY-SA 2.5
-254. nature21.jpg: https://commons.wikimedia.org/wiki/File:Cote_Granite_Rose_pano.jpg by Benh LIEU SONG / CC BY-SA 3.0
-255. nature22.jpg: https://commons.wikimedia.org/wiki/File:Cascade_de_A%C3%AFn_Legradj_%C3%A0_Bordj_Bou_Arreredj.jpg by Chettouh Nabil / CC BY-SA 3.0
-256. nature23.jpg: https://commons.wikimedia.org/wiki/File:Crique_de_l%27Anau,_S%C3%A8te,_H%C3%A9rault_01.jpg by Christian Ferrer / CC BY-SA 3.0
-257. nature24.jpg: https://commons.wikimedia.org/wiki/File:Steinach_an_der_Saale_(aufgenommen_aus_der_Rh%C3%B6n)_-_panoramio.jpg by Leno89 / CC BY 3.0
-258. nature25.jpg: https://commons.wikimedia.org/wiki/File:Friendly_Beaches_1.jpg by JJ Harrison / CC BY-SA 3.0
-259. nature26.jpg: https://commons.wikimedia.org/wiki/File:Fryxellsee_Opt.jpg by Joe Mastroianni / public domain
-260. nature27.jpg: https://commons.wikimedia.org/wiki/File:Building_of_the_Salins_de_Frontignan_27.jpg by Christian Ferrer / CC BY-SA 4.0
-261. nature28.jpg: https://commons.wikimedia.org/wiki/File:Dune_de_sable_au_parc_Culturel_De_l%27Ahaggar.jpg by Hamza-sia / CC BY-SA 3.0
-262. nature29.jpg: https://commons.wikimedia.org/wiki/File:Moers,_2010-12_CN-I,_Nebel_Schwafheim.jpg by kaʁstn Disk/Cat / CC BY-SA 3.0 DE
-263. nature30.jpg: https://commons.wikimedia.org/wiki/File:Forest2016.jpg by Valeriy Vladimirov / CC BY-SA 4.0
-264. nature31.jpg: https://commons.wikimedia.org/wiki/File:Profus%C3%A3o_de_cores_-_panoramio.jpg by enioprado / CC BY-SA 3.0
-265. nature32.jpg: https://en.wikipedia.org/wiki/File:Lake_Pedder_From_Mt_Eliza.jpg by JJ Harrison / CC BY-SA 3.0
-266. nature33.jpg: https://commons.wikimedia.org/wiki/File:Rainbow_Valley.jpg by Christian Mehlführer / CC BY-SA 2.5
-267. nature34.jpg: https://commons.wikimedia.org/wiki/File:Untersberg_panoramic_view_winter_small.jpg by MatthiasKabel / CC BY-SA 3.0
-268. nature35.jpg: https://commons.wikimedia.org/wiki/File:Panorama_vom_Gornergrat-Zermatt.jpg by Tobi 87 / CC BY-SA 3.0
+nature1.jpg: https://en.wikipedia.org/wiki/File:ARG-2016-Aerial-Tierra_del_Fuego_(Ushuaia)%E2%80%93Valle_Carbajal_01.jpg by Godot13 / CC BY-SA 4.0
+nature2.jpg: https://commons.wikimedia.org/wiki/File:Felder_bei_Zahlbach_(26-07-09)_-_panoramio.jpg by Leno89 / CC BY-SA 3.0
+nature3.jpg: https://commons.wikimedia.org/wiki/File:Lake_Hibara.jpg by Nguyen aoyama / CC BY-SA  4.0
+nature4.jpg: https://en.wikipedia.org/wiki/File:Icebergs_in_the_High_Arctic_-_20050907.jpg by Brocken Inaglory / CC BY-SA 3.0
+nature5.jpg: https://en.wikipedia.org/wiki/File:Israel-2013-Aerial_00-Negev-Makhtesh_Ramon.jpg by Andrew Shiva / Wikipedia / CC BY-SA 4.0
+nature6.jpg: https://commons.wikimedia.org/wiki/File:Marmolada_Sunset.jpg by Dmitry A. Mottl / CC BY-SA 3.0
+nature7.jpg: https://tr.wikipedia.org/wiki/Dosya:MontBlanc2c.jpg by Sanchezn / CC BY-SA 3.0
+nature8.jpg: https://commons.wikimedia.org/wiki/File:Poertschach_Werzerpromenade_10_Woerther_See_Stockentenpaar_15032016_0943.jpg by Johann Jaritz / CC BY-SA 3.0 AT
+nature9.jpg: https://commons.wikimedia.org/wiki/File:Porto_Covo_January_2014-10a.jpg by Alvesgaspar / CC BY-SA 3.0
+nature10.jpg: https://commons.wikimedia.org/wiki/File:Purekkari_neemel.jpg by Abrget47j / CC BY-SA 3.0
+nature11.jpg: https://commons.wikimedia.org/wiki/File:Rock_-_Cala_Barques.jpg by H. Zell / CC BY-SA 3.0
+nature12.jpg: https://en.wikipedia.org/wiki/File:Rote_Fl%C3%BCh_von_Haldensee.jpg by Carschten / CC BY-SA 3.0 DE
+nature13.jpg: https://commons.wikimedia.org/wiki/File:Rummu_aherainem%C3%A4gi2.jpg by Ivar Leidus / CC BY-SA 3.0
+nature14.jpg: https://commons.wikimedia.org/wiki/File:Russell_Falls_2.jpg by Noodle snacks / CC BY-SA 3.0
+nature15.jpg: https://commons.wikimedia.org/wiki/File:Sunset_at_Noronhas%27_beach.jpg by NicolasAlbuquerqueWolf / CC BY-SA 3.0
+nature16.jpg: https://commons.wikimedia.org/wiki/File:Tulum_-_God_of_the_Winds_Temple_03.JPG by Martin Falbisoner / CC BY-SA 4.0
+nature17.jpg: https://en.wikipedia.org/wiki/File:V%C3%A4imela_Alaj%C3%A4rv_2012_08.jpg by Vaido Otsar / CC BY-SA 3.0
+nature18.jpg: https://commons.wikimedia.org/wiki/File:Wildgrubenspitzen_Roggalspitze.jpg by böhringer friedrich / CC BY-SA 2.5
+nature19.jpg: https://commons.wikimedia.org/wiki/File:Neuwildflecken_-_panoramio.jpg by Leno89 / CC BY 3.0
+nature20jpg: https://commons.wikimedia.org/wiki/File:360%C2%B0_Hochalppass_Panorama.jpg by böhringer friedrich / CC BY-SA 2.5
+nature21.jpg: https://commons.wikimedia.org/wiki/File:Cote_Granite_Rose_pano.jpg by Benh LIEU SONG / CC BY-SA 3.0
+nature22.jpg: https://commons.wikimedia.org/wiki/File:Cascade_de_A%C3%AFn_Legradj_%C3%A0_Bordj_Bou_Arreredj.jpg by Chettouh Nabil / CC BY-SA 3.0
+nature23.jpg: https://commons.wikimedia.org/wiki/File:Crique_de_l%27Anau,_S%C3%A8te,_H%C3%A9rault_01.jpg by Christian Ferrer / CC BY-SA 3.0
+nature24.jpg: https://commons.wikimedia.org/wiki/File:Steinach_an_der_Saale_(aufgenommen_aus_der_Rh%C3%B6n)_-_panoramio.jpg by Leno89 / CC BY 3.0
+nature25.jpg: https://commons.wikimedia.org/wiki/File:Friendly_Beaches_1.jpg by JJ Harrison / CC BY-SA 3.0
+nature26.jpg: https://commons.wikimedia.org/wiki/File:Fryxellsee_Opt.jpg by Joe Mastroianni / public domain
+nature27.jpg: https://commons.wikimedia.org/wiki/File:Building_of_the_Salins_de_Frontignan_27.jpg by Christian Ferrer / CC BY-SA 4.0
+nature28.jpg: https://commons.wikimedia.org/wiki/File:Dune_de_sable_au_parc_Culturel_De_l%27Ahaggar.jpg by Hamza-sia / CC BY-SA 3.0
+nature29.jpg: https://commons.wikimedia.org/wiki/File:Moers,_2010-12_CN-I,_Nebel_Schwafheim.jpg by kaʁstn Disk/Cat / CC BY-SA 3.0 DE
+nature30.jpg: https://commons.wikimedia.org/wiki/File:Forest2016.jpg by Valeriy Vladimirov / CC BY-SA 4.0
+nature31.jpg: https://commons.wikimedia.org/wiki/File:Profus%C3%A3o_de_cores_-_panoramio.jpg by enioprado / CC BY-SA 3.0
+nature32.jpg: https://en.wikipedia.org/wiki/File:Lake_Pedder_From_Mt_Eliza.jpg by JJ Harrison / CC BY-SA 3.0
+nature33.jpg: https://commons.wikimedia.org/wiki/File:Rainbow_Valley.jpg by Christian Mehlführer / CC BY-SA 2.5
+nature34.jpg: https://commons.wikimedia.org/wiki/File:Untersberg_panoramic_view_winter_small.jpg by MatthiasKabel / CC BY-SA 3.0
+nature35.jpg: https://commons.wikimedia.org/wiki/File:Panorama_vom_Gornergrat-Zermatt.jpg by Tobi 87 / CC BY-SA 3.0
 
 Others:
-269. broom1.jpg: https://commons.wikimedia.org/wiki/File:Chinese_broom_and_sweeping_tool.jpg by J. Samuel Burner / CC BY 2.0
-270. clock.jpg: https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Public-clock-at-the-customs-office-01.jpg by CEphoto, Uwe Aranas / CC BY-SA 3.0
-271. color2.png: https://commons.wikimedia.org/wiki/File:ContrastiTinte.png by Peter Forster / CC BY-SA 3.0
-272. electricfan.jpg: https://commons.wikimedia.org/wiki/File:Kawasaki-Electric_Fan.jpg by Mr.ちゅらさん / CC BY-SA 3.0
-273. fork.jpg: https://commons.wikimedia.org/wiki/File:Fork.agr.jpg by ArnoldReinhold / CC BY-SA 3.0
-274. house.jpg: https://commons.wikimedia.org/wiki/File:Selawik_village_house_FWS.jpg by US Fish and Wildlife Service, National Digital Library / public domain
-275. mobile.jpg: https://commons.wikimedia.org/wiki/File:2008TICA_Press_Conference_TransAVA_T88_TV_Phone.jpg by Rico Shen / CC BY-SA 4.0
-276. pencil.jpg: https://commons.wikimedia.org/wiki/File:2014-01-16-Hittegods_(12009261426).jpg by Ole Palnatoke Andersen / CC BY-SA 2.0
-277. pepsi.jpg: https://commons.wikimedia.org/wiki/File:Pepsi_Danbo_wants_to_have_a_Pepsi!_(9053938363).jpg by Takashi Hososhima / CC BY-SA 2.0
-278. sharpnerandpencil.jpg: https://commons.wikimedia.org/wiki/File:Tailor%27s_chalk(pencil_type)_and_chalk_sharpner.jpg by zenkota / CC BY-SA 3.0
-279. spoon.jpg: https://commons.wikimedia.org/wiki/File:1375_Juego_de_seis_cucharitas.jpg by Museo Soumaya / CC BY-SA 4.0
-280. street.jpg: https://commons.wikimedia.org/wiki/File:Herblay.jpg by LoopZilla / CC BY-SA 3.0
-281. weighingmachine.jpg: https://commons.wikimedia.org/wiki/File:Digi-personenweegschaal1286.JPG by Algont from nl / CC BY-SA 3.0
+broom1.jpg: https://commons.wikimedia.org/wiki/File:Chinese_broom_and_sweeping_tool.jpg by J. Samuel Burner / CC BY 2.0
+clock.jpg: https://commons.wikimedia.org/wiki/File:Dalian_Liaoning_China_Public-clock-at-the-customs-office-01.jpg by CEphoto, Uwe Aranas / CC BY-SA 3.0
+color2.png: https://commons.wikimedia.org/wiki/File:ContrastiTinte.png by Peter Forster / CC BY-SA 3.0
+electricfan.jpg: https://commons.wikimedia.org/wiki/File:Kawasaki-Electric_Fan.jpg by Mr.ちゅらさん / CC BY-SA 3.0
+fork.jpg: https://commons.wikimedia.org/wiki/File:Fork.agr.jpg by ArnoldReinhold / CC BY-SA 3.0
+house.jpg: https://commons.wikimedia.org/wiki/File:Selawik_village_house_FWS.jpg by US Fish and Wildlife Service, National Digital Library / public domain
+mobile.jpg: https://commons.wikimedia.org/wiki/File:2008TICA_Press_Conference_TransAVA_T88_TV_Phone.jpg by Rico Shen / CC BY-SA 4.0
+pencil.jpg: https://commons.wikimedia.org/wiki/File:2014-01-16-Hittegods_(12009261426).jpg by Ole Palnatoke Andersen / CC BY-SA 2.0
+pepsi.jpg: https://commons.wikimedia.org/wiki/File:Pepsi_Danbo_wants_to_have_a_Pepsi!_(9053938363).jpg by Takashi Hososhima / CC BY-SA 2.0
+sharpnerandpencil.jpg: https://commons.wikimedia.org/wiki/File:Tailor%27s_chalk(pencil_type)_and_chalk_sharpner.jpg by zenkota / CC BY-SA 3.0
+spoon.jpg: https://commons.wikimedia.org/wiki/File:1375_Juego_de_seis_cucharitas.jpg by Museo Soumaya / CC BY-SA 4.0
+street.jpg: https://commons.wikimedia.org/wiki/File:Herblay.jpg by LoopZilla / CC BY-SA 3.0
+weighingmachine.jpg: https://commons.wikimedia.org/wiki/File:Digi-personenweegschaal1286.JPG by Algont from nl / CC BY-SA 3.0
 
 Plants:
-282. plant1.jpg: https://commons.wikimedia.org/wiki/File:Rosmarinus_officinalis133095382.jpg by THOR / CC BY 2.0
-283. plant2.jpg: https://commons.wikimedia.org/wiki/File:Snijboonplanten_Phaseolus_vulgaris.jpg by Rasbak / CC BY-SA 3.0
-284. plant3.jpg: https://commons.wikimedia.org/wiki/File:Buxus_sempervirens_2.jpg by Jerzy Opioła / CC BY-SA 3.0
-285. plant4.jpg: https://commons.wikimedia.org/wiki/File:Parodia_microsperma.jpg by Dake / CC BY-SA 3.0
-286. plant5.jpg: https://commons.wikimedia.org/wiki/File:SubalpineFir_3320.jpg by Wsiegmund / CC BY-SA 3.0
-287. plant6.jpg: https://commons.wikimedia.org/wiki/File:Urtica_dioica_(Bl%C3%BCten).jpg by Migas / CC BY 3.0
-288. tree1.jpg: https://commons.wikimedia.org/wiki/File:Liriodendron_tulipifera_Fall.jpg by Lozère / public domain
-289. tree2.jpg: https://commons.wikimedia.org/wiki/File:Callitropsis_nootkatensis_Pendula.jpg by Crusier / CC BY-SA 3.0
-290. tree3.jpg: https://commons.wikimedia.org/wiki/File:171_Magnolien.JPG by Haraldius / CC BY-SA 2.5
-291. tree4.jpg: https://commons.wikimedia.org/wiki/File:Linde_von_linn.jpg by Stefan Wernli / CC BY-SA 2.5
+plant1.jpg: https://commons.wikimedia.org/wiki/File:Rosmarinus_officinalis133095382.jpg by THOR / CC BY 2.0
+plant2.jpg: https://commons.wikimedia.org/wiki/File:Snijboonplanten_Phaseolus_vulgaris.jpg by Rasbak / CC BY-SA 3.0
+plant3.jpg: https://commons.wikimedia.org/wiki/File:Buxus_sempervirens_2.jpg by Jerzy Opioła / CC BY-SA 3.0
+plant4.jpg: https://commons.wikimedia.org/wiki/File:Parodia_microsperma.jpg by Dake / CC BY-SA 3.0
+plant5.jpg: https://commons.wikimedia.org/wiki/File:SubalpineFir_3320.jpg by Wsiegmund / CC BY-SA 3.0
+plant6.jpg: https://commons.wikimedia.org/wiki/File:Urtica_dioica_(Bl%C3%BCten).jpg by Migas / CC BY 3.0
+tree1.jpg: https://commons.wikimedia.org/wiki/File:Liriodendron_tulipifera_Fall.jpg by Lozère / public domain
+tree2.jpg: https://commons.wikimedia.org/wiki/File:Callitropsis_nootkatensis_Pendula.jpg by Crusier / CC BY-SA 3.0
+tree3.jpg: https://commons.wikimedia.org/wiki/File:171_Magnolien.JPG by Haraldius / CC BY-SA 2.5
+tree4.jpg: https://commons.wikimedia.org/wiki/File:Linde_von_linn.jpg by Stefan Wernli / CC BY-SA 2.5
 
 Transport:
-292. autorickshaw.jpg: https://commons.wikimedia.org/wiki/File:TH_Tuk_Tuk_1.jpg by Brownie13 / public domain
-293. balloon.jpg: https://commons.wikimedia.org/wiki/File:Yellow.balloon.takesoff.in.bath.arp.jpg by Arpingstone / public domain
-294. bicycle2.jpg: https://commons.wikimedia.org/wiki/File:Brosen_city_bicycle.jpg by Brosen / CC BY-SA 3.0
-295. boat.jpg: https://commons.wikimedia.org/wiki/File:Doni_aux_Maldives_cropped.jpg by Remi Jouan / CC BY-SA 3.0
-296. bulletTrain.jpg: https://commons.wikimedia.org/wiki/File:ICE1_Schellenberg.jpg by S. Terfloth / CC BY-SA 2.0 DE
-297. bullockcart.jpg: https://commons.wikimedia.org/wiki/File:Paarden-trekken-kar.JPG by Andre Engels / CC BY-SA 3.0
-298. bus.jpg: https://commons.wikimedia.org/wiki/File:Greenline-Express.jpg by Marvin John Gemino / CC BY-SA 2.0
-299. bus1.jpg: https://commons.wikimedia.org/wiki/File:ACTION_Bus-467.jpg by Angelo Tsirekas / CC BY-SA 3.0
-300. bus2.jpg: https://commons.wikimedia.org/wiki/File:ABQ_RIDE_332_Montgomery_Albuquerque.jpg by Camerafiend / CC BY-SA 3.0
-301. bus3.jpg: https://commons.wikimedia.org/wiki/File:Doppelgelenkbus_01_KMJ.jpg by KMJ / CC BY-SA 3.0
-302. camel.jpg: https://commons.wikimedia.org/wiki/File:Maroc_Sahara_caravane.jpg by Bachmont / CC BY 2.0
-303. car1.jpg: https://commons.wikimedia.org/wiki/File:Proton_Persona_(front),_Serdang.jpg by Two hundred percent / CC BY-SA 3.0
-304. car2.jpg: https://commons.wikimedia.org/wiki/File:TeslaRoadster-front.jpg by fogcat5 / CC BY-SA 2.0
-305. car3.jpg: https://commons.wikimedia.org/wiki/File:Fiat_Uno_3d_PICT0113.jpg by Pibwl / CC BY-SA 3.0
-306. car5.jpg: https://commons.wikimedia.org/wiki/File:Late_model_Ford_Model_T.jpg by Rmhermen / CC BY-SA 3.0
-307. cycle.jpg: https://commons.wikimedia.org/wiki/File:Cykel.JPG by Lhademmor / CC BY-SA 3.0
-308. exchanger.jpg: https://commons.wikimedia.org/wiki/File:Culemeyer-lingen-Anh%C3%A4nger.jpg by Mattes / public domain
-309. ferry.jpg: https://commons.wikimedia.org/wiki/File:Rccl-brillance-of-the-seas.jpg by Destailleur / CC BY-SA 3.0
-310. ferry1.jpg: https://commons.wikimedia.org/wiki/File:MS_Arion_(ex_Istra)_IMO_6419057_Leaving_the_Port_of_Split-Croatia-2011-09-17.jpg by Ivan T. / CC BY-SA 3.0
-311. flight.jpg: https://commons.wikimedia.org/wiki/File:First_flight3.jpg by John T. Daniels / public domain
-312. helicopter.jpg: https://commons.wikimedia.org/wiki/File:HH-43_Huskie_of_IIAF.jpgi by iiaf / public domain
-313. helicopter1.jpg: https://commons.wikimedia.org/wiki/File:C-FOKV_Canadian_Helicopters_Bell_212_(B212)_02.JPG by CambridgeBayWeather / public domain
-314. metro.jpg: https://en.wikipedia.org/wiki/File:NYC_Subway_R160A_9237_on_the_E.jpg by Adam E. Moreira / CC BY-SA 3.0
-315. plane.jpg: https://commons.wikimedia.org/wiki/File:Mahan_Air_A310_EP-MNO.jpg by Lasse Fuss / CC BY-SA 3.0
-316. plane1.jpg: https://commons.wikimedia.org/wiki/File:Olympic.b737-400.sx-bkh.arp.jpg by Arpingstone / public domain
-317. plane2.jpg: https://commons.wikimedia.org/wiki/File:Enterprise-Boeing_747.jpg by NASA / public domain
-318. plane2.JPG: https://commons.wikimedia.org/wiki/File:Boeing_737-400_Centralwings.JPG by Łukasz Golowanow / CC BY-SA 3.0
-319. plane3.jpg: https://en.wikipedia.org/wiki/File:Airfrance.a318-100.f-guga.arp.jpg by Arpingstone / public domain
-320. rickshaw.jpg: https://commons.wikimedia.org/wiki/File:National_Museum_KL_2008_(153).JPG by Gryffindor / public domain
-321. rickshaw2.jpg: https://commons.wikimedia.org/wiki/File:FIAL_Legnano_1908.JPG by Buch-t / GFDL
-322. roadTrain.jpg: https://commons.wikimedia.org/wiki/File:Road_Train2.jpg by Sibylle Dreyer / public domain
-323. rocket.jpg: https://commons.wikimedia.org/wiki/File:Enterprise_close-up_at_Vandenberg_AFB_SLC-6_-_DF-ST-86-00717.jpg by U.S. Air Force/Tech. Sgt. James Pearson / public domain
-324. rocket1.jpg: https://commons.wikimedia.org/wiki/File:Apollo_15_launch.jpg by NASA / public domain
-325. rotorShip.jpg: https://commons.wikimedia.org/wiki/File:Rotorship_Uni-kat_Flensburg.jpg by Wessmann.clp / public domain
-326. ship.jpg: https://commons.wikimedia.org/wiki/File:Queen_Mary_2_05_KMJ.jpg by Benutzer:KMJ / CC BY-SA 3.0
-327. ship1.jpg: https://commons.wikimedia.org/wiki/File:ShipNorway.JPG by Thorsten Pohl (Thpohl) / public domain
-328. tanker.jpg: https://commons.wikimedia.org/wiki/File:Tanker_offshore_terminal.jpg by U.S. Navy / public domain
-329. train1.jpg: https://commons.wikimedia.org/wiki/File:VB_2N_Etat_Saint-Lazare-a.jpg by Didier Duforest / CC BY-SA 4.0
-330. train2.jpg: https://commons.wikimedia.org/wiki/File:%C3%96BB_EC_162_in_Innsbruck_Hbf.jpg by Siegele Roland / CC BY-SA 3.0 AT
-331. train3.jpg: https://commons.wikimedia.org/wiki/File:Barcelona-EF_-_2014-02-14_2_-_JTCurses.jpg by JT Curses / CC BY-SA 4.0
-332. train4.jpg: https://commons.wikimedia.org/wiki/File:Liverpool_and_3265.jpg by Tomtrainboy1991 at en.wikipedia / CC BY-SA 3.0
-333. train5.jpg: https://commons.wikimedia.org/wiki/File:WCML_freight_train.jpg by G-Man / public domain
-334. tram.jpg: https://commons.wikimedia.org/wiki/File:1975_-_Pontevedra.jpg by Antonio / CC BY-SA 2.0
-335. tram1.jpg: https://commons.wikimedia.org/wiki/File:4trams_vienna.jpg by Martin Ortner / CC BY-SA 3.0
-336. tucker.jpg: https://commons.wikimedia.org/wiki/File:1967-Tucker-342.jpg by Melensdad at English Wikipedia / CC BY-SA 3.0
+autorickshaw.jpg: https://commons.wikimedia.org/wiki/File:TH_Tuk_Tuk_1.jpg by Brownie13 / public domain
+balloon.jpg: https://commons.wikimedia.org/wiki/File:Yellow.balloon.takesoff.in.bath.arp.jpg by Arpingstone / public domain
+bicycle2.jpg: https://commons.wikimedia.org/wiki/File:Brosen_city_bicycle.jpg by Brosen / CC BY-SA 3.0
+boat.jpg: https://commons.wikimedia.org/wiki/File:Doni_aux_Maldives_cropped.jpg by Remi Jouan / CC BY-SA 3.0
+bulletTrain.jpg: https://commons.wikimedia.org/wiki/File:ICE1_Schellenberg.jpg by S. Terfloth / CC BY-SA 2.0 DE
+bullockcart.jpg: https://commons.wikimedia.org/wiki/File:Paarden-trekken-kar.JPG by Andre Engels / CC BY-SA 3.0
+bus.jpg: https://commons.wikimedia.org/wiki/File:Greenline-Express.jpg by Marvin John Gemino / CC BY-SA 2.0
+bus1.jpg: https://commons.wikimedia.org/wiki/File:ACTION_Bus-467.jpg by Angelo Tsirekas / CC BY-SA 3.0
+bus2.jpg: https://commons.wikimedia.org/wiki/File:ABQ_RIDE_332_Montgomery_Albuquerque.jpg by Camerafiend / CC BY-SA 3.0
+bus3.jpg: https://commons.wikimedia.org/wiki/File:Doppelgelenkbus_01_KMJ.jpg by KMJ / CC BY-SA 3.0
+camel.jpg: https://commons.wikimedia.org/wiki/File:Maroc_Sahara_caravane.jpg by Bachmont / CC BY 2.0
+car1.jpg: https://commons.wikimedia.org/wiki/File:Proton_Persona_(front),_Serdang.jpg by Two hundred percent / CC BY-SA 3.0
+car2.jpg: https://commons.wikimedia.org/wiki/File:TeslaRoadster-front.jpg by fogcat5 / CC BY-SA 2.0
+car3.jpg: https://commons.wikimedia.org/wiki/File:Fiat_Uno_3d_PICT0113.jpg by Pibwl / CC BY-SA 3.0
+car5.jpg: https://commons.wikimedia.org/wiki/File:Late_model_Ford_Model_T.jpg by Rmhermen / CC BY-SA 3.0
+cycle.jpg: https://commons.wikimedia.org/wiki/File:Cykel.JPG by Lhademmor / CC BY-SA 3.0
+exchanger.jpg: https://commons.wikimedia.org/wiki/File:Culemeyer-lingen-Anh%C3%A4nger.jpg by Mattes / public domain
+ferry.jpg: https://commons.wikimedia.org/wiki/File:Rccl-brillance-of-the-seas.jpg by Destailleur / CC BY-SA 3.0
+ferry1.jpg: https://commons.wikimedia.org/wiki/File:MS_Arion_(ex_Istra)_IMO_6419057_Leaving_the_Port_of_Split-Croatia-2011-09-17.jpg by Ivan T. / CC BY-SA 3.0
+flight.jpg: https://commons.wikimedia.org/wiki/File:First_flight3.jpg by John T. Daniels / public domain
+helicopter.jpg: https://commons.wikimedia.org/wiki/File:HH-43_Huskie_of_IIAF.jpgi by iiaf / public domain
+helicopter1.jpg: https://commons.wikimedia.org/wiki/File:C-FOKV_Canadian_Helicopters_Bell_212_(B212)_02.JPG by CambridgeBayWeather / public domain
+metro.jpg: https://en.wikipedia.org/wiki/File:NYC_Subway_R160A_9237_on_the_E.jpg by Adam E. Moreira / CC BY-SA 3.0
+plane.jpg: https://commons.wikimedia.org/wiki/File:Mahan_Air_A310_EP-MNO.jpg by Lasse Fuss / CC BY-SA 3.0
+plane1.jpg: https://commons.wikimedia.org/wiki/File:Olympic.b737-400.sx-bkh.arp.jpg by Arpingstone / public domain
+plane2.jpg: https://commons.wikimedia.org/wiki/File:Enterprise-Boeing_747.jpg by NASA / public domain
+plane2.JPG: https://commons.wikimedia.org/wiki/File:Boeing_737-400_Centralwings.JPG by Łukasz Golowanow / CC BY-SA 3.0
+plane3.jpg: https://en.wikipedia.org/wiki/File:Airfrance.a318-100.f-guga.arp.jpg by Arpingstone / public domain
+rickshaw.jpg: https://commons.wikimedia.org/wiki/File:National_Museum_KL_2008_(153).JPG by Gryffindor / public domain
+rickshaw2.jpg: https://commons.wikimedia.org/wiki/File:FIAL_Legnano_1908.JPG by Buch-t / GFDL
+roadTrain.jpg: https://commons.wikimedia.org/wiki/File:Road_Train2.jpg by Sibylle Dreyer / public domain
+rocket.jpg: https://commons.wikimedia.org/wiki/File:Enterprise_close-up_at_Vandenberg_AFB_SLC-6_-_DF-ST-86-00717.jpg by U.S. Air Force/Tech. Sgt. James Pearson / public domain
+rocket1.jpg: https://commons.wikimedia.org/wiki/File:Apollo_15_launch.jpg by NASA / public domain
+rotorShip.jpg: https://commons.wikimedia.org/wiki/File:Rotorship_Uni-kat_Flensburg.jpg by Wessmann.clp / public domain
+ship.jpg: https://commons.wikimedia.org/wiki/File:Queen_Mary_2_05_KMJ.jpg by Benutzer:KMJ / CC BY-SA 3.0
+ship1.jpg: https://commons.wikimedia.org/wiki/File:ShipNorway.JPG by Thorsten Pohl (Thpohl) / public domain
+tanker.jpg: https://commons.wikimedia.org/wiki/File:Tanker_offshore_terminal.jpg by U.S. Navy / public domain
+train1.jpg: https://commons.wikimedia.org/wiki/File:VB_2N_Etat_Saint-Lazare-a.jpg by Didier Duforest / CC BY-SA 4.0
+train2.jpg: https://commons.wikimedia.org/wiki/File:%C3%96BB_EC_162_in_Innsbruck_Hbf.jpg by Siegele Roland / CC BY-SA 3.0 AT
+train3.jpg: https://commons.wikimedia.org/wiki/File:Barcelona-EF_-_2014-02-14_2_-_JTCurses.jpg by JT Curses / CC BY-SA 4.0
+train4.jpg: https://commons.wikimedia.org/wiki/File:Liverpool_and_3265.jpg by Tomtrainboy1991 at en.wikipedia / CC BY-SA 3.0
+train5.jpg: https://commons.wikimedia.org/wiki/File:WCML_freight_train.jpg by G-Man / public domain
+tram.jpg: https://commons.wikimedia.org/wiki/File:1975_-_Pontevedra.jpg by Antonio / CC BY-SA 2.0
+tram1.jpg: https://commons.wikimedia.org/wiki/File:4trams_vienna.jpg by Martin Ortner / CC BY-SA 3.0
+tucker.jpg: https://commons.wikimedia.org/wiki/File:1967-Tucker-342.jpg by Melensdad at English Wikipedia / CC BY-SA 3.0
 
 Vegetables:
-337. aubergine.jpg: https://commons.wikimedia.org/wiki/File:HK_SYP_Best_of_Best_Vegetable_purple_Eggplant_Aug-2012.JPG by Genmewcaugsa / CC BY-SA 3.0
-338. batatadoce.jpg: https://commons.wikimedia.org/wiki/File:Batata_doce.jpg by Acscosta / CC BY-SA 3.0
-339. bittergourd.jpg: https://commons.wikimedia.org/wiki/File:Bitter_gourd_(%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A6%BE_).JPG by Atudu / CC BY-SA 4.0
-340. blackchillies.jpg: https://commons.wikimedia.org/wiki/File:Fresh_chilaca_chillies.jpg by Jonathanischoice / CC BY-SA 3.0
-341. peas.jpg: https://commons.wikimedia.org/wiki/File:(Pisum_sativum),_A_pea_is_a_most_commonly_green.JPG by David Adam Kess / CC BY-SA 4.0
-342. carrots.jpg: https://commons.wikimedia.org/wiki/File:Carrots.JPG by Kander / public domain
-343. cauliflower.jpg: https://commons.wikimedia.org/wiki/File:Au_march%C3%A9_-_chou-fleurs_2.JPG by Dinkum / CCO 1.0
-344. chillies.jpg: https://commons.wikimedia.org/wiki/File:Carobs.JPG by Osvaldo Gago / CC BY-SA 2.5
-345. chineseradish.jpg: https://commons.wikimedia.org/wiki/File:Chinese_radishes_at_Asian_supermarket_in_New_Jersey.jpg by Tomwsulcer / CCO 1.0
-346. cucumber.jpg: https://commons.wikimedia.org/wiki/File:HK_SYP_Best_of_Best_Vegetable_yellow_Cucumbers_Aug-2012.JPG by Genmewcaugsa / CC BY-SA 3.0
-347. dalhuisi.jpg: https://commons.wikimedia.org/wiki/File:Dahuisi_South_Road,_Beijing_-_IMG_1002.jpg by Daderot / public domain
-348. garlic.jpg: https://commons.wikimedia.org/wiki/File:Ail_p1040226.jpg by David Monniaux / CC BY-SA 3.0
-349. fig.jpg: https://commons.wikimedia.org/wiki/File:Fig.jpg by Fir0002 / CC BY-SA 3.0
-350. mushroom.jpg: https://commons.wikimedia.org/wiki/File:Agaricus_bisporus_5112261430_8556037af0_b.jpg by wikioticsIan / CC BY-SA 2.0
-351. onion.jpg: https://en.wikipedia.org/wiki/File:Onion_2.JPG by OsvaldoGago / CC BY-SA 3.0
-352. potato.jpg: https://commons.wikimedia.org/wiki/File:A_Grande_Batata.jpg by FelipeFronchetti / CC BY-SA 3.0
-353. pumpkin.jpg: https://commons.wikimedia.org/wiki/File:Sugar_Pumpkins.jpg by Mylakegarden / CC BY-SA 4.0
-354. radish.jpg: https://commons.wikimedia.org/wiki/File:HK_SYP_Best_of_Best_Vegetable_white_Carrot_Aug-2012.JPG by Genmewcaugsa / CC BY-SA 3.0
-355. redchillies.jpg: https://commons.wikimedia.org/wiki/File:Fruits_vegetables_pepper.jpg by Marius Iordache / public domain
-356. spinach.jpg: https://commons.wikimedia.org/wiki/File:Bell_Peppers.jpg by Cslucas / CC BY-SA 4.0
-357. spinaches.jpg: https://commons.wikimedia.org/wiki/File:HAR_HANEGEV_AGRICULTURE-PNINA_LIVNY_(6).JPG by Pninalivny / CC BY-SA 4.0
-358. sweetpotato.jpg: https://commons.wikimedia.org/wiki/File:Sweet_potato_brazil.jpg by Carioca / CC BY-SA 3.0
-359. taroroot.jpg: https://commons.wikimedia.org/wiki/File:Eddo_at_Asian_supermarket_in_New_Jersey.jpg by Tomwsulcer / CCO 1.0
-360. vegetablesmix.jpg: https://commons.wikimedia.org/wiki/File:Fruits_vegetables_various_plants.jpg by Marius Iordache / public domain
-361. zucchini.jpg: https://commons.wikimedia.org/wiki/File:2013.04-404-226ap_Zucchini(variety_Golden)1_(frm_NL)_supermt@Montpellier,FR_tue23apr2013-1643h.jpg by Rik Schuiling / CC BY-SA 3.0
+aubergine.jpg: https://commons.wikimedia.org/wiki/File:HK_SYP_Best_of_Best_Vegetable_purple_Eggplant_Aug-2012.JPG by Genmewcaugsa / CC BY-SA 3.0
+batatadoce.jpg: https://commons.wikimedia.org/wiki/File:Batata_doce.jpg by Acscosta / CC BY-SA 3.0
+bittergourd.jpg: https://commons.wikimedia.org/wiki/File:Bitter_gourd_(%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A6%BE_).JPG by Atudu / CC BY-SA 4.0
+blackchillies.jpg: https://commons.wikimedia.org/wiki/File:Fresh_chilaca_chillies.jpg by Jonathanischoice / CC BY-SA 3.0
+peas.jpg: https://commons.wikimedia.org/wiki/File:(Pisum_sativum),_A_pea_is_a_most_commonly_green.JPG by David Adam Kess / CC BY-SA 4.0
+carrots.jpg: https://commons.wikimedia.org/wiki/File:Carrots.JPG by Kander / public domain
+cauliflower.jpg: https://commons.wikimedia.org/wiki/File:Au_march%C3%A9_-_chou-fleurs_2.JPG by Dinkum / CCO 1.0
+chillies.jpg: https://commons.wikimedia.org/wiki/File:Carobs.JPG by Osvaldo Gago / CC BY-SA 2.5
+chineseradish.jpg: https://commons.wikimedia.org/wiki/File:Chinese_radishes_at_Asian_supermarket_in_New_Jersey.jpg by Tomwsulcer / CCO 1.0
+cucumber.jpg: https://commons.wikimedia.org/wiki/File:HK_SYP_Best_of_Best_Vegetable_yellow_Cucumbers_Aug-2012.JPG by Genmewcaugsa / CC BY-SA 3.0
+dalhuisi.jpg: https://commons.wikimedia.org/wiki/File:Dahuisi_South_Road,_Beijing_-_IMG_1002.jpg by Daderot / public domain
+garlic.jpg: https://commons.wikimedia.org/wiki/File:Ail_p1040226.jpg by David Monniaux / CC BY-SA 3.0
+fig.jpg: https://commons.wikimedia.org/wiki/File:Fig.jpg by Fir0002 / CC BY-SA 3.0
+mushroom.jpg: https://commons.wikimedia.org/wiki/File:Agaricus_bisporus_5112261430_8556037af0_b.jpg by wikioticsIan / CC BY-SA 2.0
+onion.jpg: https://en.wikipedia.org/wiki/File:Onion_2.JPG by OsvaldoGago / CC BY-SA 3.0
+potato.jpg: https://commons.wikimedia.org/wiki/File:A_Grande_Batata.jpg by FelipeFronchetti / CC BY-SA 3.0
+pumpkin.jpg: https://commons.wikimedia.org/wiki/File:Sugar_Pumpkins.jpg by Mylakegarden / CC BY-SA 4.0
+radish.jpg: https://commons.wikimedia.org/wiki/File:HK_SYP_Best_of_Best_Vegetable_white_Carrot_Aug-2012.JPG by Genmewcaugsa / CC BY-SA 3.0
+redchillies.jpg: https://commons.wikimedia.org/wiki/File:Fruits_vegetables_pepper.jpg by Marius Iordache / public domain
+spinach.jpg: https://commons.wikimedia.org/wiki/File:Bell_Peppers.jpg by Cslucas / CC BY-SA 4.0
+spinaches.jpg: https://commons.wikimedia.org/wiki/File:HAR_HANEGEV_AGRICULTURE-PNINA_LIVNY_(6).JPG by Pninalivny / CC BY-SA 4.0
+sweetpotato.jpg: https://commons.wikimedia.org/wiki/File:Sweet_potato_brazil.jpg by Carioca / CC BY-SA 3.0
+taroroot.jpg: https://commons.wikimedia.org/wiki/File:Eddo_at_Asian_supermarket_in_New_Jersey.jpg by Tomwsulcer / CCO 1.0
+vegetablesmix.jpg: https://commons.wikimedia.org/wiki/File:Fruits_vegetables_various_plants.jpg by Marius Iordache / public domain
+zucchini.jpg: https://commons.wikimedia.org/wiki/File:2013.04-404-226ap_Zucchini(variety_Golden)1_(frm_NL)_supermt@Montpellier,FR_tue23apr2013-1643h.jpg by Rik Schuiling / CC BY-SA 3.0
+
+Flowers:
+acidanthera.jpg: https://en.wikipedia.org/wiki/File:Acidanthera.jpg by Jitka.karlikov / CC BY-SA 4.0
+allamanda.jpg: https://commons.wikimedia.org/wiki/File:Allamanda_flower_in_india.jpg by Prabhupuducherry / CC BY 4.0
+angiosperms.jpg: https://commons.wikimedia.org/wiki/File:Angiosperms_in_iran_%DA%AF%D9%84%D9%87%D8%A7_%D9%88_%DA%AF%DB%8C%D8%A7%D9%87%D8%A7%D9%86_%DA%AF%D9%84%D8%AF%D8%A7%D8%B1_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%DB%8C_24.jpg by Mostafameraji / CC BY-SA 4.0
+angiosperms2.jpg: https://commons.wikimedia.org/wiki/File:Angiosperms_in_iran_%DA%AF%D9%84%D9%87%D8%A7_%D9%88_%DA%AF%DB%8C%D8%A7%D9%87%D8%A7%D9%86_%DA%AF%D9%84%D8%AF%D8%A7%D8%B1_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%DB%8C_28.jpg by Mostafameraji / CC BY-SA 4.0
+ashoka.jpg: https://en.wikipedia.org/wiki/File:Sita-Ashok_(Saraca_asoca)_flowers_in_Kolkata_W_IMG_4146.jpg by J.M.Garg / CC BY-SA 3.0 Unported
+aster.jpg: https://commons.wikimedia.org/wiki/File:Aster_Flowers.jpg by Swati p / CC BY-SA 4.0
+aster2.jpg: https://commons.wikimedia.org/wiki/File:Aster_Tataricus.JPG by Pascalou petit / CC BY-SA 3.0 Unported
+bauhiniaAcuminata.jpg : https://commons.wikimedia.org/wiki/File:Bauhinia_acuminata_in_Kerala.jpg by Navaneethpp / CC BY-SA 4.0
+bossier.jpg: https://commons.wikimedia.org/wiki/File:Bossier%27s_glory-of-the-snow_(33307485862).jpg by stanze / CC BY-SA 2.0
+bunchOfFlowers.jpg: https://commons.wikimedia.org/wiki/File:Bunch_of_flower.canon.jpg by Siva301in / CC BY-SA 4.0
+calendulaSuffruticosa.jpg: https://commons.wikimedia.org/wiki/File:Calendula_Suffruticosa_1.jpg by Sara Nabih / CC BY-SA 4.0
+camellia.jpg: https://commons.wikimedia.org/wiki/File:Camellia_(10061326526).jpg by GPS 56 / CC BY 2.0 Generic
+capullo.jpg: https://commons.wikimedia.org/wiki/File:Capullo_(7631148800).jpg by David Santaolalla / CC BY 2.0 Generic
+crocus.jpg: https://commons.wikimedia.org/wiki/File:Crocus_(32982730730).jpg by stanze / CC BY-SA 2.0 Generic
+dahlia.jpg: https://commons.wikimedia.org/wiki/File:2006-10-18Dahlia03m.jpg by Wildfeuer / CC BY-SA 3.0 Unported
+daisy.jpg: https://commons.wikimedia.org/wiki/File:Daisy_(5431370231).jpg by Paul Horner / CC BY-SA 2.0 Generic
+floora.jpg: https://commons.wikimedia.org/wiki/File:Floora_09.jpg by Bhuvan019 / CC BY-SA 4.0
+floreInsectos.jpg: https://commons.wikimedia.org/wiki/File:Flor_e_insectos_03_(290358588).jpg by Ferran Pestaña / CC BY-SA 2.0 Generic
+galanthusNivalis.jpg: https://commons.wikimedia.org/wiki/File:Galanthus_nivalis_close-up_aka.jpg by André Karwath / CC BY-SA 2.5 Generic
+hibiscus.jpg: https://www.flickr.com/photos/swallowedtail/27964091566/in/photostream/ by Rob Mitchell / Public domain
+jasmine.jpg: https://en.wikipedia.org/wiki/File:Fleurs_de_Frangipanier_(%C3%8Ele_de_la_R%C3%A9union)_(4125134278).jpg by Jean-Pierre Dalbéra / CC BY 2.0 Generic
+lily.jpg: https://commons.wikimedia.org/wiki/File:Day_Lily_(10602676374).jpg by GPS 56 / CC BY 2.0 Generic
+lotus.jpg: https://en.wikipedia.org/wiki/File:Sacred_lotus_Nelumbo_nucifera.jpg by T.Voekler / CC BY-SA 3.0 Unported
+marigold.jpg: https://commons.wikimedia.org/wiki/File:Marigold.jpg by Dmitri Popov / CC BY-SA 3.0 Unported
+orchid.jpg: https://commons.wikimedia.org/wiki/File:Orchid.jpg by MikeMurphy / CC BY-SA 3.0 Unported
+pollen.jpg: https://commons.wikimedia.org/wiki/File:Field_of_Pollen_on_Morning_Glory_(9462344576).jpg by Mike Lewinski / CC BY 2.0 Generic
+rhododendron.jpg: https://en.wikipedia.org/wiki/File:Rhododendron_ponticum_2.jpg by First Light (talk) / CC BY-SA 3.0 Unported
+rose.jpg: https://commons.wikimedia.org/wiki/File:Rosa_Gold_Glow_2.jpg by Stan Shebs / CC BY_-SA 3.0 Unported
+sunflower.jpg: https://commons.wikimedia.org/wiki/File:First_One_(1860111118).jpg by Anderson Mancini / CC BY 2.0 Generic
+tulip.jpg: https://commons.wikimedia.org/wiki/File:Tulip_-_floriade_canberra.jpg by John O'Neill / CC BY-SA 3.0 Unported
+victoriaAmazonica.jpg: https://commons.wikimedia.org/wiki/File:Victoria_amazonica.jpg by Bilby / CC BY 3.0 Unported
+wildPetunia.jpg: https://commons.wikimedia.org/wiki/File:Wild_Petunia_Blue_Flower_1.JPG by Jon Zander (Digon3) / CC BY-SA 3.0 Unported
