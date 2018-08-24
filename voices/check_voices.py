@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 #
 # GCompris - check_voices.py
 #
@@ -28,23 +28,20 @@ import sys
 import re
 import copy
 import json
-from pprint import pprint
 import polib
 import codecs
-import locale
-from StringIO import StringIO
+from io import StringIO
 import markdown
 from datetime import date
-import polib
 import glob
 
 from PyQt5.QtCore import pyqtProperty, QCoreApplication, QObject, QUrl
 from PyQt5.QtQml import qmlRegisterType, QQmlComponent, QQmlEngine
 
 if len(sys.argv) < 2:
-    print "Usage: check_voices.py [-v] path_to_gcompris"
-    print "  -v:  verbose, show also files that are fine"
-    print "  -nn: not needed, show extra file in the voice directory"
+    print("Usage: check_voices.py [-v] path_to_gcompris")
+    print("  -v:  verbose, show also files that are fine")
+    print("  -nn: not needed, show extra file in the voice directory")
     sys.exit(1)
 
 verbose = '-v' in sys.argv
@@ -84,19 +81,18 @@ def get_html_progress_bar(rate):
 # '<hr style="color:#0c0;background-color:#0c0;height:15px; border:none;margin:0;" align="left" width={:d}% /></td>'.format(int(float(rate) * 100))
 
 def title1(title):
-    print title
-    print '=' * len(title)
-    print ''
+    print(title)
+    print('=' * len(title))
+    print('')
 
 def title2(title):
-    print title
-    print '-' * len(title)
-    print ''
+    print(title)
+    print('-' * len(title))
+    print('')
 
 def title3(title):
-    print '### ' + title
-    print ''
-
+    print('### ' + title)
+    print('')
 
 def get_intro_from_code():
     '''Return a set for activities as found in GCompris ActivityInfo.qml'''
@@ -134,8 +130,8 @@ def init_intro_description_from_code(locale):
     try:
         po = polib.pofile( gcompris_qt + '/po/gcompris_' + locale + '.po')
     except:
-        print "**ERROR: Failed to load po file %s**" %('/po/gcompris_' + locale + '.po')
-        print ''
+        print("**ERROR: Failed to load po file %s**" %('/po/gcompris_' + locale + '.po'))
+        print('')
 
     activity_dir = gcompris_qt + "/src/activities"
     for activity in os.listdir(activity_dir):
@@ -170,12 +166,12 @@ def init_intro_description_from_code(locale):
                         descriptions[activity + '.ogg'] += ' voice: ' + m.group(1)
 
 
-            if not descriptions.has_key(activity + '.ogg'):
-                print "**ERROR: Missing intro tag in %s**" %(activity + "/ActivityInfo.qml")
+            if not activity + '.ogg' in descriptions:
+                print("**ERROR: Missing intro tag in %s**" %(activity + "/ActivityInfo.qml"))
         except IOError as e:
             pass
 
-    print ''
+    print('')
 
 
 def init_country_names_from_code(locale):
@@ -186,8 +182,8 @@ def init_country_names_from_code(locale):
     try:
         po = polib.pofile( gcompris_qt + '/po/gcompris_' + locale + '.po')
     except:
-        print "**ERROR: Failed to load po file %s**" %('/po/gcompris_' + locale + '.po')
-        print ''
+        print("**ERROR: Failed to load po file %s**" %('/po/gcompris_' + locale + '.po'))
+        print('')
 
     app = QCoreApplication(sys.argv)
     engine = QQmlEngine()
@@ -198,7 +194,7 @@ def init_country_names_from_code(locale):
         board = component.create()
         levels = board.property('levels')
         for level in levels.toVariant():
-            if level.has_key('soundFile') and level.has_key('toolTipText'):
+            if 'soundFile' in level and 'toolTipText' in level:
                 sound = level['soundFile'].split('/')[-1].replace('$CA', 'ogg')
                 tooltip = level['toolTipText']
                 if po:
@@ -222,7 +218,7 @@ def get_locales_from_config():
                     if locale != 'system' and locale != 'en_US':
                         locales.add(locale)
     except IOError as e:
-        print "ERROR: Failed to parse %s: %s" %(source, e.strerror)
+        print("ERROR: Failed to parse %s: %s" %(source, e.strerror))
 
     return locales
 
@@ -268,7 +264,7 @@ def get_translation_status_from_po_files():
               percent ]
 
         # Save the translation team in the global descriptions
-        if po.metadata.has_key('Language-Team'):
+        if 'Language-Team' in po.metadata:
             team = po.metadata['Language-Team']
             team = re.sub(r' <.*>', '', team)
             descriptions[locale] = team
@@ -283,10 +279,10 @@ def get_words_from_code():
         with open(gcompris_qt + '/src/activities/lang/resource/content-' + locale + '.json') as data_file:
             data = json.load(data_file)
     except:
-        print ''
-        print "**ERROR: missing resource file %s**" %('/src/activities/lang/resource/content-' + locale + '.json')
-        print '[Instructions to create this file](%s)' %('http://gcompris.net/wiki/Voice_translation_Qt#Lang_word_list')
-        print ''
+        print('')
+        print("**ERROR: missing resource file %s**" %('/src/activities/lang/resource/content-' + locale + '.json'))
+        print('[Instructions to create this file](%s)' %('http://gcompris.net/wiki/Voice_translation_Qt#Lang_word_list'))
+        print('')
         return set()
 
     # Consolidate letters
@@ -304,9 +300,9 @@ def get_wordsgame_from_code():
     '''Return nothing but tells if the required GCompris wordsgame/resource/default-<locale>.json is there'''
 
     if not os.path.isfile(gcompris_qt + '/src/activities/wordsgame/resource/default-' + locale + '.json'):
-        print ''
-        print "**ERROR: missing resource file %s**" %('/src/activities/wordsgame/resource/default-' + locale + '.json')
-        print '[Instructions to create this file](%s)' %('http://gcompris.net/wiki/Word_Lists_Qt#Wordsgame_.28Typing_words.29')
+        print('')
+        print("**ERROR: missing resource file %s**" %('/src/activities/wordsgame/resource/default-' + locale + '.json'))
+        print('[Instructions to create this file](%s)' %('http://gcompris.net/wiki/Word_Lists_Qt#Wordsgame_.28Typing_words.29'))
 
         return set()
 
@@ -317,9 +313,9 @@ def get_click_on_letter_from_code():
     '''Return nothing but tells if the required GCompris click_on_letter/resource/levels-<locale>.json is there'''
 
     if not os.path.isfile(gcompris_qt + '/src/activities/click_on_letter/resource/levels-' + locale + '.json'):
-        print ''
-        print "**ERROR: missing resource file %s**" %('/src/activities/click_on_letter/resource/levels-' + locale + '.json')
-        print '[Instructions to create this file TBD](%s)' %('TBD')
+        print('')
+        print("**ERROR: missing resource file %s**" %('/src/activities/click_on_letter/resource/levels-' + locale + '.json'))
+        print('[Instructions to create this file TBD](%s)' %('TBD'))
 
         return set()
 
@@ -338,7 +334,7 @@ def get_geography_on_letter_from_code():
         board = component.create()
         levels = board.property('levels')
         for level in levels.toVariant():
-            if level.has_key('soundFile') and (not level.has_key('type') or level['type'] != "SHAPE_BACKGROUND"):
+            if 'soundFile' in level and (not 'type' in level or level['type'] != "SHAPE_BACKGROUND"):
                 sound = level['soundFile'].split('/')[-1].replace('$CA', 'ogg')
                 words.add(sound)
     return words
@@ -365,10 +361,10 @@ def get_gletter_alphabet():
         with open(gcompris_qt + '/src/activities/gletters/resource/default-' + locale + '.json') as data_file:
             data = json.load(data_file)
     except:
-        print ''
-        print "**ERROR: Missing resource file %s**" %('/src/activities/gletters/resource/default-' + locale + '.json')
-        print '[Instructions to create this file](%s)' %('http://gcompris.net/wiki/Word_Lists_Qt#Simple_Letters_.28Typing_letters.29_level_design')
-        print ''
+        print('')
+        print("**ERROR: Missing resource file %s**" %('/src/activities/gletters/resource/default-' + locale + '.json'))
+        print('[Instructions to create this file](%s)' %('http://gcompris.net/wiki/Word_Lists_Qt#Simple_Letters_.28Typing_letters.29_level_design'))
+        print('')
         return set()
 
     # Consolidate letters
@@ -397,42 +393,42 @@ def diff_set(title, code, files):
 
     if verbose and code & files:
         title3("These files are correct")
-        print '| File | Description |'
-        print '|------|-------------|'
+        print('| File | Description |')
+        print('|------|-------------|')
         sorted = list(code & files)
         sorted.sort()
         for f in sorted:
             if descriptions.has_key(f):
-                print u'| %s | %s |' %(f, descriptions[f])
+                print(u'| %s | %s |' %(f, descriptions[f]))
             else:
-                print '|%s |  |' %(f)
-        print ''
+                print('|%s |  |' %(f))
+        print('')
 
     if code - files:
         title3("These files are missing")
-        print '| File | Description |'
-        print '|------|-------------|'
+        print('| File | Description |')
+        print('|------|-------------|')
         sorted = list(code - files)
         sorted.sort()
         for f in sorted:
-            if descriptions.has_key(f):
-                print u'| %s | %s |' %(f, descriptions[f])
+            if f in descriptions:
+                print(u'| %s | %s |' % (f, descriptions[f]))
             else:
-                print '|%s |  |' %(f)
-        print ''
+                print('|%s |  |' % (f))
+        print('')
 
     if notneeded and files - code:
         title3("These files are not needed")
-        print '| File | Description |'
-        print '|------|-------------|'
+        print('| File | Description |')
+        print('|------|-------------|')
         sorted = list(files - code)
         sorted.sort()
         for f in sorted:
             if descriptions.has_key(f):
-                print u'|%s | %s|' %(f, descriptions[f])
+                print(u'|%s | %s|' %(f, descriptions[f]))
             else:
-                print '|%s |  |' %(f)
-        print ''
+                print('|%s |  |' %(f))
+        print('')
 
     return 1 - float(len(code - files)) / len(code | files)
 
@@ -447,19 +443,19 @@ def diff_locale_set(title, code, files):
         missing = []
         for locale in code:
             if os.path.isdir(locale):
-                print '* ' + locale
+                print('* ' + locale)
             else:
                 # Shorten the locale and test again
                 shorten = locale.split('_')
                 if os.path.isdir(shorten[0]):
-                    print '* ' + locale
+                    print('* ' + locale)
                 else:
                     missing.append(locale)
-    print ''
-    print "We miss voices for these locales:"
+    print('')
+    print("We miss voices for these locales:")
     for f in missing:
-        print '* ' + f
-    print ''
+        print('* ' + f)
+    print('')
 
 def check_locale_config(title, stats, locale_config):
     '''Display and return locales that are translated above a fixed threshold'''
@@ -469,26 +465,26 @@ def check_locale_config(title, stats, locale_config):
     sorted_config.sort()
     good_locale = []
     for locale in sorted_config:
-        if stats.has_key(locale):
+        if locale in stats:
             if stats[locale][3] < LIMIT:
-                print u'* {:s} ({:s})'.format((descriptions[locale] if descriptions.has_key(locale) else ''), locale)
+                print(u'* {:s} ({:s})'.format((descriptions[locale] if locale in descriptions else ''), locale))
             else:
-                good_locale.append((descriptions[locale] if descriptions.has_key(locale) else ''))
+                good_locale.append(descriptions[locale] if locale in descriptions else '')
         else:
             # Shorten the locale and test again
             shorten = locale.split('_')[0]
-            if stats.has_key(shorten):
+            if shorten in stats:
                 if stats[shorten][3] < LIMIT:
-                    print u'* {:s} ({:s})'.format((descriptions[shorten] if descriptions.has_key(shorten) else ''), shorten)
+                    print(u'* {:s} ({:s})'.format((descriptions[shorten] if shorten in descriptions else ''), shorten))
                 else:
-                    good_locale.append(descriptions[shorten] if descriptions.has_key(shorten) else '')
+                    good_locale.append(descriptions[shorten] if shorten in descriptions else '')
             else:
-                print "* %s no translation at all" %(locale)
+                print("* %s no translation at all" % (locale))
 
-    print ''
+    print('')
     good_locale.sort()
-    print 'There are %d locales above %d%% translation: %s' %(len(good_locale), LIMIT * 100,
-                                                              ', '.join(good_locale))
+    print('There are %d locales above %d%% translation: %s' %(len(good_locale), LIMIT * 100,
+                                                              ', '.join(good_locale)))
 
     return good_locale
 
@@ -518,7 +514,7 @@ for locale in all_locales:
     init_intro_description_from_code(locale)
     init_country_names_from_code(locale)
 
-    title1(u'{:s} ({:s})'.format((descriptions[locale] if descriptions.has_key(locale) else ''), locale))
+    title1(u'{:s} ({:s})'.format((descriptions[locale] if locale in descriptions else ''), locale))
 
     lstats = {'locale': locale}
     lstats['intro'] = diff_set("Intro ({:s}/intro/)".format(locale), get_intro_from_code(), get_files(locale, 'intro'))
@@ -535,18 +531,18 @@ for locale in all_locales:
     stats[locale] = lstats
 
 sys.stdout = reports['summary'] = StringIO()
-sorted_keys = stats.keys()
-sorted_keys.sort()
+sorted_keys = sorted(stats)
+
 title1("GCompris Voice Recording Status Summary")
-print '| Locale | Strings | Misc | Letters | Colors | Geography | Words | Intro|'
-print '|--------|---------|------|---------|--------|-----------|-------|------|'
+print('| Locale | Strings | Misc | Letters | Colors | Geography | Words | Intro|')
+print('|--------|---------|------|---------|--------|-----------|-------|------|')
 for locale in sorted_keys:
     stat = stats[locale]
-    print u'| [{:s} ({:s})](voice_status_{:s}.html) | {:.2f} | {:.2f} | {:.2f} | {:.2f} | {:.2f} | {:.2f} | {:.2f} |' \
-        .format((descriptions[locale] if descriptions.has_key(locale) else ''), stat['locale'], locale,
-                string_stats[locale][3] if string_stats.has_key(locale) else 0,
+    print(u'| [{:s} ({:s})](voice_status_{:s}.html) | {:.2f} | {:.2f} | {:.2f} | {:.2f} | {:.2f} | {:.2f} | {:.2f} |' \
+        .format((descriptions[locale] if locale in descriptions else ''), stat['locale'], locale,
+                string_stats[locale][3] if locale in string_stats else 0,
                 stat['misc'], stat['letter'], stat['color'], stat['geography'],
-                stat['words'], stat['intro'])
+                stat['words'], stat['intro']))
 
 #
 # Now we have all the reports
