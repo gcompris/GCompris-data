@@ -48,7 +48,7 @@ verbose = '-v' in sys.argv
 notneeded = '-nn' in sys.argv
 gcompris_qt = sys.argv[1]
 
-# Force ouput as UTF-8
+# Force output as UTF-8
 ref_stdout = sys.stdout
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
