@@ -18,6 +18,7 @@ QRC_DIR="."
 RCC_DIR=".rcc"
 #RCC_DEFAULT=`which rcc 2>/dev/null`   # default, better take /usr/bin/rcc?
 RCC_DEFAULT=$Qt5_DIR/bin/rcc
+#RCC_DEFAULT=/usr/lib64/qt5/bin/rcc    # on my system the previous line doesn't work, need to use this one instead
 CONTENTS_FILE=Contents
 MD5SUM=/usr/bin/md5sum
 
