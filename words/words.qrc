@@ -1,6 +1,7 @@
 <!DOCTYPE RCC><RCC version="1.0">
 <qresource prefix="/gcompris/data/">
     <file>words/cowboy.png</file>
+    <file>words/to_drink.png</file>
     <file>words/big.png</file>
     <file>words/dive.png</file>
     <file>words/dry.png</file>
@@ -69,7 +70,6 @@
     <file>words/birds/bird27.jpg</file>
     <file>words/birds/bird21.jpg</file>
     <file>words/birds/bird28.jpg</file>
-    <file>words/birds/.directory</file>
     <file>words/birds/bird30.jpg</file>
     <file>words/birds/rooster.jpg</file>
     <file>words/birds/bird26.jpg</file>
@@ -118,6 +118,7 @@
     <file>words/boil.png</file>
     <file>words/shower.png</file>
     <file>words/roof.png</file>
+    <file>words/fear.png</file>
     <file>words/shrub.png</file>
     <file>words/splatter.png</file>
     <file>words/cow.png</file>
@@ -229,6 +230,7 @@
     <file>words/sob.png</file>
     <file>words/chain.png</file>
     <file>words/tissue.png</file>
+    <file>words/scare.png</file>
     <file>words/jaguar.png</file>
     <file>words/corn.png</file>
     <file>words/strainer.png</file>
@@ -263,6 +265,7 @@
     <file>words/grape.png</file>
     <file>words/wrist.png</file>
     <file>words/yogurt.png</file>
+    <file>words/hunchbacked.png</file>
     <file>words/barn.png</file>
     <file>words/faucet.png</file>
     <file>words/stretch.png</file>
@@ -553,7 +556,6 @@
     <file>words/vegetables/bittergourd.jpg</file>
     <file>words/vegetables/onion.jpg</file>
     <file>words/vegetables/fid.jpg</file>
-    <file>words/vegetables/.directory</file>
     <file>words/vegetables/chillies.jpg</file>
     <file>words/vegetables/carrots.jpg</file>
     <file>words/vegetables/vegetablesmix.jpg</file>
@@ -588,7 +590,6 @@
     <file>words/city.png</file>
     <file>words/beaver.png</file>
     <file>words/growl.png</file>
-    <file>words/.directory</file>
     <file>words/towel.png</file>
     <file>words/hummingbird.png</file>
     <file>words/avocado.png</file>
@@ -699,7 +700,6 @@
     <file>words/shapes/cd.svg</file>
     <file>words/shapes/fan.svg</file>
     <file>words/shapes/wcone.svg</file>
-    <file>words/shapes/.directory</file>
     <file>words/shapes/shapes.png</file>
     <file>words/shapes/bowl3.svg</file>
     <file>words/shapes/warning1.svg</file>
@@ -781,6 +781,7 @@
     <file>words/paw.png</file>
     <file>words/stop.png</file>
     <file>words/kneel.png</file>
+    <file>words/hamburger.png</file>
     <file>words/vase.png</file>
     <file>words/fair.png</file>
     <file>words/tag.png</file>
@@ -1042,6 +1043,7 @@
     <file>words/frog.png</file>
     <file>words/giant.png</file>
     <file>words/cough.png</file>
+    <file>words/joy.png</file>
     <file>words/sidewalk.png</file>
     <file>words/duck.png</file>
     <file>words/rhinoceros.png</file>
@@ -1075,7 +1077,6 @@
     <file>words/plants/tree2.jpg</file>
     <file>words/plants/tree3.jpg</file>
     <file>words/plants/plant6.jpg</file>
-    <file>words/plants/.directory</file>
     <file>words/plants/plant5.jpg</file>
     <file>words/plants/tree1.jpg</file>
     <file>words/plants/plant3.jpg</file>
@@ -1164,6 +1165,38 @@
     <file>words/table.png</file>
     <file>words/flag.png</file>
     <file>words/zoo.png</file>
+    <file>words/flowers/ashoka.jpg</file>
+    <file>words/flowers/marigold.jpg</file>
+    <file>words/flowers/crocus.jpg</file>
+    <file>words/flowers/jasmine.jpg</file>
+    <file>words/flowers/tulip.jpg</file>
+    <file>words/flowers/allamanda.jpg</file>
+    <file>words/flowers/bauhiniaAcuminata.jpg</file>
+    <file>words/flowers/sunflower.jpg</file>
+    <file>words/flowers/capullo.jpg</file>
+    <file>words/flowers/wildPetunia.jpg</file>
+    <file>words/flowers/victoriaAmazonica.jpg</file>
+    <file>words/flowers/dahlia.jpg</file>
+    <file>words/flowers/galanthusNivalis.jpg</file>
+    <file>words/flowers/daisy.jpg</file>
+    <file>words/flowers/floora.jpg</file>
+    <file>words/flowers/rose.jpg</file>
+    <file>words/flowers/calendulaSuffruticosa.jpg</file>
+    <file>words/flowers/angiosperms.jpg</file>
+    <file>words/flowers/orchid.jpg</file>
+    <file>words/flowers/pollen.jpg</file>
+    <file>words/flowers/aster.jpg</file>
+    <file>words/flowers/lily.jpg</file>
+    <file>words/flowers/floreInsectos.jpg</file>
+    <file>words/flowers/acidanthera.jpg</file>
+    <file>words/flowers/aster2.jpg</file>
+    <file>words/flowers/angiosperms2.jpg</file>
+    <file>words/flowers/lotus.jpg</file>
+    <file>words/flowers/bossier.jpg</file>
+    <file>words/flowers/rhododendron.jpg</file>
+    <file>words/flowers/bunchOfFlowers.jpg</file>
+    <file>words/flowers/camellia.jpg</file>
+    <file>words/flowers/hibiscus.jpg</file>
     <file>words/front.png</file>
     <file>words/cauliflower.png</file>
     <file>words/fireman.png</file>
@@ -1201,6 +1234,7 @@
     <file>words/parrot.png</file>
     <file>words/sock.png</file>
     <file>words/book.png</file>
+    <file>words/fall.png</file>
     <file>words/shell.png</file>
     <file>words/pipe.png</file>
     <file>words/sailor.png</file>
@@ -1261,6 +1295,7 @@
     <file>words/seed.png</file>
     <file>words/sick.png</file>
     <file>words/steak.png</file>
+    <file>words/cook.png</file>
     <file>words/lobster.png</file>
     <file>words/saddle.png</file>
     <file>words/bay.png</file>
@@ -1363,7 +1398,6 @@
     <file>words/animals/horse.jpg</file>
     <file>words/animals/tiger.jpg</file>
     <file>words/animals/redeyedfrog.jpg</file>
-    <file>words/animals/.directory</file>
     <file>words/animals/tortoise.jpg</file>
     <file>words/animals/pelonquintana.jpg</file>
     <file>words/animals/sheep.jpg</file>
@@ -1455,42 +1489,42 @@
     <file>words/cone.png</file>
     <file>words/turkey.png</file>
     <file>words/people.png</file>
-    <file>words/numbers/00.svg</file>
-    <file>words/numbers/01.svg</file>
-    <file>words/numbers/02.svg</file>
-    <file>words/numbers/03.svg</file>
-    <file>words/numbers/04.svg</file>
-    <file>words/numbers/05.svg</file>
-    <file>words/numbers/06.svg</file>
     <file>words/numbers/07.svg</file>
-    <file>words/numbers/08.svg</file>
-    <file>words/numbers/09.svg</file>
-    <file>words/numbers/10.svg</file>
-    <file>words/numbers/11.svg</file>
-    <file>words/numbers/12.svg</file>
-    <file>words/numbers/13.svg</file>
-    <file>words/numbers/14.svg</file>
     <file>words/numbers/15.svg</file>
-    <file>words/numbers/16.svg</file>
-    <file>words/numbers/17.svg</file>
-    <file>words/numbers/18.svg</file>
-    <file>words/numbers/19.svg</file>
-    <file>words/numbers/20.svg</file>
-    <file>words/numbers/even88.svg</file>
-    <file>words/numbers/even72.svg</file>
-    <file>words/numbers/odd47.svg</file>
-    <file>words/numbers/odd145.svg</file>
-    <file>words/numbers/even22.svg</file>
-    <file>words/numbers/even276.svg</file>
-    <file>words/numbers/odd111.svg</file>
-    <file>words/numbers/odd353.svg</file>
     <file>words/numbers/even786.svg</file>
     <file>words/numbers/even92.svg</file>
-    <file>words/numbers/odd35.svg</file>
-    <file>words/numbers/odd39.svg</file>
-    <file>words/numbers/odd23.svg</file>
+    <file>words/numbers/11.svg</file>
+    <file>words/numbers/odd145.svg</file>
+    <file>words/numbers/odd353.svg</file>
     <file>words/numbers/even192.svg</file>
+    <file>words/numbers/19.svg</file>
+    <file>words/numbers/08.svg</file>
+    <file>words/numbers/17.svg</file>
+    <file>words/numbers/06.svg</file>
+    <file>words/numbers/odd35.svg</file>
+    <file>words/numbers/even22.svg</file>
     <file>words/numbers/even96.svg</file>
+    <file>words/numbers/even72.svg</file>
+    <file>words/numbers/03.svg</file>
+    <file>words/numbers/12.svg</file>
+    <file>words/numbers/10.svg</file>
+    <file>words/numbers/odd39.svg</file>
+    <file>words/numbers/even88.svg</file>
+    <file>words/numbers/odd23.svg</file>
+    <file>words/numbers/13.svg</file>
+    <file>words/numbers/20.svg</file>
+    <file>words/numbers/01.svg</file>
+    <file>words/numbers/05.svg</file>
+    <file>words/numbers/04.svg</file>
+    <file>words/numbers/02.svg</file>
+    <file>words/numbers/odd111.svg</file>
+    <file>words/numbers/even276.svg</file>
+    <file>words/numbers/00.svg</file>
+    <file>words/numbers/18.svg</file>
+    <file>words/numbers/09.svg</file>
+    <file>words/numbers/14.svg</file>
+    <file>words/numbers/odd47.svg</file>
+    <file>words/numbers/16.svg</file>
     <file>words/trip.png</file>
     <file>words/piano.png</file>
     <file>words/pretty.png</file>
@@ -1510,6 +1544,7 @@
     <file>words/knit.png</file>
     <file>words/bus.png</file>
     <file>words/fisherman.png</file>
+    <file>words/popcorn.png</file>
     <file>words/shut.png</file>
     <file>words/bucket.png</file>
     <file>words/vest.png</file>
@@ -1567,7 +1602,6 @@
     <file>words/transport/car1.jpg</file>
     <file>words/transport/tanker.jpg</file>
     <file>words/transport/tucker.jpg</file>
-    <file>words/transport/.directory</file>
     <file>words/transport/plane3.jpg</file>
     <file>words/transport/rocket1.jpg</file>
     <file>words/transport/rickshaw.jpg</file>
