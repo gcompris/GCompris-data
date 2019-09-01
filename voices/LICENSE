@@ -905,6 +905,7 @@ babyshapes.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 balancebox.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 ballcatch.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 bargame.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+bargame_2players.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 binary_bulb.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 braille_alphabets.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 braille_fun.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
@@ -917,6 +918,7 @@ chess.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 chess_2players.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 chess_partyend.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 chronos.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+click_on_letter.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 click_on_letter_up.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 clickanddraw.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 clickgame.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
@@ -943,7 +945,7 @@ fifteen.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 find_the_day.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 followline.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 football.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
-geo_country.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+geo-country.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 geography.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 gletters.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 gnumch-equality.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
@@ -974,14 +976,31 @@ mazeinvisible.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 mazerelative.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 melody.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 memory-case-association.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-case-association-tux.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 memory-enumerate.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-add-minus-mult-div-tux.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-add-minus-mult-div.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-add-minus-tux.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-add-minus.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-add-tux.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-add.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-div.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 memory-math-div-tux.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-minus-tux.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-minus.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-mult-div-tux.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-mult-div.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-mult-tux.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-math-mult.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory-sound.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 memory-sound-tux.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+memory.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 memory-tux.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 memory-wordnumber.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 mining.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 missing-letter.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 money.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+money_back.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 money_back_cents.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 money_cents.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 mosaic.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
@@ -998,6 +1017,7 @@ play_piano.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 play_rhythm.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 programmingMaze.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 railroad.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+readingh.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 readingv.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 redraw.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 redraw_symmetrical.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
@@ -1005,6 +1025,8 @@ renewable_energy.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 reversecount.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 roman_numerals.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 scalesboard.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+scalesboard_weight.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+scalesboard_weight_avoirdupois.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 share.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 simplepaint.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 smallnumbers.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
@@ -1013,7 +1035,9 @@ solar_system.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 submarine.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 sudoku.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 superbrain.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+tangram.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 target.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
+tic_tac_toe.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 tic_tac_toe_2players.ogg  Envel Kervoas & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 traffic.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
 watercycle.ogg  Isabelle Le Nabat & Ewen Kervoas-Le Nabat 2019 / GPL V3+
@@ -17572,7 +17596,6 @@ family_find_relative.ogg  Horia PELLE 2018 / GPL V3+
 fifteen.ogg  Horia PELLE 2018 / GPL V3+
 find_the_day.ogg  Horia PELLE 2018 / GPL V3+
 football.ogg  Horia PELLE 2016 / GPL V3+
-geo_country.ogg  Horia PELLE 2015 / GPL V3+
 geo-country.ogg  Horia PELLE 2016 / GPL V3+
 geography.ogg  Horia PELLE 2018 / GPL V3+
 gletters.ogg  Horia PELLE 2015 / GPL V3+
