@@ -4436,7 +4436,7 @@ super.ogg  GPL V3+
 waytogo.ogg  GPL V3+
 welcome.ogg  GPL V3+
 
-./en/alphabet:
+./en_GB/alphabet:
 10.ogg  Julia Wycherley 2011 / GPL
 11.ogg  Julia Wycherley 2011 / GPL
 12.ogg  Julia Wycherley 2011 / GPL
@@ -4485,7 +4485,7 @@ U0078.ogg  Julia Wycherley 2011 / GPL
 U0079.ogg  Julia Wycherley 2011 / GPL
 U007A.ogg  Julia Wycherley 2011 / GPL
 
-./en/colors:
+./en_GB/colors:
 black.ogg  Julia Wycherley 2011 / GPL
 blue.ogg  Julia Wycherley 2011 / GPL
 brown.ogg  Julia Wycherley 2011 / GPL
@@ -4498,7 +4498,7 @@ red.ogg  Julia Wycherley 2011 / GPL
 white.ogg  Julia Wycherley 2011 / GPL
 yellow.ogg  Julia Wycherley 2011 / GPL
 
-./en/geography:
+./en_GB/geography:
 africa.ogg  Julia Wycherley / GPL 3+
 alaska.ogg  Julia Wycherley / GPL 3+
 albania.ogg  Julia Wycherley / GPL 3+
@@ -4628,7 +4628,7 @@ western_sahara.ogg  Julia Wycherley / GPL 3+
 zambia.ogg  Julia Wycherley / GPL 3+
 zimbabwe.ogg  Julia Wycherley / GPL 3+
 
-./en/intro:
+./en_GB/intro:
 advanced_colors.ogg  Julia Wycherley / GPL 3+
 algebra_by.ogg  Julia Wycherley / GPL 3+
 algebra_guesscount.ogg  Julia Wycherley / GPL 3+
@@ -4763,7 +4763,7 @@ watercycle.ogg  Julia Wycherley / GPL 3+
 wordprocessor.ogg  Julia Wycherley / GPL 3+
 wordsgame.ogg  Julia Wycherley / GPL 3+
 
-./en/misc:
+./en_GB/misc:
 about.ogg  Julia Wycherley 2011 / GPL
 awesome.ogg  Julia Wycherley 2011 / GPL
 back.ogg  Julia Wycherley 2011 / GPL
@@ -4787,7 +4787,7 @@ super.ogg  Julia Wycherley 2011 / GPL
 waytogo.ogg  Julia Wycherley 2011 / GPL
 welcome.ogg  Julia Wycherley 2011 / GPL
 
-./en/words:
+./en_GB/words:
 alligator.ogg  http://www.art4apps.org/ Creative Common License BY-SA
 anchor.ogg  http://www.art4apps.org/ Creative Common License BY-SA
 angel.ogg  http://www.art4apps.org/ Creative Common License BY-SA

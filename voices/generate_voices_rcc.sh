@@ -85,7 +85,7 @@ VOICE_DIR="voices-${CA}"
 rm -rf ${VOICE_DIR}
 mkdir -p ${VOICE_DIR}
 
-for LANG in `find . -maxdepth 1 -regextype posix-egrep -type d -regex "\./[a-z]{2,3}(_[A-Z]{2,3})?" | sort`; do
+for LANG in `find . -maxdepth 1 -regextype posix-egrep -type d -regex "\./[a-z]{2,3}(_[A-Z]{2,3})?" -follow | sort`; do
     QRC_FILE="${QRC_DIR}/voices-${LANG#./}.qrc"
     RCC_FILE="${RCC_DIR}/${VOICE_DIR}/voices-${LANG#./}.rcc"
 
@@ -101,7 +101,7 @@ for LANG in `find . -maxdepth 1 -regextype posix-egrep -type d -regex "\./[a-z]{
     [ -e ${QRC_FILE} ] && rm ${QRC_FILE}
 
     header_rcc $QRC_FILE
-    for i in `find ${LANG} -not -type d | sort`; do
+    for i in `find ${LANG}/ -not -type d | sort`; do
 	# For the lang file
         echo "    <file>${VOICE_DIR}/${i#./}</file>" >> $QRC_FILE
 	# For the all lang file
