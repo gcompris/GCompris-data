@@ -11,6 +11,8 @@
 # upstream location.
 #
 
+# the path depends on the distribution
+#export RCC=/usr/lib64/qt5/bin/rcc
 export RCC=/usr/bin/rcc
 
 [ $# -ne 1 ] && {
