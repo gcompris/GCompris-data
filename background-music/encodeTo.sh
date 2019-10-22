@@ -27,6 +27,7 @@ then
     elif [ $format = "mp3" ]
     then
         codec="libmp3lame"
+        metadata_option="-map_metadata 0:s:0"
     else
         echo "Error, unsupported format $1"
         exit 1
@@ -44,6 +45,7 @@ then
     elif [ $format = "mp3" ]
     then
         codec="mp3"
+        metadata_option="-map_metadata 0:s:0"
     else
         echo "Error, unsupported format $1"
         exit 1
@@ -57,7 +59,7 @@ echo "Transcode ogg files to $format"
 for f in $(find . -type f -name \*.ogg)
 do
     #echo "Processing $f"
-    $encoder -v warning -i $f -acodec $codec ${f%.*}.${format}
+    $encoder -v warning -i $f -acodec $codec ${metadata_option} ${f%.*}.${format}
     if [ $? -ne 0 ]
     then
        echo "ERROR: Failed to convert $f"
