@@ -65,7 +65,7 @@ do
     id3v2 -a "$(vorbiscomment --list $f | grep 'ARTIST' | cut -d '=' -f 2)" ${f%.*}.${format}
     id3v2 -t "$(vorbiscomment --list $f | grep 'TITLE' | cut -d '=' -f 2)" ${f%.*}.${format}
     id3v2 -y "$(vorbiscomment --list $f | grep 'DATE' | cut -d '=' -f 2)" ${f%.*}.${format}
-    id3v2 -c "$(vorbiscomment --list $f | grep 'COMMENTS' | cut -d '=' -f 2)" ${f%.*}.${format}
+    id3v2 --TCOP "$(vorbiscomment --list $f | grep 'COPYRIGHT' | cut -d '=' -f 2)" ${f%.*}.${format}
     rm -f $f
 done
 
