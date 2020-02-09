@@ -15,7 +15,7 @@
 #   GNU General Public License for more details.
 #
 #   You should have received a copy of the GNU General Public License
-#   along with this program; if not, see <http://www.gnu.org/licenses/>.
+#   along with this program; if not, see <https://www.gnu.org/licenses/>.
 #
 #
 # The output is in markdown. A web page can be generated with:
@@ -281,7 +281,7 @@ def get_words_from_code():
     except:
         print('')
         print("**ERROR: missing resource file %s**" %('/src/activities/lang/resource/content-' + locale + '.json'))
-        print('[Instructions to create this file](%s)' %('http://gcompris.net/wiki/Voice_translation_Qt#Lang_word_list'))
+        print('[Instructions to create this file](%s)' %('https://gcompris.net/wiki/Voice_translation_Qt#Lang_word_list'))
         print('')
         return set()
 
@@ -292,7 +292,7 @@ def get_words_from_code():
         if word[0] == 'U' or word[0] == '1':
             continue
         words.add(word)
-        descriptions[word] = u'[{:s}](http://gcompris.net/incoming/lang/words.html#{:s})'.format(data[word], word.replace('.ogg', ''))
+        descriptions[word] = u'[{:s}](https://gcompris.net/incoming/lang/words.html#{:s})'.format(data[word], word.replace('.ogg', ''))
 
     return words
 
@@ -302,7 +302,7 @@ def get_wordsgame_from_code():
     if not os.path.isfile(gcompris_qt + '/src/activities/wordsgame/resource/default-' + locale + '.json'):
         print('')
         print("**ERROR: missing resource file %s**" %('/src/activities/wordsgame/resource/default-' + locale + '.json'))
-        print('[Instructions to create this file](%s)' %('http://gcompris.net/wiki/Word_Lists_Qt#Wordsgame_.28Typing_words.29'))
+        print('[Instructions to create this file](%s)' %('https://gcompris.net/wiki/Word_Lists_Qt#Wordsgame_.28Typing_words.29'))
 
         return set()
 
@@ -363,7 +363,7 @@ def get_gletter_alphabet():
     except:
         print('')
         print("**ERROR: Missing resource file %s**" %('/src/activities/gletters/resource/default-' + locale + '.json'))
-        print('[Instructions to create this file](%s)' %('http://gcompris.net/wiki/Word_Lists_Qt#Simple_Letters_.28Typing_letters.29_level_design'))
+        print('[Instructions to create this file](%s)' %('https://gcompris.net/wiki/Word_Lists_Qt#Simple_Letters_.28Typing_letters.29_level_design'))
         print('')
         return set()
 
