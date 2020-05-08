@@ -398,7 +398,7 @@ def diff_set(title, code, files):
         sorted = list(code & files)
         sorted.sort()
         for f in sorted:
-            if descriptions.has_key(f):
+            if f in descriptions:
                 print(u'| %s | %s |' %(f, descriptions[f]))
             else:
                 print('|%s |  |' %(f))
@@ -424,7 +424,7 @@ def diff_set(title, code, files):
         sorted = list(files - code)
         sorted.sort()
         for f in sorted:
-            if descriptions.has_key(f):
+            if f in descriptions:
                 print(u'|%s | %s|' %(f, descriptions[f]))
             else:
                 print('|%s |  |' %(f))
