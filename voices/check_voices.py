@@ -39,7 +39,7 @@ from PyQt5.QtCore import pyqtProperty, QCoreApplication, QObject, QUrl
 from PyQt5.QtQml import qmlRegisterType, QQmlComponent, QQmlEngine
 
 if len(sys.argv) < 2:
-    print("Usage: check_voices.py [-v] path_to_gcompris")
+    print("Usage: check_voices.py path_to_gcompris [-v] [-nn]")
     print("  -v:  verbose, show also files that are fine")
     print("  -nn: not needed, show extra file in the voice directory")
     sys.exit(1)
