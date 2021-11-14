@@ -68,8 +68,8 @@ def get_html_header():
 
 def get_html_footer():
     today = date.today()
-    return """</body>
-<hr></hr>
+    return """
+<hr>
 <p>Page generated the {:s}</p>
 </body>
 """.format(today.isoformat())
@@ -498,6 +498,8 @@ sys.stdout = reports['stats'] = StringIO()
 string_stats = get_translation_status_from_po_files()
 check_locale_config("Locales to remove from LanguageList.qml (translation level < 80%)",
                     string_stats, get_locales_from_config())
+
+print('\n[Guide to contribute recording files](%s)' %('https://gcompris.net/wiki/Voice_translation_Qt'))
 
 # Calc the big list of locales we have to check
 all_locales = get_locales_from_po_files() | get_locales_from_file()
