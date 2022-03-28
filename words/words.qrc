@@ -76,7 +76,6 @@
     <file>words/birds/bird1.jpg</file>
     <file>words/birds/bird24.jpg</file>
     <file>words/birds/peacock.jpg</file>
-    <file>words/birds/bee.jpg</file>
     <file>words/birds/bird13.jpg</file>
     <file>words/birds/bird31.jpg</file>
     <file>words/birds/bird22.jpg</file>
@@ -413,7 +412,6 @@
     <file>words/householdGoods/bed.jpg</file>
     <file>words/householdGoods/heater2.jpg</file>
     <file>words/householdGoods/canOpener.jpg</file>
-    <file>words/householdGoods/iron.JPG</file>
     <file>words/householdGoods/coffeeMaker2.jpg</file>
     <file>words/householdGoods/television.jpg</file>
     <file>words/householdGoods/ac.jpg</file>
@@ -422,7 +420,6 @@
     <file>words/householdGoods/stool.jpg</file>
     <file>words/householdGoods/sewingMachine1.jpg</file>
     <file>words/householdGoods/chair3.jpg</file>
-    <file>words/householdGoods/chair4.jpg</file>
     <file>words/householdGoods/couch2.jpg</file>
     <file>words/householdGoods/refrigerator2.jpg</file>
     <file>words/householdGoods/iron.jpg</file>
@@ -430,12 +427,9 @@
     <file>words/householdGoods/crib.jpg</file>
     <file>words/householdGoods/ac2.JPG</file>
     <file>words/householdGoods/breadtoaster.jpg</file>
-    <file>words/householdGoods/chair1.jpg</file>
-    <file>words/householdGoods/couch1.jpg</file>
     <file>words/householdGoods/chair2.jpg</file>
     <file>words/householdGoods/radio1.jpg</file>
     <file>words/householdGoods/iron2.jpg</file>
-    <file>words/householdGoods/studytable.png</file>
     <file>words/householdGoods/lamp.jpg</file>
     <file>words/householdGoods/curtains1.jpg</file>
     <file>words/householdGoods/bathtub.jpg</file>
@@ -445,7 +439,6 @@
     <file>words/householdGoods/almirah1.jpg</file>
     <file>words/householdGoods/bookshelf.jpg</file>
     <file>words/householdGoods/curtains.jpg</file>
-    <file>words/householdGoods/stool1.jpg</file>
     <file>words/householdGoods/oven.jpg</file>
     <file>words/householdGoods/fan.jpg</file>
     <file>words/householdGoods/radio.jpg</file>
@@ -456,7 +449,6 @@
     <file>words/householdGoods/refrigerator.jpg</file>
     <file>words/householdGoods/laptop.jpg</file>
     <file>words/householdGoods/heater1.jpg</file>
-    <file>words/householdGoods/computer.JPG</file>
     <file>words/householdGoods/vacuumCleaner.jpg</file>
     <file>words/householdGoods/towels.jpg</file>
     <file>words/householdGoods/dressingtable.jpg</file>
@@ -466,9 +458,7 @@
     <file>words/householdGoods/iron1.jpg</file>
     <file>words/householdGoods/diningtable1.jpg</file>
     <file>words/householdGoods/sewingMachine2.jpg</file>
-    <file>words/householdGoods/washingMachine.jpg</file>
     <file>words/householdGoods/toaster.jpg</file>
-    <file>words/householdGoods/chest2.jpg</file>
     <file>words/householdGoods/chair5.jpg</file>
     <file>words/householdGoods/almirah.jpg</file>
     <file>words/householdGoods/couch.jpg</file>
@@ -659,7 +649,6 @@
     <file>words/shapes/rainbowsquare.svg</file>
     <file>words/shapes/hexagon4.svg</file>
     <file>words/shapes/pgram3.svg</file>
-    <file>words/shapes/gascylinder.svg</file>
     <file>words/shapes/pentagon.svg</file>
     <file>words/shapes/pentagon4.svg</file>
     <file>words/shapes/pentagon2.svg</file>
@@ -667,7 +656,6 @@
     <file>words/shapes/decagon.svg</file>
     <file>words/shapes/cylinder.svg</file>
     <file>words/shapes/tin.png</file>
-    <file>words/shapes/juice1.svg</file>
     <file>words/shapes/watermelon.svg</file>
     <file>words/shapes/sunrise.svg</file>
     <file>words/shapes/ice_cream.png</file>
@@ -683,8 +671,6 @@
     <file>words/shapes/nonagon.svg</file>
     <file>words/shapes/triangle.svg</file>
     <file>words/shapes/bin.png</file>
-    <file>words/shapes/bowl2.svg</file>
-    <file>words/shapes/sugar.png</file>
     <file>words/shapes/heptagon.svg</file>
     <file>words/shapes/hexagon.svg</file>
     <file>words/shapes/trianglehat.svg</file>
@@ -708,19 +694,13 @@
     <file>words/shapes/rhombus4.svg</file>
     <file>words/shapes/rolling_pin.png</file>
     <file>words/shapes/halfmoon.svg</file>
-    <file>words/shapes/cylbin.svg</file>
     <file>words/shapes/octagon.svg</file>
     <file>words/shapes/ledsquare.svg</file>
     <file>words/shapes/icecream.svg</file>
-    <file>words/shapes/hemisphere.svg</file>
     <file>words/shapes/square.png</file>
-    <file>words/shapes/trapezium1.svg</file>
-    <file>words/shapes/rhombus3.svg</file>
     <file>words/shapes/rubikscube.svg</file>
     <file>words/shapes/pgram2.svg</file>
-    <file>words/shapes/kite.svg</file>
     <file>words/shapes/semicircle.svg</file>
-    <file>words/shapes/torch.png</file>
     <file>words/shapes/decagon3.svg</file>
     <file>words/shapes/slate.svg</file>
     <file>words/shapes/pgram1.svg</file>
@@ -735,10 +715,8 @@
     <file>words/shapes/octagon3.svg</file>
     <file>words/shapes/cube.JPG</file>
     <file>words/shapes/can.svg</file>
-    <file>words/shapes/pgram4.svg</file>
     <file>words/shapes/smile.svg</file>
     <file>words/shapes/decagon1.svg</file>
-    <file>words/shapes/sunrays.svg</file>
     <file>words/shapes/bowl.svg</file>
     <file>words/shapes/coin.svg</file>
     <file>words/shapes/cuboid.svg</file>
@@ -753,7 +731,6 @@
     <file>words/shapes/octagon1.svg</file>
     <file>words/shapes/heptagon2.svg</file>
     <file>words/shapes/nonagon2.svg</file>
-    <file>words/shapes/bowl1.svg</file>
     <file>words/shapes/globe.svg</file>
     <file>words/shapes/nonagon4.svg</file>
     <file>words/shapes/yellowtriangle.svg</file>
@@ -1009,13 +986,11 @@
     <file>words/angry.png</file>
     <file>words/lake.png</file>
     <file>words/quarrel.png</file>
-    <file>words/fruits/olives.JPG</file>
     <file>words/fruits/mango.jpg</file>
     <file>words/fruits/strwaberry.jpg</file>
     <file>words/fruits/cherries.jpg</file>
     <file>words/fruits/nectarine.jpg</file>
     <file>words/fruits/guava.jpg</file>
-    <file>words/fruits/pomegranate.jpg</file>
     <file>words/fruits/tyttberries.jpg</file>
     <file>words/fruits/fruitsalad.jpg</file>
     <file>words/fruits/pyrusmalus.jpg</file>
@@ -1329,7 +1304,6 @@
     <file>words/shadow.png</file>
     <file>words/food/icecream1.jpg</file>
     <file>words/food/pizza1.jpg</file>
-    <file>words/food/biscuits.jpg</file>
     <file>words/food/steak.jpg</file>
     <file>words/food/skimmedMilk.jpg</file>
     <file>words/food/kathiRoll.jpg</file>
@@ -1591,7 +1565,6 @@
     <file>words/transport/bus.jpg</file>
     <file>words/transport/camel.jpg</file>
     <file>words/transport/car2.jpg</file>
-    <file>words/transport/bus3.jpg</file>
     <file>words/transport/exchanger.jpg</file>
     <file>words/transport/bicycle2.jpg</file>
     <file>words/transport/bus2.jpg</file>
@@ -1624,7 +1597,6 @@
     <file>words/transport/train5.jpg</file>
     <file>words/transport/bullockcart.jpg</file>
     <file>words/transport/cycle.jpg</file>
-    <file>words/transport/plane2.JPG</file>
     <file>words/transport/helicopter1.jpg</file>
     <file>words/transport/car5.jpg</file>
     <file>words/transport/car3.jpg</file>
