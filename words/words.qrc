@@ -670,7 +670,6 @@
     <file>words/shapes/glass.svg</file>
     <file>words/shapes/nonagon.svg</file>
     <file>words/shapes/triangle.svg</file>
-    <file>words/shapes/bin.png</file>
     <file>words/shapes/heptagon.svg</file>
     <file>words/shapes/hexagon.svg</file>
     <file>words/shapes/trianglehat.svg</file>
@@ -680,13 +679,11 @@
     <file>words/shapes/rhombus2.svg</file>
     <file>words/shapes/backcard.svg</file>
     <file>words/shapes/heptagon4.svg</file>
-    <file>words/shapes/gray.png</file>
     <file>words/shapes/heptagon3.svg</file>
     <file>words/shapes/trapezium3.svg</file>
     <file>words/shapes/cd.svg</file>
     <file>words/shapes/fan.svg</file>
     <file>words/shapes/wcone.svg</file>
-    <file>words/shapes/shapes.png</file>
     <file>words/shapes/bowl3.svg</file>
     <file>words/shapes/warning1.svg</file>
     <file>words/shapes/dice.svg</file>
@@ -697,7 +694,6 @@
     <file>words/shapes/octagon.svg</file>
     <file>words/shapes/ledsquare.svg</file>
     <file>words/shapes/icecream.svg</file>
-    <file>words/shapes/square.png</file>
     <file>words/shapes/rubikscube.svg</file>
     <file>words/shapes/pgram2.svg</file>
     <file>words/shapes/semicircle.svg</file>
@@ -717,7 +713,6 @@
     <file>words/shapes/can.svg</file>
     <file>words/shapes/smile.svg</file>
     <file>words/shapes/decagon1.svg</file>
-    <file>words/shapes/bowl.svg</file>
     <file>words/shapes/coin.svg</file>
     <file>words/shapes/cuboid.svg</file>
     <file>words/shapes/squareclock.svg</file>
