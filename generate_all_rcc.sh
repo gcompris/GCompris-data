@@ -20,6 +20,7 @@ cd background-music
 echo "Building voices"
 cd ../voices
 ./update_voices.sh
-#echo "Building words"
+#echo "Building words" -> this is already done by the update_voices.sh script
 #cd ../words
-#./generate_lang_rcc.sh
+#./generate_lang_rcc.sh words-webp
+

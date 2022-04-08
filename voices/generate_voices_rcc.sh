@@ -33,13 +33,14 @@ MD5SUM=/usr/bin/md5sum
     exit 1
 }
 
-WORDS_DIR=../../words/words
+WORDS_NAME=words-webp
+WORDS_DIR=../../words/${WORDS_NAME}
 [ ! -d "${WORDS_DIR}" ] && {
     echo "Words dir ${WORDS_DIR} not found"
     exit 1
 }
-[ -d words ] && rm -rf words
-ln -s ${WORDS_DIR} words
+[ -d ${WORDS_NAME} ] && rm -rf ${WORDS_NAME}
+ln -s ${WORDS_DIR} ${WORDS_NAME}
 
 function generate_rcc {
     # Generate RCC 
@@ -113,7 +114,7 @@ for LANG in `find . -maxdepth 1 -regextype posix-egrep -type d -regex "\./[a-z]{
 done
 
 # Word images for the full qrc
-for i in `find words/ -not -type d | sort`; do
+for i in `find ${WORDS_NAME}/ -not -type d | sort`; do
     echo "    <file>${i#${WORDS_DIR}}</file>" >> $QRC_FULL_FILE
 done
 
@@ -128,18 +129,18 @@ generate_rcc ${QRC_FULL_FILE} ${RCC_FULL_FILE}
 # as this is our reference and images does not depends on the audio codec
 if [[ $CA == ogg ]]
 then
-    header_rcc "${QRC_DIR}/words.qrc"
-    for i in `find words/ -not -type d | sort`; do
-	echo "    <file>${i#${WORDS_DIR}}</file>" >> "${QRC_DIR}/words.qrc"
+    header_rcc "${QRC_DIR}/${WORDS_NAME}.qrc"
+    for i in `find ${WORDS_NAME}/ -not -type d | sort`; do
+	echo "    <file>${i#${WORDS_DIR}}</file>" >> "${QRC_DIR}/${WORDS_NAME}.qrc"
     done
-    footer_rcc "${QRC_DIR}/words.qrc"
-    echo -n "  words: "${QRC_DIR}/words.qrc" ... "
-    generate_rcc "${QRC_DIR}/words.qrc" "${RCC_DIR}/words/words.rcc"
+    footer_rcc "${QRC_DIR}/${WORDS_NAME}.qrc"
+    echo -n "  ${WORDS_NAME}: "${QRC_DIR}/${WORDS_NAME}.qrc" ... "
+    generate_rcc "${QRC_DIR}/${WORDS_NAME}.qrc" "${RCC_DIR}/words/${WORDS_NAME}.rcc"
 fi
 
 #cleanup:
 #rm -f *.qrc
-#rm words
+#rm ${WORDS_NAME}
 #rm -rf ${VOICE_DIR}
 
 echo "Finished!"
