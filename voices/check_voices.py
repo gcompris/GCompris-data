@@ -128,8 +128,8 @@ def init_intro_description_from_code(locale):
 
     po = None
     try:
-        po = polib.pofile( gcompris_qt + '/po/gcompris_' + locale + '.po')
-    except:
+        po = polib.pofile(gcompris_qt + '/po/gcompris_' + locale + '.po')
+    except OSError as e:
         print("**ERROR: Failed to load po file %s**" %('/po/gcompris_' + locale + '.po'))
         print('')
 
@@ -181,7 +181,7 @@ def init_country_names_from_code(locale):
     po = None
     try:
         po = polib.pofile( gcompris_qt + '/po/gcompris_' + locale + '.po')
-    except:
+    except OSError as e:
         print("**ERROR: Failed to load po file %s**" %('/po/gcompris_' + locale + '.po'))
         print('')
 
