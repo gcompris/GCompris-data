@@ -35,8 +35,8 @@ import markdown
 from datetime import date
 import glob
 
-from PyQt5.QtCore import pyqtProperty, QCoreApplication, QObject, QUrl
-from PyQt5.QtQml import qmlRegisterType, QQmlComponent, QQmlEngine
+from PyQt5.QtCore import QCoreApplication, QUrl
+from PyQt5.QtQml import QQmlComponent, QQmlEngine
 
 if len(sys.argv) < 2:
     print("Usage: check_voices.py path_to_gcompris [-v] [-nn]")
