@@ -128,9 +128,9 @@ def init_intro_description_from_code(locale):
 
     po = None
     try:
-        po = polib.pofile(gcompris_qt + '/po/gcompris_' + locale + '.po')
+        po = polib.pofile(gcompris_qt + '/poqm/'+locale+'/gcompris_qt.po')
     except OSError as e:
-        print("**ERROR: Failed to load po file %s**" %('/po/gcompris_' + locale + '.po'))
+        print("**ERROR: Failed to load po file %s**" %('/poqm/'+locale+'/gcompris_qt.po'))
         print('')
 
     activity_dir = gcompris_qt + "/src/activities"
@@ -180,9 +180,9 @@ def init_country_names_from_code(locale):
 
     po = None
     try:
-        po = polib.pofile( gcompris_qt + '/po/gcompris_' + locale + '.po')
+        po = polib.pofile( gcompris_qt + '/poqm/'+locale+'/gcompris_qt.po')
     except OSError as e:
-        print("**ERROR: Failed to load po file %s**" %('/po/gcompris_' + locale + '.po'))
+        print("**ERROR: Failed to load po file %s**" %('/poqm/'+locale+'gcompris_qt.po'))
         print('')
 
     app = QCoreApplication(sys.argv)
@@ -225,13 +225,12 @@ def get_locales_from_config():
 
 def get_locales_from_po_files():
     '''Return a set for locales for which we have a po file '''
-    '''Run make getSvnTranslations first'''
 
     locales = set()
 
-    locales_dir = gcompris_qt + "/po"
+    locales_dir = gcompris_qt + "/poqm"
     for locale in os.listdir(locales_dir):
-        locales.add(locale.split('_', 1)[1][:-3])
+        locales.add(locale)
 
     return locales
 
@@ -239,17 +238,15 @@ def get_translation_status_from_po_files():
     '''Return the translation status from the po file '''
     '''For each locale as key we provide a list: '''
     ''' [ translated_entries, untranslated_entries, fuzzy_entries, percent ]'''
-    '''Run make getSvnTranslations first'''
 
     # en locale has no translation file but mark it 100% done
     locales = {'en': [0, 0, 0, 1]}
 
     descriptions['en'] = 'US English'
 
-    locales_dir = gcompris_qt + "/po"
-    for locale_file in os.listdir(locales_dir):
-        locale = locale_file.split('_', 1)[1][:-3]
-        po = polib.pofile(locales_dir + '/' + locale_file)
+    locales_dir = gcompris_qt + "/poqm"
+    for locale in os.listdir(locales_dir):
+        po = polib.pofile(locales_dir + '/' + locale + '/gcompris_qt.po')
         # Calc a global translation percent
         percent = 1 - \
             (float((len(po.untranslated_entries()) +
