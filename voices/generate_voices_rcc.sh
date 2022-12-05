@@ -42,6 +42,16 @@ WORDS_DIR=../../words/${WORDS_NAME}
 [ -d ${WORDS_NAME} ] && rm -rf ${WORDS_NAME}
 ln -s ${WORDS_DIR} ${WORDS_NAME}
 
+# Duplicate for old words (in png, not webp)
+OLD_WORDS_NAME=words
+OLD_WORDS_DIR=../../words/${OLD_WORDS_NAME}
+[ ! -d "${OLD_WORDS_DIR}" ] && {
+    echo "Words dir ${OLD_WORDS_DIR} not found"
+    exit 1
+}
+[ -d ${OLD_WORDS_NAME} ] && rm -rf ${OLD_WORDS_NAME}
+ln -s ${OLD_WORDS_DIR} ${OLD_WORDS_NAME}
+
 function generate_rcc {
     # Generate RCC 
     echo -n "$2 ... "
@@ -52,6 +62,16 @@ function generate_rcc {
     cd ${2%/*}
     ${MD5SUM}  ${2##*/}>> ${CONTENTS_FILE}
     cd - &>/dev/null
+}
+
+function generate_words_rcc {
+    header_rcc "${QRC_DIR}/$1.qrc"
+    for i in `find $1/ -not -type d | sort`; do
+	echo "    <file>${i#${2}}</file>" >> "${QRC_DIR}/$1.qrc"
+    done
+    footer_rcc "${QRC_DIR}/$1.qrc"
+    echo -n "  $1: "${QRC_DIR}/$1.qrc" ... "
+    generate_rcc "${QRC_DIR}/$1.qrc" "${RCC_DIR}/words/$1.rcc"
 }
 
 function header_rcc {
@@ -129,13 +149,8 @@ generate_rcc ${QRC_FULL_FILE} ${RCC_FULL_FILE}
 # as this is our reference and images does not depends on the audio codec
 if [[ $CA == ogg ]]
 then
-    header_rcc "${QRC_DIR}/${WORDS_NAME}.qrc"
-    for i in `find ${WORDS_NAME}/ -not -type d | sort`; do
-	echo "    <file>${i#${WORDS_DIR}}</file>" >> "${QRC_DIR}/${WORDS_NAME}.qrc"
-    done
-    footer_rcc "${QRC_DIR}/${WORDS_NAME}.qrc"
-    echo -n "  ${WORDS_NAME}: "${QRC_DIR}/${WORDS_NAME}.qrc" ... "
-    generate_rcc "${QRC_DIR}/${WORDS_NAME}.qrc" "${RCC_DIR}/words/${WORDS_NAME}.rcc"
+    generate_words_rcc ${WORDS_NAME} ${WORDS_DIR}
+    generate_words_rcc ${OLD_WORDS_NAME} ${OLD_WORDS_DIR}
 fi
 
 #cleanup:
