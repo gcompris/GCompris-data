@@ -126,11 +126,17 @@ def init_intro_description_from_code(locale):
     '''Init the intro description as found in GCompris ActivityInfo.qml'''
     '''in the global descriptions hash'''
 
-    po = None
+    gcomprisPo = None
+    voicesPo = None
     try:
-        po = polib.pofile(gcompris_qt + '/poqm/'+locale+'/gcompris_qt.po')
+        gcomprisPo = polib.pofile(gcompris_qt + '/poqm/'+locale+'/gcompris_qt.po')
     except OSError as e:
         print("**ERROR: Failed to load po file %s**" %('/poqm/'+locale+'/gcompris_qt.po'))
+        print('')
+    try:
+        voicesPo = polib.pofile(gcompris_qt + '/po/'+locale+'/gcompris_voices.po')
+    except OSError as e:
+        print("**ERROR: Failed to load po file %s**" %('/po/'+locale+'/gcompris_voices.po'))
         print('')
 
     activity_dir = gcompris_qt + "/src/activities"
@@ -150,20 +156,23 @@ def init_intro_description_from_code(locale):
                     m = re.match('.*title:.*\"(.*)\"', line)
                     if m:
                         title = m.group(1)
-                        if po:
-                            title = po.find(title).msgstr if po.find(title) else title
+                        if gcomprisPo:
+                            title = gcomprisPo.find(title).msgstr if gcomprisPo.find(title) else title
                         descriptions[activity + '.ogg'] += ' title: ' + title
 
                     m = re.match('.*description:.*\"(.*)\"', line)
                     if m:
-                        title = m.group(1)
-                        if po:
-                            title = po.find(title).msgstr if po.find(title) else title
+                        description = m.group(1)
+                        if gcomprisPo:
+                            description = gcomprisPo.find(description).msgstr if gcomprisPo.find(description) else description
                         descriptions[activity + '.ogg'] += ' description: ' + title
 
                     m = re.match('.*intro:.*\"(.*)\"', line)
                     if m:
-                        descriptions[activity + '.ogg'] += ' voice: ' + m.group(1)
+                        voiceText = m.group(1)
+                        if voicesPo:
+                            voiceText = voicesPo.find(voiceText).msgstr if voicesPo.find(voiceText) and voicesPo.find(voiceText).msgstr != "" else voiceText
+                        descriptions[activity + '.ogg'] += ' voice: ' + voiceText
 
 
             if not activity + '.ogg' in descriptions:
