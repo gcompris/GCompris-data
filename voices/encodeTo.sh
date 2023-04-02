@@ -60,7 +60,7 @@ else
 fi
 
 task() {
-    echo "Processing $1"
+    #echo "Processing $1"
     $encoder -v warning -i $1 -acodec $codec ${1%.*}.${format} </dev/null > /dev/null 2>&1
     if [ $? -ne 0 ]
     then
