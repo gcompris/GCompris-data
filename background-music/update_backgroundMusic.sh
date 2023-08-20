@@ -26,18 +26,23 @@ function generateEncodedVoices {
     if [[ $codec != ogg ]]; then
         echo "Consolidate the top level Content file"
         cat .rcc/Contents >> ../ogg/.rcc/Contents
-        mv .rcc/backgroundMusic-$codec.rcc ../ogg/.rcc/
+        mv .rcc/backgroundMusic-$codec-${LAST_UPDATE_DATE}.rcc ../ogg/.rcc/
         rm -rf .rcc
     fi
 
     cd ..
 }
 
+export LAST_UPDATE_DATE=$(git log -n 1 --pretty=format:%cd --date=format:"%Y-%m-%d-%H-%M-%S" backgroundMusic/)
+
 generateEncodedVoices ogg
 generateEncodedVoices aac
 generateEncodedVoices mp3
+# Keep a trace of the uploaded Contents in case we need
+CURRENT_DATE=$(date "+%F-%H-%M-%S")
+cp ogg/.rcc/Contents ogg/.rcc/Contents-${CURRENT_DATE}
 
 mv ogg/.rcc .rcc
 
 #echo "Update ogg on gcompris.net"
-#rsync -avx .rcc/ /var/www/data2/backgroundMusic/
+#rsync -avx .rcc/ /var/www/data3/backgroundMusic/

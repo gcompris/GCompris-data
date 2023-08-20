@@ -47,6 +47,7 @@ function generate_rcc {
     echo "md5sum ... "
     cd ${2%/*}
     ${MD5SUM}  ${2##*/}>> ${CONTENTS_FILE}
+
     cd - &>/dev/null
 }
 
@@ -73,7 +74,7 @@ mkdir  ${RCC_DIR}
 
 #header of the global qrc (all the langs)
 QRC_FULL_FILE="${QRC_DIR}/backgroundMusic-${CA}.qrc"
-RCC_FULL_FILE="${RCC_DIR}/backgroundMusic-${CA}.rcc"
+RCC_FULL_FILE="${RCC_DIR}/backgroundMusic-${CA}-${LAST_UPDATE_DATE}.rcc"
 header_rcc $QRC_FULL_FILE
 
 for i in `find backgroundMusic -type f -name "*.$CA" | sort | cut -c 1-`
