@@ -71,7 +71,8 @@ function generate_words_rcc {
     done
     footer_rcc "${QRC_DIR}/$1.qrc"
     echo -n "  $1: "${QRC_DIR}/$1.qrc" ... "
-    generate_rcc "${QRC_DIR}/$1.qrc" "${RCC_DIR}/words/$1.rcc"
+    LAST_UPDATE_DATE=$(git log -n 1 --pretty=format:%cd --date=format:"%Y-%m-%d-%H-%M-%S" ${WORDS_DIR})
+    generate_rcc "${QRC_DIR}/$1.qrc" "${RCC_DIR}/words/$1-${LAST_UPDATE_DATE}.rcc"
 }
 
 function header_rcc {
@@ -97,7 +98,8 @@ mkdir  ${RCC_DIR}
 
 #header of the global qrc (all the langs)
 QRC_FULL_FILE="${QRC_DIR}/full-${CA}.qrc"
-RCC_FULL_FILE="${RCC_DIR}/full-${CA}.rcc"
+LAST_UPDATE_DATE=$(git log -n 1 --pretty=format:%cd --date=format:"%Y-%m-%d-%H-%M-%S" ../../)
+RCC_FULL_FILE="${RCC_DIR}/full-${CA}-${LAST_UPDATE_DATE}.rcc"
 header_rcc $QRC_FULL_FILE
 
 # Create the voices directory that will contains links to locales dir
@@ -107,8 +109,9 @@ rm -rf ${VOICE_DIR}
 mkdir -p ${VOICE_DIR}
 
 for LANG in `find . -maxdepth 1 -regextype posix-egrep -type d -regex "\./[a-z]{2,3}(_[A-Z]{2,3})?" -follow | sort`; do
+    LAST_UPDATE_DATE=$(git log -n 1 --pretty=format:%cd --date=format:"%Y-%m-%d-%H-%M-%S" ../$LANG)
     QRC_FILE="${QRC_DIR}/voices-${LANG#./}.qrc"
-    RCC_FILE="${RCC_DIR}/${VOICE_DIR}/voices-${LANG#./}.rcc"
+    RCC_FILE="${RCC_DIR}/${VOICE_DIR}/voices-${LANG#./}-${LAST_UPDATE_DATE}.rcc"
 
     # Populate the voices backlinks
     ln -s -t ${VOICE_DIR} ../$LANG
@@ -132,7 +135,6 @@ for LANG in `find . -maxdepth 1 -regextype posix-egrep -type d -regex "\./[a-z]{
     generate_rcc ${QRC_FILE} ${RCC_FILE}
 
 done
-
 # Word images for the full qrc
 for i in `find ${WORDS_NAME}/ -not -type d | sort`; do
     echo "    <file>${i#${WORDS_DIR}}</file>" >> $QRC_FULL_FILE
@@ -168,5 +170,5 @@ echo "Consolidate .rcc/Contents in a master ${RCC_DIR}"
 echo "containing all the encoded content."
 echo ""
 echo "Then do something like:"
-echo "rsync -avx ${RCC_DIR}/  gcompris.net:/var/www/data2/"
+echo "rsync -avx ${RCC_DIR}/  gcompris.net:/var/www/data3/"
 #EOF
