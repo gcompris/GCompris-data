@@ -37,11 +37,12 @@ MD5SUM=/usr/bin/md5sum
     exit 1
 }
 
+# We need to use --format-version 2 option for rcc to be retro-compatible with all our GCompris versions
 function generate_rcc {
     # Generate RCC 
     echo -n "$2 ... "
     mkdir -p ${2%/*}
-    ${RCC} -binary $1 -o $2
+    ${RCC} --format-version 2 --binary $1 -o $2
 
     echo "md5sum ... "
     cd ${2%/*}
