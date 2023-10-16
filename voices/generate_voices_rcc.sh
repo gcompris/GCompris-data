@@ -42,16 +42,6 @@ WORDS_DIR=../../words/${WORDS_NAME}
 [ -d ${WORDS_NAME} ] && rm -rf ${WORDS_NAME}
 ln -s ${WORDS_DIR} ${WORDS_NAME}
 
-# Duplicate for old words (in png, not webp)
-OLD_WORDS_NAME=words
-OLD_WORDS_DIR=../../words/${OLD_WORDS_NAME}
-[ ! -d "${OLD_WORDS_DIR}" ] && {
-    echo "Words dir ${OLD_WORDS_DIR} not found"
-    exit 1
-}
-[ -d ${OLD_WORDS_NAME} ] && rm -rf ${OLD_WORDS_NAME}
-ln -s ${OLD_WORDS_DIR} ${OLD_WORDS_NAME}
-
 BG_MUSIC_NAME=backgroundMusic
 BG_MUSIC_DIR=../../background-music/${CA}/backgroundMusic
 [ ! -d "${BG_MUSIC_DIR}" ] && {
@@ -165,7 +155,6 @@ generate_rcc ${QRC_FULL_FILE} ${RCC_FULL_FILE}
 if [[ $CA == ogg ]]
 then
     generate_words_rcc ${WORDS_NAME} ${WORDS_DIR}
-    generate_words_rcc ${OLD_WORDS_NAME} ${OLD_WORDS_DIR}
 fi
 
 #cleanup:
