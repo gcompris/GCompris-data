@@ -52,6 +52,15 @@ OLD_WORDS_DIR=../../words/${OLD_WORDS_NAME}
 [ -d ${OLD_WORDS_NAME} ] && rm -rf ${OLD_WORDS_NAME}
 ln -s ${OLD_WORDS_DIR} ${OLD_WORDS_NAME}
 
+BG_MUSIC_NAME=backgroundMusic
+BG_MUSIC_DIR=../../background-music/${CA}/backgroundMusic
+[ ! -d "${BG_MUSIC_DIR}" ] && {
+    echo "Background music must be generated before generating full rcc"
+    exit 1
+}
+[ -d ${BG_MUSIC_NAME} ] && rm -rf ${BG_MUSIC_NAME}
+ln -s ${BG_MUSIC_DIR} ${BG_MUSIC_NAME}
+
 # We need to use --format-version 2 option for rcc to be retro-compatible with all our GCompris versions
 function generate_rcc {
     # Generate RCC 
@@ -137,6 +146,11 @@ done
 # Word images for the full qrc
 for i in `find ${WORDS_NAME}/ -not -type d | sort`; do
     echo "    <file>${i#${WORDS_DIR}}</file>" >> $QRC_FULL_FILE
+done
+
+# BackgroundMusic for the full qrc
+for i in `find ${BG_MUSIC_NAME}/ -not -type d -name "*.${CA}" | sort`; do
+    echo "    <file>${i#${BG_MUSIC_DIR}}</file>" >> $QRC_FULL_FILE
 done
 
 #footer of the global qrc (all the langs)
