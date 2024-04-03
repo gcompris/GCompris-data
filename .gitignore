@@ -1,2 +1,3 @@
 .directory
 words/*.qrc
+scripts/data*

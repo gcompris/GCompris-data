@@ -1,2 +1,2 @@
 # words
-This repository contains all the images used to create words.rcc
+This directory contains all the images used to create words-webp.rcc (or formerly words.rcc).

@@ -1,7 +1,7 @@
 GCompris Voices
 ===============
 
-This repository holds all the voices used in the Qt based version of
+This directory holds all the voices used in the Qt based version of
 GCompris for all the languages.
 
 You can contribute your own voices by following these

@@ -4,10 +4,10 @@ This document describes howto create a localized version of the voices.
 1) Create your voices directory
    ----------------------------
 First copy the english voices as a template in a new directory with you locale name (e.g. my)
-cd boards/voices
+cd voices
 cp -r en my
 
-Provide here voice translation in boards/voices/my for each english voice.
+Provide here voice translation in voices/my for each english voice.
 
 2) Recording / Encoding
    --------------------
@@ -19,7 +19,7 @@ It is best to choose somebody that speaks and articulate well your language.
   44100Hz is MANDATORY. On some system with bad supported sound card
   other frequency lead to major troubles.
 
-- Save as WAV file
+- Save as WAV fileboards/
 - Apply loudness transform with sox if necessary.
 	You may such script if the sound is too low :
 	#!/bin/sh
@@ -41,21 +41,15 @@ It is best to choose somebody that speaks and articulate well your language.
 
 3) Shipping
    --------
-Once done, the easiest way is to tar all this files and send them to the gcompris maintainer.
-cd boards/voices
+Once done, the easiest way is to tar all these files and send them to the gcompris maintainer.
+cd voices
 tar -cvzf voices_my.tgz my
 
 4) Integration
    -----------
-Nothing has to be done, just run 'make install' at GCompris to level. The voices
-will be installed in the proper directory and GCompris will play them.
-Run gcompris in your locale and you should ear your voices.
+To test your voices, you need to compile them to rcc. Follow the instructions in the "script" folder to do that. To generate only the rcc for your language, you could tweak the script to compile only your language folder, or the simplest way is to delete all the other language folders in voices.
 
 5) Checking
    --------
-At top level, run:
-./tools/check_missing_voices.pl <locale>
-
-With for example locale being fr for French.
-
-
+First, make sure to disable automatic downloads in GCompris to not override your test files.
+Then copy data3/voices-codecName folder in your user's cache path (on Linux: ~/.cache/KDE/gcompris-qt/data3/voices-ogg).
