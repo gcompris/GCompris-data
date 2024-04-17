@@ -11,8 +11,8 @@
 #
 
 if [[ $# -ne 2 ]]; then
-    echo "The script to generate rcc requires exactly 2 arguments"
-    exit 2
+  echo "The script to generate rcc requires exactly 2 arguments"
+  exit 2
 fi
 
 echo "Generate "$(basename ${2})" from "$(basename ${1})

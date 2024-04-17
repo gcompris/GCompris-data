@@ -31,8 +31,8 @@ export RCC=/usr/lib64/qt5/bin/rcc
 #export RCC=/usr/bin/rcc
 
 if [[ ! -f "${RCC}" ]] || [[ ! -x "${RCC}" ]]; then
-    echo "rcc command path invalid. Change the RCC path in the script."
-    exit 1
+  echo "rcc command path invalid. Change the RCC path in the script."
+  exit 1
 fi
 
 export CURRENT_DATE=$(date "+%F-%H-%M-%S")
@@ -61,8 +61,8 @@ export OLD_WORDS_CONTENTS="${PWD}/data-old-contents/ContentsWords"
 
 # Check if there is a new commit or option force used, else nothing to do
 if grep -q -- "$LAST_GLOBAL_COMMIT" "$OLD_FULL_CONTENTS" && [[ "$1" != "force" ]]; then
-    echo "No new commit since last Full RCC generation, nothing to do. Use force option to generate anyway."
-    exit 0
+  echo "No new commit since last Full RCC generation, nothing to do. Use force option to generate anyway."
+  exit 0
 fi
 
 # If option skipFullRcc used, disable full rcc build
