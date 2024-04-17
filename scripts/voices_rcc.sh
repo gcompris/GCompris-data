@@ -9,7 +9,9 @@
 #
 # By default, generate a separate rcc for a language only if there's a new commit since last time.
 # Use the "force" argument to force generating all.
-# In any case, encode files to prepare generating full rcc files.
+# Encode all files to prepare generating full rcc files,
+# or use the "skipFullRcc" argument to skip full rcc build and encode only required files
+# ("force" and "skipFullRcc" arguments are mutually exclusive, you can only use one of them).
 #
 
 if [ -z ${MAIN_SCRIPT+x} ]; then
@@ -35,14 +37,27 @@ do
         do
             mkdir ${VOICES_BASEDIR}/voices-${CODEC}/${DIRECTORY}
         done
+        # check for each lang if voices need to be converted to $CODEC
         for LANG in `find . -mindepth 1 -maxdepth 1 -type d -follow | sort`
         do
-            echo "Convert voices to ${CODEC} for "${LANG}
+            LANG_CODE=${LANG//.\//}
+            OLD_CONTENTS_LINE=$(grep -- "-${LANG_CODE}-" "${OLD_VOICES_CONTENTS}")
             # !!! special case for "en" folder which is a link to "en_gb"
-            if [[ $LANG != "./en" ]]; then
-                $ENCODE_TO $CODEC $LANG ${VOICES_BASEDIR}/voices-${CODEC}
+            if [[ $LANG_CODE == "en" ]]; then
+                LAST_LANG_COMMIT=$(git log -n 1 --pretty=format:%cd --date=format:"%Y-%m-%d-%H-%M-%S" ${SCRIPT_DIR}/../voices/en_GB)
             else
-                echo "Special case for english symlink folder detected."
+                LAST_LANG_COMMIT=$(git log -n 1 --pretty=format:%cd --date=format:"%Y-%m-%d-%H-%M-%S" ${SCRIPT_DIR}/../voices/${LANG_CODE})
+            fi
+            if [[ "$OLD_CONTENTS_LINE" == *"$LAST_LANG_COMMIT"* ]] && [[ "$1" != "force" ]] && [[ $BUILD_FULL_RCC == false ]]; then
+                echo "No need to convert voices to ${CODEC} for ${LANG_CODE}"
+            else
+                echo "Convert voices to ${CODEC} for ${LANG_CODE}"
+                # !!! special case for "en" folder which is a link to "en_gb"
+                if [[ $LANG_CODE != "en" ]]; then
+                    $ENCODE_TO $CODEC $LANG ${VOICES_BASEDIR}/voices-${CODEC}
+                else
+                    echo "Special case for english symlink folder detected."
+                fi
             fi
         done
         # !!! special case for "en" folder which is a link to "en_gb"
@@ -68,14 +83,16 @@ do
             LAST_LANG_COMMIT=$(git log -n 1 --pretty=format:%cd --date=format:"%Y-%m-%d-%H-%M-%S" ${SCRIPT_DIR}/../voices/${LANG_CODE})
         fi
         if [[ "$OLD_CONTENTS_LINE" == *"$LAST_LANG_COMMIT"* ]] && [[ "$1" != "force" ]]; then
-            echo "No need to generate voice rcc for "${LANG_CODE}
+            echo "No need to generate ${CODEC} voice rcc for ${LANG_CODE}"
             # copy checksum and filename from old Contents to new Contents
             echo "${OLD_CONTENTS_LINE}" >> ${NEW_CONTENTS}
-            # populate only qrc for full rcc
-            for FILENAME in `find $LANG_CODE -not -type d -follow -name "*.ogg" | sort`
-            do
-                echo "    <file>voices-${CODEC}/${FILENAME%.*}.${CODEC}</file>" >> $QRC_FULL_CODEC
-            done
+            # populate only qrc for full rcc if full rcc build enabled
+            if [[ $BUILD_FULL_RCC == true ]]; then
+                for FILENAME in `find $LANG_CODE -not -type d -follow -name "*.ogg" | sort`
+                do
+                    echo "    <file>voices-${CODEC}/${FILENAME%.*}.${CODEC}</file>" >> $QRC_FULL_CODEC
+                done
+            fi
         else
             echo "Generating voices ${CODEC} rcc for "${LANG_CODE}
             QRC_VOICE_CODEC_LANG=$VOICES_BASEDIR/voices-${CODEC}-${LANG_CODE}.qrc
@@ -84,7 +101,9 @@ do
             for FILENAME in `find $LANG_CODE -not -type d -follow -name "*.ogg" | sort`
             do
                 echo "    <file>voices-${CODEC}/${FILENAME%.*}.${CODEC}</file>" >> $QRC_VOICE_CODEC_LANG
-                echo "    <file>voices-${CODEC}/${FILENAME%.*}.${CODEC}</file>" >> $QRC_FULL_CODEC
+                if [[ $BUILD_FULL_RCC == true ]]; then
+                    echo "    <file>voices-${CODEC}/${FILENAME%.*}.${CODEC}</file>" >> $QRC_FULL_CODEC
+                fi
             done
             footer_qrc $QRC_VOICE_CODEC_LANG
             # generate separate rcc and add its checksum to Contents

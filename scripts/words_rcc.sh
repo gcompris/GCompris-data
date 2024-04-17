@@ -9,7 +9,9 @@
 #
 # By default, generate words-webp rcc only if there's a new commit since last time.
 # Use the "force" argument to force generating all.
-# In any case, prepare generating full rcc files.
+# In any case, prepare generating full rcc files,
+# except if using the "skipFullRcc" argument.
+# ("force" and "skipFullRcc" arguments are mutually exclusive, you can only use one of them).
 #
 
 if [ -z ${MAIN_SCRIPT+x} ]; then
@@ -27,6 +29,12 @@ GENERATE_SINGLE_RCC=true
 if grep -q -- "$LAST_WORDS_COMMIT" "$OLD_WORDS_CONTENTS" && [[ "$1" != "force" ]]; then
     GENERATE_SINGLE_RCC=false
     echo "Words already up-to-date, will not generate single rcc."
+fi
+
+# If no single rcc to generate and full rcc skipped, nothing else to do
+if [[ $GENERATE_SINGLE_RCC == false ]] && [[ $BUILD_FULL_RCC == false ]]; then
+  cd $SCRIPT_DIR
+  exit 0
 fi
 
 # Prepare folders

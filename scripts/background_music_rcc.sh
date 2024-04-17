@@ -9,7 +9,9 @@
 #
 # By default, generate backgroundMusic rcc only if there's a new commit since last time.
 # Use the "force" argument to force generating all.
-# In any case, encode files to prepare generating full rcc files.
+# Encode all files to prepare generating full rcc files,
+# or use the "skipFullRcc" argument to skip full rcc build and encode only required files
+# ("force" and "skipFullRcc" arguments are mutually exclusive, you can only use one of them).
 #
 
 if [ -z ${MAIN_SCRIPT+x} ]; then
@@ -29,8 +31,14 @@ if grep -q -- "$LAST_MUSIC_COMMIT" "$OLD_MUSIC_CONTENTS" && [[ "$1" != "force" ]
     echo "Background music already up-to-date, will not generate single rcc."
 fi
 
+# If no single rcc to generate and full rcc skipped, nothing else to do
+if [[ $GENERATE_SINGLE_RCC == false ]] && [[ $BUILD_FULL_RCC == false ]]; then
+  cd $SCRIPT_DIR
+  exit 0
+fi
+
 # Prepare folders
-if [ "$GENERATE_SINGLE_RCC" = true ]; then
+if [[ $GENERATE_SINGLE_RCC == true ]]; then
   mkdir ${DATA_DEST_DIR}/backgroundMusic
 fi
 
@@ -60,11 +68,13 @@ function generate_codec_rcc {
     for i in `find backgroundMusic/ -not -type d -name "*.${CODEC}" | sort | cut -c 1-`
     do
         echo "    <file>${i}</file>" >> $QRC_MUSIC_CODEC
-        echo "    <file>${i}</file>" >> $QRC_FULL_CODEC
+        if [[ $BUILD_FULL_RCC == true ]]; then
+          echo "    <file>${i}</file>" >> $QRC_FULL_CODEC
+        fi
     done
     footer_qrc $QRC_MUSIC_CODEC
 
-    if [ "$GENERATE_SINGLE_RCC" = true ]; then
+    if [[ $GENERATE_SINGLE_RCC == true ]]; then
       RCC_MUSIC_CODEC=${DATA_DEST_DIR}/backgroundMusic/backgroundMusic-${CODEC}-${LAST_MUSIC_COMMIT}.rcc
       $GENERATE_RCC $QRC_MUSIC_CODEC $RCC_MUSIC_CODEC
     fi
@@ -77,7 +87,7 @@ do
   generate_codec_rcc $CODEC
 done
 
-if [ "$GENERATE_SINGLE_RCC" = true ]; then
+if [[ $GENERATE_SINGLE_RCC == true ]]; then
   # move to data3/backgroundMusic and generate Contents with checksums
   cd ${DATA_DEST_DIR}/backgroundMusic
   md5sum *.rcc > Contents

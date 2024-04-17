@@ -9,7 +9,9 @@
 #
 # By default, generate separate rcc files only if there's a new commit since last time.
 # Use the "force" argument to force generating all.
-# In any case, encode files to prepare generating full rcc files if there's any new commit.
+# Encode all files to prepare generating full rcc files if there's any new commit,
+# or use the "skipFullRcc" argument to skip full rcc build and encode only required files
+# ("force" and "skipFullRcc" arguments are mutually exclusive, you can only use one of them).
 #
 
 # Export global variables
@@ -22,6 +24,7 @@ export MD5SUM=/usr/bin/md5sum
 export MAIN_SCRIPT=true
 export SERVER_PATH="https://cdn.kde.org/gcompris/data3"
 export CODEC_LIST="ogg mp3 aac"
+export BUILD_FULL_RCC=true
 
 # the path depends on the distribution
 export RCC=/usr/lib64/qt5/bin/rcc
@@ -60,6 +63,11 @@ export OLD_WORDS_CONTENTS="${PWD}/data-old-contents/ContentsWords"
 if grep -q -- "$LAST_GLOBAL_COMMIT" "$OLD_FULL_CONTENTS" && [[ "$1" != "force" ]]; then
     echo "No new commit since last Full RCC generation, nothing to do. Use force option to generate anyway."
     exit 0
+fi
+
+# If option skipFullRcc used, disable full rcc build
+if [[ "$1" == "skipFullRcc" ]]; then
+  BUILD_FULL_RCC=false
 fi
 
 # Functions to generate qrc files header and footer
@@ -111,16 +119,18 @@ $BACKGROUND_MUSIC_RCC $1
 $VOICES_RCC $1
 $WORDS_RCC $1
 
-for CODEC in $CODEC_LIST
-do
-  QRC_FULL_CODEC=${DATA_BUILD_DIR}/full-${CODEC}/full-${CODEC}.qrc
-  footer_qrc $QRC_FULL_CODEC
-  RCC_FULL_CODEC=${DATA_DEST_DIR}/full-${CODEC}-${LAST_GLOBAL_COMMIT}.rcc
-  $GENERATE_RCC $QRC_FULL_CODEC $RCC_FULL_CODEC
-done
+if [[ $BUILD_FULL_RCC == true ]]; then
+  for CODEC in $CODEC_LIST
+  do
+    QRC_FULL_CODEC=${DATA_BUILD_DIR}/full-${CODEC}/full-${CODEC}.qrc
+    footer_qrc $QRC_FULL_CODEC
+    RCC_FULL_CODEC=${DATA_DEST_DIR}/full-${CODEC}-${LAST_GLOBAL_COMMIT}.rcc
+    $GENERATE_RCC $QRC_FULL_CODEC $RCC_FULL_CODEC
+  done
 
-cd ${DATA_DEST_DIR}
-md5sum full-*.rcc > Contents
-cp Contents Contents-${CURRENT_DATE}
+  cd ${DATA_DEST_DIR}
+  md5sum full-*.rcc > Contents
+  cp Contents Contents-${CURRENT_DATE}
+fi
 
 cd ${SCRIPT_DIR}
