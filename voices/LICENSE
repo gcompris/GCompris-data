@@ -19104,6 +19104,7 @@ zambia.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 zimbabwe.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 
 ./nn/intro:
+adjacent_numbers.ogg  Karl Ove Hufthammer / GPL V3+
 advanced_colors.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 algebra_by.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 algebra_div.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
@@ -19128,6 +19129,7 @@ bargame.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 binary_bulb.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 braille_alphabets.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 braille_fun.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
+calcudoku.ogg  Karl Ove Hufthammer / GPL V3+
 calendar.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 canal_lock.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 categorization.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
@@ -19167,6 +19169,7 @@ followline.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 football.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 fractions_create.ogg  Karl Ove Hufthammer / GPL V3+
 fractions_find.ogg  Karl Ove Hufthammer / GPL V3+
+frieze.ogg  Karl Ove Hufthammer / GPL V3+
 geo-country.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 geography.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 gletters.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
@@ -19175,8 +19178,13 @@ gnumch-factors.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3
 gnumch-inequality.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 gnumch-multiples.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 gnumch-primes.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
+graduated_line_read.ogg  Karl Ove Hufthammer / GPL V3+
+graduated_line_use.ogg  Karl Ove Hufthammer / GPL V3+
+grammar_analysis.ogg  Karl Ove Hufthammer / GPL V3+
+grammar_classes.ogg  Karl Ove Hufthammer / GPL V3+
 graph-coloring.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 gravity.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
+guess24.ogg  Karl Ove Hufthammer / GPL V3+
 guesscount.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 guessnumber.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 hangman.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
@@ -19233,8 +19241,8 @@ money_back_cents.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL 
 money_back.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 money_cents.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 money.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
-mosaic.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 morse_code.ogg  Karl Ove Hufthammer / GPL V3+
+mosaic.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 nine_men_morris_2players.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 nine_men_morris.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 note_names.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
@@ -19280,9 +19288,10 @@ sudoku.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 superbrain.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 tangram.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 target.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
+tens_complement_calculate.ogg  Karl Ove Hufthammer / GPL V3+
 tens_complement_find.ogg  Karl Ove Hufthammer / GPL V3+
 tens_complement_swap.ogg  Karl Ove Hufthammer / GPL V3+
-tens_complement_use.ogg   Karl Ove Hufthammer / GPL V3+
+tens_complement_use.ogg  Karl Ove Hufthammer / GPL V3+
 tic_tac_toe_2players.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 tic_tac_toe.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
 traffic.ogg  Karl Ove Hufthammer / Øystein Steffensen-Alværvik / GPL V3+
