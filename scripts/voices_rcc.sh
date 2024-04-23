@@ -29,6 +29,7 @@ cd voices-ogg
 
 for CODEC in $CODEC_LIST
 do
+  OLD_VOICES_CONTENTS=${SCRIPT_DIR}/data-old-contents/ContentsVoices-${CODEC}
   # convert all voices to CODEC_LIST (except ogg)
   if [ $CODEC != "ogg" ]; then
     # create directory tree for each codec

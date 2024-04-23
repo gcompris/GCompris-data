@@ -54,8 +54,10 @@ wget -q ${SERVER_PATH}/Contents -O data-old-contents/ContentsFull
 OLD_FULL_CONTENTS="${PWD}/data-old-contents/ContentsFull"
 wget -q ${SERVER_PATH}/backgroundMusic/Contents -O data-old-contents/ContentsMusic
 export OLD_MUSIC_CONTENTS="${PWD}/data-old-contents/ContentsMusic"
-wget -q ${SERVER_PATH}/voices-ogg/Contents -O data-old-contents/ContentsVoices
-export OLD_VOICES_CONTENTS="${PWD}/data-old-contents/ContentsVoices"
+for CODEC in $CODEC_LIST
+do
+  wget -q ${SERVER_PATH}/voices-${CODEC}/Contents -O data-old-contents/ContentsVoices-${CODEC}
+done
 wget -q ${SERVER_PATH}/words/Contents -O data-old-contents/ContentsWords
 export OLD_WORDS_CONTENTS="${PWD}/data-old-contents/ContentsWords"
 
