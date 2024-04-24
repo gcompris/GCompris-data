@@ -17,6 +17,7 @@ if [[ $# -ne 3 ]]; then
 fi
 
 FORMAT=$1
+PARALLEL_ENCODING=16
 
 ENCODER="avconv"
 if command -v avconv >/dev/null 2>&1; then
@@ -45,20 +46,26 @@ else
   exit 1
 fi
 
+function task {
+  OUTPUT_FILE=${2}/${1%.*}.${FORMAT}
+  $ENCODER -v warning -i $1 -acodec $CODEC $OUTPUT_FILE
+  if [ $? -ne 0 ]
+  then
+    echo "ERROR: Failed to convert $1"
+  fi
+  id3v2 -a "$(vorbiscomment --list $1 | grep 'ARTIST' | cut -d '=' -f 2)" $OUTPUT_FILE
+  id3v2 -t "$(vorbiscomment --list $1 | grep 'TITLE' | cut -d '=' -f 2)" $OUTPUT_FILE
+  id3v2 -y "$(vorbiscomment --list $1 | grep 'DATE' | cut -d '=' -f 2)" $OUTPUT_FILE
+  id3v2 --TCOP "$(vorbiscomment --list $1 | grep 'COPYRIGHT' | cut -d '=' -f 2)" $OUTPUT_FILE
+}
+
 echo "Transcode ogg files to $FORMAT"
 for f in $(find $2 -type f -name \*.ogg)
 do
-  OUTPUT_FILE=${3}/${f%.*}.${FORMAT}
-  $ENCODER -v warning -i $f -acodec $CODEC $OUTPUT_FILE
-  if [ $? -ne 0 ]
-  then
-    echo "ERROR: Failed to convert $f"
-  fi
-  id3v2 -a "$(vorbiscomment --list $f | grep 'ARTIST' | cut -d '=' -f 2)" $OUTPUT_FILE
-  id3v2 -t "$(vorbiscomment --list $f | grep 'TITLE' | cut -d '=' -f 2)" $OUTPUT_FILE
-  id3v2 -y "$(vorbiscomment --list $f | grep 'DATE' | cut -d '=' -f 2)" $OUTPUT_FILE
-  id3v2 --TCOP "$(vorbiscomment --list $f | grep 'COPYRIGHT' | cut -d '=' -f 2)" $OUTPUT_FILE
+    ((i=i%PARALLEL_ENCODING)); ((i++==0)) && wait
+    task $f $3 &
 done
+wait
 
 echo "Fix symlinks"
 # NOTE: symlinks are supported only if they are in the same directory as the file they point to.
