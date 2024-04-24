@@ -17,7 +17,7 @@ if [[ $# -ne 3 ]]; then
 fi
 
 FORMAT=$1
-PARALLEL_ENCODING=16
+PARALLEL_ENCODING=4
 
 ENCODER="avconv"
 if command -v avconv >/dev/null 2>&1; then
