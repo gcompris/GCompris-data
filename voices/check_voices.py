@@ -194,6 +194,9 @@ def get_locales_from_config():
         with open(source, encoding='utf-8') as f:
             content = f.readlines()
             for line in content:
+                # Ignore commented lines
+                if line.find("//{") != -1:
+                    continue
                 m = re.match('.*\"locale\":.*\"(.*)\"', line)
                 if m:
                     locale = m.group(1).split('.')[0]
