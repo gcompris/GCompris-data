@@ -35,8 +35,8 @@ import glob
 
 import markdown
 import polib
-from PyQt5.QtCore import QCoreApplication, QUrl
-from PyQt5.QtQml import QQmlComponent, QQmlEngine
+from PySide6.QtCore import QCoreApplication, QUrl
+from PySide6.QtQml import QQmlComponent, QQmlEngine
 
 if len(sys.argv) < 2:
     print("Usage: check_voices.py path_to_gcompris [-v] [-nn]")
