@@ -10,3 +10,11 @@ You can contribute your own voices by following these
 To keep the synchronization, if you do introduction voices, please tell us the text so we can update the corresponding po file in: https://websvn.kde.org/trunk/l10n-kf5/$LANG/messages/extragear-edu/
 We have the progress of the intro voices status at https://l10n.kde.org/stats/gui/trunk-kf5/po/gcompris_voices.po/
 If a voice needs an update (English or translation texts have been changed), mark the text as fuzzy or remove it (along with the voice file) if it's not valid for the activity.
+
+To run check_voices.py:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python check_voices.py /path/to/gcompris
+```
