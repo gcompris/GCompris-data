@@ -184,12 +184,11 @@ def init_country_names_from_code(component, locale, gcompris_po):
                 descriptions[sound] = tooltip
 
 
-def get_locales_from_config():
+def get_locales_from_config(source: str):
     '''Return a set for locales as found in GCompris src/core/LanguageList.qml'''
 
     locales = set()
 
-    source = gcompris_qt + "/src/core/LanguageList.qml"
     try:
         with open(source, encoding='utf-8') as f:
             content = f.readlines()
@@ -219,7 +218,7 @@ def get_locales_from_po_files():
 
     return locales
 
-def get_translation_status_from_po_files():
+def get_translation_status_from_po_files(gcompris_po_file: str):
     '''Return the translation status from the po file '''
     '''For each locale as key we provide a list: '''
     ''' [ translated_entries, untranslated_entries, fuzzy_entries, percent ]'''
@@ -231,7 +230,10 @@ def get_translation_status_from_po_files():
 
     locales_dir = gcompris_qt + "/poqm"
     for locale in os.listdir(locales_dir):
-        po = polib.pofile(locales_dir + '/' + locale + '/gcompris_qt.po', encoding='utf-8')
+        po_file = locales_dir + '/' + locale + '/' + gcompris_po_file
+        if not os.path.exists(po_file):
+            continue
+        po = polib.pofile(po_file, encoding='utf-8')
         # Calc a global translation percent
         untranslated = len(po.untranslated_entries())
         translated = len(po.translated_entries())
@@ -473,9 +475,14 @@ def check_locale_config(title, stats, locale_config):
 reports = {}
 sys.stdout = reports['stats'] = StringIO()
 
-string_stats = get_translation_status_from_po_files()
+string_stats = get_translation_status_from_po_files('gcompris_qt.po')
 check_locale_config("Locales to remove from LanguageList.qml (translation level < 80%)",
-                    string_stats, get_locales_from_config())
+                    string_stats, get_locales_from_config(gcompris_qt + "/src/core/LanguageList.qml"))
+
+print('\n')
+
+check_locale_config("Locales to remove from ServerLanguageList.qml (translation level < 80%)",
+                    get_translation_status_from_po_files('gcompris_teachers.po'), get_locales_from_config(gcompris_qt + "/src/server/components/ServerLanguageList.qml"))
 
 print('\n[Guide to contribute recording files](%s)' % ('https://gcompris.net/wiki/Voice_translation_Qt'))
 
