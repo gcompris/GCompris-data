@@ -482,7 +482,7 @@ check_locale_config("Locales to remove from LanguageList.qml (translation level 
 print('\n')
 
 check_locale_config("Locales to remove from ServerLanguageList.qml (translation level < 80%)",
-                    get_translation_status_from_po_files('gcompris_teachers.po'), get_locales_from_config(gcompris_qt + "/src/server/components/ServerLanguageList.qml"))
+                    get_translation_status_from_po_files('gcompris_teachers_qt.po'), get_locales_from_config(gcompris_qt + "/src/server/components/ServerLanguageList.qml"))
 
 print('\n[Guide to contribute recording files](%s)' % ('https://gcompris.net/wiki/Voice_translation_Qt'))
 
