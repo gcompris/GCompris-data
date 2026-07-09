@@ -553,10 +553,10 @@ extensions = ['markdown.extensions.tables']
 
 sys.stdout = ref_stdout
 
-with codecs.open("index.html", "w",
-                 encoding="utf-8",
-                 errors="xmlcharrefreplace"
-                 ) as f:
+with open("index.html", "w",
+          encoding="utf-8",
+          errors="xmlcharrefreplace"
+          ) as f:
     f.write(get_html_header())
 
     summary = markdown.markdown(reports['summary'].getvalue(), extensions=extensions)
@@ -577,10 +577,10 @@ with codecs.open("index.html", "w",
     f.write(get_html_footer())
 
 for locale in sorted_keys:
-    with codecs.open("voice_status_{:s}.html".format(locale), "w",
-                     encoding="utf-8",
-                     errors="xmlcharrefreplace"
-                     ) as f:
+    with open("voice_status_{:s}.html".format(locale), "w",
+              encoding="utf-8",
+              errors="xmlcharrefreplace"
+              ) as f:
         f.write(get_html_header())
         f.write(markdown.markdown(reports[locale].getvalue(), extensions=extensions))
         f.write(get_html_footer())
