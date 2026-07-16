@@ -7,11 +7,14 @@
 # Generate all rcc files for music, voices and words.
 # Must be started from the scripts directory.
 #
-# By default, generate separate rcc files only if there's a new commit since last time.
-# Use the "force" argument to force generating all.
+# By default, only generate separate rcc files of each folder which has a new commit since last time.
+# Use the "force" argument to force generating all (Warning: never send rcc files generated this way
+# to the server!).
+#
 # Encode all files to prepare generating full rcc files if there's any new commit,
 # or use the "skipFullRcc" argument to skip full rcc build and encode only required files
-# ("force" and "skipFullRcc" arguments are mutually exclusive, you can only use one of them).
+#
+# "force" and "skipFullRcc" arguments are mutually exclusive, you can only use one of them!
 #
 
 # Export global variables
@@ -27,12 +30,26 @@ export CODEC_LIST="ogg mp3 aac"
 export BUILD_FULL_RCC=true
 
 # the path depends on the distribution
-export RCC=/usr/lib64/qt5/bin/rcc
+export RCC=/usr/lib64/qt6/bin/rcc
 #export RCC=/usr/bin/rcc
 
 if [[ ! -f "${RCC}" ]] || [[ ! -x "${RCC}" ]]; then
   echo "rcc command path invalid. Change the RCC path in the script."
   exit 1
+fi
+
+# if force option is used, display a warning message and ask confirmation to continue
+if [[ "$1" == "force" ]]; then
+  warning_answer=false
+  while [ $warning_answer = false ];
+  do
+    read -p 'WARNING: you are using the "force" option. It should never be used to send the generated rcc files on the server, because it recreates already existing rcc files and overwriting those rcc files on the server will cause some cache issues. Are you sure you want to continue? (y/N)?' choice
+    case "$choice" in
+      y|Y|[yY][eE][sS] ) warning_answer=true;;
+      ""|n|N|[nN][oO] ) warning_answer=true; exit 0;;
+      * ) echo "Invalid answer, try again.";;
+    esac
+  done
 fi
 
 export CURRENT_DATE=$(date "+%F-%H-%M-%S")
