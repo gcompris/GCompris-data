@@ -2277,7 +2277,6 @@ yellow.ogg  Antoni Bella Pérez 2015 / GPL V3+
 ./ca/intro:
 advanced_colors.ogg  Antoni Bella Pérez 2015 / GPL
 algebra_by.ogg  Antoni Bella Pérez 2015 / GPL
-algebra_guesscount.ogg  Antoni Bella Pérez 2015 / GPL
 algebra_minus.ogg  Antoni Bella Pérez 2015 / GPL
 algebra_plus.ogg  Antoni Bella Pérez 2015 / GPL
 algorithm.ogg  Antoni Bella Pérez 2015 / GPL
@@ -2316,6 +2315,7 @@ gnumch-factors.ogg  Antoni Bella Pérez 2015 / GPL
 gnumch-inequality.ogg  Antoni Bella Pérez 2015 / GPL
 gnumch-multiples.ogg  Antoni Bella Pérez 2015 / GPL
 gnumch-primes.ogg  Antoni Bella Pérez 2015 / GPL
+guesscount.ogg  Antoni Bella Pérez 2015 / GPL
 guessnumber.ogg  Antoni Bella Pérez 2015 / GPL
 hangman.ogg  Antoni Bella Pérez 2015 / GPL
 hanoi.ogg  Antoni Bella Pérez 2015 / GPL
@@ -6057,7 +6057,6 @@ zimbabwe.ogg  Julia Wycherley / GPL 3+
 ./en_GB/intro:
 advanced_colors.ogg  Julia Wycherley / GPL 3+
 algebra_by.ogg  Julia Wycherley / GPL 3+
-algebra_guesscount.ogg  Julia Wycherley / GPL 3+
 algebra_minus.ogg  Julia Wycherley / GPL 3+
 algebra_plus.ogg  Julia Wycherley / GPL 3+
 algorithm.ogg  Julia Wycherley / GPL 3+
@@ -7025,7 +7024,6 @@ zimbabwe.ogg  Joshua Shreve <j.a.shreve@gmail.com> 2019 / GPL V3+
 advanced_colors.ogg  Joshua Shreve <j.a.shreve@gmail.com> 2019 / GPL V3+
 algebra_by.ogg  Joshua Shreve <j.a.shreve@gmail.com> 2019 / GPL V3+
 algebra_div.ogg  Joshua Shreve <j.a.shreve@gmail.com> 2019 / GPL V3+
-algebra_guesscount.ogg  Julia Wycherley / GPL 3+
 algebra_minus.ogg  Joshua Shreve <j.a.shreve@gmail.com> 2019 / GPL V3+
 algebra_plus.ogg  Joshua Shreve <j.a.shreve@gmail.com> 2019 / GPL V3+
 algorithm.ogg  Joshua Shreve <j.a.shreve@gmail.com> 2019 / GPL V3+
@@ -9965,7 +9963,6 @@ adjacent_numbers.ogg  Elisa de Castro Guerra 2025 / GPL V3+
 advanced_colors.ogg  Zohra Coudoin 2015 / GPL V3+
 algebra_by.ogg  Zohra Coudoin 2015 / GPL V3+
 algebra_div.ogg  Elisa de Castro Guerra 2020 / GPL V3+
-algebra_guesscount.ogg  Zohra Coudoin 2015 / GPL V3+
 algebra_minus.ogg  Zohra Coudoin 2015 / GPL V3+
 algebra_plus.ogg  Zohra Coudoin 2015 / GPL V3+
 algorithm.ogg  Elisa de Castro Guerra 2020 / GPL V3+
@@ -11488,7 +11485,6 @@ zimbabwe.ogg  Séamus Ó Briain / GPLV3+
 advanced_colors.ogg  Séamus Ó Briain / GPLV3+
 algebra_by.ogg  Séamus Ó Briain / GPLV3+
 algebra_div.ogg  Séamus Ó Briain / GPLV3+
-algebra_guesscount.ogg  Séamus Ó Briain / GPLV3+
 algebra_minus.ogg  Séamus Ó Briain / GPLV3+
 algebra_plus.ogg  Séamus Ó Briain / GPLV3+
 algorithm.ogg  Séamus Ó Briain / GPLV3+
@@ -13070,7 +13066,6 @@ zimbabwe.ogg  Public Domain
 ./gd/intro:
 advanced_colors.ogg  Public Domain
 algebra_by.ogg  Public Domain
-algebra_guesscount.ogg  Public Domain
 algebra_minus.ogg  Public Domain
 algebra_plus.ogg  Public Domain
 algorithm.ogg  Public Domain
@@ -15906,7 +15901,6 @@ zimbabwe.ogg  somlai / GPL V3+
 
 ./hu/intro:
 advanced_colors.ogg  somlai / GPL V3+
-algebra_guesscount.ogg  somlai / GPL V3+
 algorithm.ogg  somlai / GPL V3+
 align4_2players.ogg  somlai / GPL V3+
 align4.ogg  somlai / GPL V3+
@@ -15938,6 +15932,7 @@ gnumch-factors.ogg  somlai / GPL V3+
 gnumch-inequality.ogg  somlai / GPL V3+
 gnumch-multiples.ogg  somlai / GPL V3+
 gnumch-primes.ogg  somlai / GPL V3+
+guesscount.ogg  somlai / GPL V3+
 guessnumber.ogg  somlai / GPL V3+
 hangman.ogg  somlai / GPL V3+
 hanoi.ogg  somlai / GPL V3+
